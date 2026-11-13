@@ -3,7 +3,8 @@ const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&
 const safeURL=u=>{try{const v=new URL(u);return v.protocol==='https:'?v.href:''}catch{return ''}};
 const mediaURL=u=>/^assets\/[a-zA-Z0-9_./-]+$/.test(u||'')?u:safeURL(u);
 const icon=n=>window.AtlasUI.icon(n),avatar=c=>window.AtlasUI.avatar(c);
-const cases=window.ATLAS.cases.filter(c=>c.publish_ready),byID=new Map(cases.map(c=>[c.id,c]));
+const archivedCases=window.ATLAS.cases.filter(c=>c.publish_ready),byID=new Map(archivedCases.map(c=>[c.id,c]));
+const cases=window.ATLAS_CURATION.featured_ids.map(id=>byID.get(id)).filter(Boolean);
 const local=c=>!!(c.image_url&&c.media_authorized==='cc-by-4.0'&&c.image_url.endsWith('.gif'));
 const videoURL=c=>mediaURL(c.image_url).replace(/\.gif$/,'.mp4'),posterURL=c=>mediaURL(c.image_url).replace(/\.gif$/,'.webp');
 const dimensions=c=>mediaDimensions[(c.image_url||'').split('/').pop()]||[4,3];
@@ -20,7 +21,7 @@ function syncNav(){
  $$('[data-type]').forEach(b=>{const on=b.dataset.type===type;b.classList.toggle('selected',on);b.setAttribute('aria-pressed',String(on))});
  $$('[data-model]').forEach(b=>{const on=b.dataset.model===model;b.classList.toggle('selected',on);b.setAttribute('aria-pressed',String(on))});
  $$('[data-category]').forEach(b=>{const on=b.dataset.category===category;b.classList.toggle('selected',on);b.setAttribute('aria-pressed',String(on))});
- $('#savedCount').textContent=saved.size||'';$('#pageTitle').textContent=type==='saved'?'收藏的作品':model||'发现作品';
+ $('#savedCount').textContent=saved.size||'';$('#pageTitle').textContent=type==='saved'?'收藏的作品':model||'精选作品';
 }
 function persistSaved(){try{localStorage.setItem('visual-atlas-saved',JSON.stringify([...saved]))}catch{toast('收藏仅在本次浏览中保存')}}
 function save(id){saved.has(id)?saved.delete(id):saved.add(id);persistSaved();$$('[data-save]').filter(b=>b.dataset.save===id).forEach(b=>{b.classList.toggle('saved',saved.has(id));b.setAttribute('aria-pressed',String(saved.has(id)));b.setAttribute('aria-label',saved.has(id)?'取消收藏':'收藏作品')});syncNav();$$('[data-save]').filter(b=>b.dataset.save===id).forEach(b=>AtlasMotion.pulse(b));if(type==='saved'&&!current)render()}
@@ -118,7 +119,7 @@ $('#repo').href=safeURL(window.ATLAS.repository)||'https://github.com/biletian/a
 $('#searchIcon').innerHTML=icon('search');setMenu(false);
 for(const m of [...new Set(cases.map(c=>c.model_family||c.model))]){const b=document.createElement('button');b.dataset.model=m;b.textContent=m==='ChatGPT Images 2.6'?'Images 2.6':m;$('#modelLinks').append(b)}
 for(const cat of ['',...new Set(cases.map(c=>c.category))]){const b=document.createElement('button');b.dataset.category=cat;b.textContent=cat||'全部';$('#categories').append(b)}
-$('#aboutButton').onclick=()=>{if(current){closeDetail({navigate:false});ownedHistory=false;history.replaceState(history.state,'',urlFor(null))}gridScroll=scrollY;returnFocus=document.activeElement;pauseGrid();document.body.classList.add('detail-open');$('#page').inert=true;$('#detail').hidden=false;setMenu(false);$('#detailBody').innerHTML=`<div class="about-layout"><button class="icon-button" data-close aria-label="关闭">${icon('x')}</button><h2>作品属于创作者。</h2><p>Atlas 收集有出处的 AI 图像与视频作品。打开作品，查看原作者、模型与公开的提示词。</p><p>使用作者明确授权的媒体或 X 官方嵌入。收藏仅保存在当前浏览器。收录不代表所有作品都可以自由商用，请查看各作品的许可。</p><p>没有公开的提示词，不以推测补齐。</p></div>`;$('#detail [data-close]').focus()};
+$('#aboutButton').onclick=()=>{if(current){closeDetail({navigate:false});ownedHistory=false;history.replaceState(history.state,'',urlFor(null))}gridScroll=scrollY;returnFocus=document.activeElement;pauseGrid();document.body.classList.add('detail-open');$('#page').inert=true;$('#detail').hidden=false;setMenu(false);$('#detailBody').innerHTML=`<div class="about-layout"><button class="icon-button" data-close aria-label="关闭">${icon('x')}</button><h2>作品属于创作者。</h2><p>Atlas 展示经视觉筛选的 AI 影像案例。当前从原有 85 条中选出 12 条，其他记录与素材保留归档，不在发现页展示。</p><p>使用作者明确授权的媒体或 X 官方嵌入。收藏仅保存在当前浏览器。收录不代表所有作品都可以自由商用，请查看各作品的许可。</p><p>本轮按画面完成度、创意、用途和重复度筛选，动态素材采用抽帧检查；这不是完整动画验收，也不代表行业最佳。当前精选仍来自同一作者，后续优先补充不同来源。本轮按画面完成度、创意、用途和重复度筛选，动态素材采用抽帧检查；这不是完整动画验收，也不代表行业最佳。当前精选仍来自同一作者，后续优先补充不同来源。没有公开的提示词，不以推测补齐。</p></div>`;$('#detail [data-close]').focus()};
 window.addEventListener('resize',layout);new ResizeObserver(layout).observe($('#grid'));
 window.addEventListener('popstate',syncHistory);window.addEventListener('hashchange',syncHistory);
 document.addEventListener('visibilitychange',()=>{if(document.hidden){pauseGrid();$('#detailVideo')?.pause()}else schedulePlayback()});

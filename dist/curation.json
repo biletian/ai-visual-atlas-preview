@@ -2,6 +2,11 @@
   "date": "2026-11-14",
   "method": "Editorial visual screening of first, one-third and two-thirds frames. Not full-loop validation. Selection is relative to current collection, not a claim of industry-leading quality.",
   "featured_ids": [
+    "shuryne-riso-concert-poster",
+    "shuryne-skincare-product",
+    "shuryne-gouache-rainy-tram-stop",
+    "shuryne-cyanotype-fern-herbarium",
+    "shuryne-antique-map-imaginary-coast",
     "ailingqu-citrus-bottle-splash",
     "ailingqu-house-cutaway",
     "ailingqu-ink-wash-horse",
@@ -94,5 +99,6 @@
     "2120189335194706023",
     "2120470049672826952"
   ],
-  "preservation": "All source records, prompts and media remain unchanged. Nonfeatured work is excluded from discovery but previous direct links remain readable."
+  "preservation": "All source records, prompts and media remain unchanged. Nonfeatured work is excluded from discovery but previous direct links remain readable.",
+  "static_review": "Five Shuryne originals reviewed at full resolution with matching original prompts and explicit MIT media license."
 }

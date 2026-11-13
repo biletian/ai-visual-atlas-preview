@@ -36,7 +36,7 @@ function card(c){
  el.classList.add('embedded-work');el.dataset.ratio='0.52';
  el.innerHTML=`<div class="grid-tweet"><p class="tweet-status" role="status">正在加载作者原作…</p><button class="embed-retry">加载原作</button><a href="${esc(safeURL(c.source_url))}" target="_blank" rel="noopener">在 X 查看原作 ↗</a></div><button class="embed-detail" data-open="${esc(c.id)}">${esc(c.title)} <span>查看案例 ↗</span></button>`;
  const shell=el.querySelector('.grid-tweet');shell.querySelector('button').onclick=()=>loadTweet(c,shell);requestAnimationFrame(()=>loadTweet(c,shell));
- new ResizeObserver(()=>layout()).observe(shell);
+ 
  }
  return el;
 }
@@ -53,9 +53,10 @@ function render(reset=true){
  const q=$('#search').value.trim().toLowerCase();
  filtered=cases.filter(c=>(type==='all'||type==='saved'&&saved.has(c.id)||c.type===type)&&(!model||(c.model_family||c.model)===model)&&(!category||c.category===category)&&(!$('#promptOnly').checked||c.prompt||c.prompt_reply_url)&&(!q||searchIndex.get(c.id).includes(q)));
  if($('#sort').value==='recent')filtered.sort((a,b)=>String(b.checked_at||'').localeCompare(String(a.checked_at||'')));
- const grid=$('#grid');if(reset){[...grid.children].forEach(teardownCard);grid.replaceChildren()}
- const from=grid.children.length;
- for(const c of filtered.slice(from,limit)){const el=card(c);grid.append(el);if(local(c)){nearObserver.observe(el);visibleObserver.observe(el)}}
+ const grid=$('#grid'),posts=$('#postGrid');if(reset){[...grid.children,...posts.children].forEach(teardownCard);grid.replaceChildren();posts.replaceChildren()}
+ const from=grid.children.length+posts.children.length;
+ for(const c of filtered.slice(from,limit)){const el=card(c);(c.media_authorized==='embed_only'?posts:grid).append(el);if(local(c)){nearObserver.observe(el);visibleObserver.observe(el)}}
+ $('#originals').hidden=!posts.children.length;grid.hidden=!grid.children.length;
  $('#empty').hidden=filtered.length>0;$('#count').textContent=`${filtered.length} 件作品`;$('#loadMore').hidden=limit>=filtered.length;
  syncNav();layout();setMenu(false);$('#clearSearch').hidden=!q;
 }
@@ -85,7 +86,7 @@ function timeout(p,ms=12000){return new Promise((res,rej)=>{const timer=setTimeo
 function ensureTwitter(){if(window.twttr?.widgets)return Promise.resolve(window.twttr);if(twitterPromise)return twitterPromise;const script=document.createElement('script');script.src='https://platform.twitter.com/widgets.js';script.async=true;twitterPromise=timeout(new Promise((res,rej)=>{script.onload=()=>window.twttr?.ready(res);script.onerror=()=>rej(Error());document.head.append(script)})).catch(e=>{twitterPromise=null;script.remove();throw e});return twitterPromise}
 async function loadTweet(c,shell){
  const button=shell.querySelector('button');if(button.disabled)return;button.disabled=true;button.textContent='正在加载…';const status=shell.querySelector('.tweet-status');status.textContent='正在连接 X 官方作品…';shell.querySelector('.tweet-host')?.remove();const host=document.createElement('div');host.className='tweet-host';shell.prepend(host);
- try{const t=await ensureTwitter();if(!shell.isConnected)return;const id=c.source_url.match(/status\/(\d+)/)?.[1];if(!id)throw Error();const result=await timeout(t.widgets.createTweet(id,host,{dnt:true,conversation:'none'}));if(!result)throw Error();if(!shell.isConnected)return;button.remove();status.remove()}
+ try{const t=await ensureTwitter();if(!shell.isConnected)return;const id=c.source_url.match(/status\/(\d+)/)?.[1];if(!id)throw Error();const result=await timeout(t.widgets.createTweet(id,host,{dnt:true,conversation:'none',width:550}));if(!result)throw Error();if(!shell.isConnected)return;button.remove();status.remove()}
  catch{host.remove();if(!shell.isConnected)return;button.disabled=false;button.textContent='重试加载';status.textContent='X 暂时无法加载，你仍可打开原帖查看。'}
 }
 function navHTML(c,index){return `<button class="icon-button" data-close aria-label="关闭详情">${icon('x')}</button><span class="spacer"></span><button class="icon-button ${saved.has(c.id)?'saved':''}" data-save="${esc(c.id)}" aria-label="收藏作品" aria-pressed="${saved.has(c.id)}">${icon('bookmark')}</button><button class="icon-button" data-step="-1" aria-label="上一件作品" ${index<=0?'disabled':''}>${icon('arrow-left')}</button><button class="icon-button" data-step="1" aria-label="下一件作品" ${index>=detailList.length-1?'disabled':''}>${icon('arrow-right')}</button>`}
@@ -110,7 +111,7 @@ function closeDetail({navigate=true}={}){if($('#detail').hidden)return;AtlasMoti
 function moveDetail(step){const i=detailList.findIndex(c=>c.id===current),c=detailList[i+step];if(c){AtlasMotion.direction=step;openDetail(c.id,{historyMode:'replace'});AtlasMotion.direction=1}}
 function syncHistory(){const id=idFromURL();if(id&&byID.has(id)){if(current!==id)openDetail(id,{historyMode:'none'})}else {ownedHistory=false;closeDetail({navigate:false})}}
 $('#detail').onclick=e=>{const close=e.target.closest('[data-close]'),step=e.target.closest('[data-step]'),saveButton=e.target.closest('[data-save]');if(close)closeDetail();else if(step)moveDetail(Number(step.dataset.step));else if(saveButton)save(saveButton.dataset.save)};
-$('#grid').onclick=e=>{const open=e.target.closest('[data-open]'),saveButton=e.target.closest('[data-save]'),play=e.target.closest('[data-play]');if(open)openDetail(open.dataset.open);else if(saveButton)save(saveButton.dataset.save);else if(play)togglePlay(play.dataset.play)};
+$('#page').onclick=e=>{const open=e.target.closest('[data-open]'),saveButton=e.target.closest('[data-save]'),play=e.target.closest('[data-play]');if(open)openDetail(open.dataset.open);else if(saveButton)save(saveButton.dataset.save);else if(play)togglePlay(play.dataset.play)};
 $('#sidebar').onclick=e=>{const b=e.target.closest('[data-type],[data-model]');if(!b)return;if(current)closeDetail();if(b.dataset.type){type=b.dataset.type;model=''}else model=model===b.dataset.model?'':b.dataset.model;render()};
 $('#categories').onclick=e=>{const b=e.target.closest('[data-category]');if(b){category=b.dataset.category;render()}};
 $('#clearSearch').onclick=()=>{$('#search').value='';render();$('#search').focus()};

@@ -41,3 +41,8 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
 .shared-poster{position:fixed;z-index:150;object-fit:contain;border-radius:8px;pointer-events:none;transform-origin:top left}
 @media(max-width:700px){.search{height:34px;width:210px;padding:5px 8px;background:#f6f6f5}.sort-trigger{font-size:12px;gap:6px;padding:5px 2px}.sort-menu{width:190px}.copy-button{min-height:44px}.icon-button{width:36px;height:36px}.detail-info{padding:24px 20px 50px}.detail-title{line-height:1.45}.round-action{width:30px;height:30px}.sort-menu button{min-height:48px}#toast{max-width:calc(100vw - 32px);white-space:nowrap;font-size:13px}.prompt-toggle{display:none}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{transition:none!important;animation:none!important;scroll-behavior:auto!important}.shared-poster{display:none!important}}
+
+/* Official embeds preserve creator attribution and media rights. */
+.embedded-work{background:#fff;overflow:visible!important;border:1px solid #e9e9e7;border-radius:10px}
+.grid-tweet{min-height:350px;padding:8px;width:100%;box-sizing:border-box}.grid-tweet .tweet-host{width:100%}.grid-tweet .twitter-tweet{margin:0!important}.grid-tweet>p,.grid-tweet>button,.grid-tweet>a{margin:12px;font-size:14px}.grid-tweet>button{padding:10px 14px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer}.grid-tweet>a{display:block}
+.embed-detail{width:100%;display:flex;justify-content:space-between;align-items:center;gap:10px;padding:16px;background:#fff;border:0;border-top:1px solid #eee;border-radius:0 0 10px 10px;text-align:left;font-size:14px;cursor:pointer}.embed-detail span{color:#777;font-size:12px;white-space:nowrap}

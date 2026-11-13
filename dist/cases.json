@@ -570,24 +570,25 @@
   },
   {
     "id": "2118308538564989025",
-    "title": "旅行海报循环动画",
+    "title": "动态旅行速写",
     "model": "ChatGPT Images 2.6",
     "prompt": "",
     "source_url": "https://x.com/devteamdrew/status/2118308538564989025",
     "author": "@devteamdrew",
     "image_url": "",
-    "description": "金门大桥、斗兽场、富士山，固定镜头与水粉旅行画中的轻微自然运动。",
+    "description": "金门桥与斗兽场被转为奶油纸感、干刷与铅笔质地的低饱和旅行插画，以轻微动态保留速写感。作为同一系列收录，不按单张凑数。",
     "license": "使用 X 官方帖子嵌入，不重新托管原图；作品权利属于原作者，不承诺商用授权。",
     "attribution": "作者 @devteamdrew；已读取 X 原帖并核实媒体。",
     "verification_status": "original_post_read",
     "publish_ready": true,
     "checked_at": "2026-11-13",
-    "prompt_status": "作者完整提示词回复已读取，请前往原帖查看。",
+    "prompt_status": "作者在回复中公开提示词，点击原文查看。",
     "model_family": "ChatGPT Images 2.6",
     "type": "image",
     "category": "动图与动画",
     "media_authorized": "embed_only",
-    "prompt_reply_url": "https://x.com/devteamdrew/status/2118538745175503130"
+    "prompt_reply_url": "https://x.com/devteamdrew/status/2118538745175503130",
+    "author_url": "https://x.com/devteamdrew"
   },
   {
     "id": "2119741442012893369",
@@ -841,7 +842,7 @@
   },
   {
     "id": "2120469968060043639",
-    "title": "风景大字海报",
+    "title": "中文标题设计系统",
     "author": "@Leviwoyun",
     "category": "海报设计",
     "type": "image",
@@ -850,14 +851,15 @@
     "prompt": "",
     "image_url": "",
     "source_url": "https://x.com/Leviwoyun/status/2120469968060043639",
-    "description": "文字与背景可自己提供；原帖附 GitHub 技能链接。",
-    "prompt_status": "作者提供技能链接，非单条提示词",
+    "description": "中文书法和立体粗字与真实风景融合，重点看字色对比、留白和字景关系。40 种风格的四张合集按一个设计系统收录，不拆数。",
+    "prompt_status": "原帖附作者技能仓库；没有独立完整提示词。",
     "attribution": "作者 @Leviwoyun；已读取 X 原帖并核实媒体。",
     "license": "使用 X 官方帖子嵌入，不重新托管原图；作品权利属于原作者，不承诺商用授权。",
     "verification_status": "original_post_read",
     "publish_ready": true,
     "checked_at": "2026-11-13",
-    "media_authorized": "embed_only"
+    "media_authorized": "embed_only",
+    "author_url": "https://x.com/Leviwoyun"
   },
   {
     "id": "2118381855166881928",
@@ -908,18 +910,19 @@
     "category": "地图设计",
     "model": "GPT Image 2.6 + Claude Code / Opus 5.5",
     "model_family": "多模型工作流",
-    "type": "video",
+    "type": "image",
     "prompt": "",
     "prompt_status": "开源管线，非单条提示词。",
     "source_url": "https://x.com/DmytroKrasun/status/2119841736679686222",
     "image_url": "",
-    "description": "作者将开放市政数据建模后统一风格绘制，并提供开源管线；不是单条提示词生成整个地图。",
+    "description": "将开放城市数据转为统一等轴测彩绘地图。GPT Image 2.6 负责绘制，Claude Code / Opus 5.5 辅助制作管线。建筑轮廓和高度来自开放数据，外观由 AI 推测，不是准确实景地图。",
     "license": "使用 X 官方帖子嵌入，不重新托管原图；作品权利属于原作者，不承诺商用授权。",
     "attribution": "作者 @DmytroKrasun",
     "verification_status": "original_post_read",
     "publish_ready": true,
     "checked_at": "2026-11-13",
-    "media_authorized": "embed_only"
+    "media_authorized": "embed_only",
+    "author_url": "https://x.com/DmytroKrasun"
   },
   {
     "id": "2118670168415182931",
@@ -2174,5 +2177,27 @@
     "type": "image",
     "category": "绘画与插画",
     "media_authorized": "mit"
+  },
+  {
+    "id": "2118193088128745875",
+    "title": "冬季照片 × 巴洛克画廊海报",
+    "author": "@Goodmanprotocol",
+    "author_url": "https://x.com/Goodmanprotocol",
+    "category": "海报设计",
+    "type": "image",
+    "model": "GPT Image 2.6（作者标注）",
+    "model_family": "ChatGPT Images 2.6",
+    "prompt": "",
+    "prompt_reply_url": "https://x.com/Goodmanprotocol/status/2118193088128745875",
+    "prompt_status": "作者原帖公开完整提示词；本站链接原文，不将未授权全文重新分发。",
+    "source_url": "https://x.com/Goodmanprotocol/status/2118193088128745875",
+    "image_url": "",
+    "description": "把冬季照片转为巴洛克金框画廊海报。冷色树林与雪人暖光形成对照，枝条突破画框，底部保留原图缩略与衬线文字。两张展示作为一个完整案例收录。",
+    "license": "仅通过 X 官方嵌入展示，不重新托管图片；未发现独立素材再分发许可。",
+    "attribution": "Saul Goodman · @Goodmanprotocol。原帖 2026-11-05；已核实原帖模型声明并目视作品。",
+    "verification_status": "original_post_and_visual_review",
+    "publish_ready": true,
+    "checked_at": "2026-11-13",
+    "media_authorized": "embed_only"
   }
 ]

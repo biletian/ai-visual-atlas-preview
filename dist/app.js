@@ -32,13 +32,19 @@ function card(c){
  const el=document.createElement('article');el.className='work';el.dataset.caseId=c.id;el.setAttribute('aria-label',c.title);
  const [w,h]=still(c)?[c.width,c.height]:local(c)?dimensions(c):[4,3];el.dataset.ratio=String(w/h);el.dataset.enter='true';
  el.innerHTML=`<div class="media-stage">${hasMedia(c)?`<img class="work-image" src="${esc(previewURL(c))}" alt="${esc(c.title)}" width="${w}" height="${h}" loading="lazy" decoding="async">`:`<div class="x-card"><span class="x-mark">𝕏</span><h2>${esc(c.title)}</h2><p>${esc(c.author)} · ${esc(c.model_family||c.model)}</p></div>`}<button class="open-work" data-open="${esc(c.id)}" aria-label="查看 ${esc(c.title)}">查看作品</button></div><a class="corner author-corner" href="${esc(authorURL(c))}" target="_blank" rel="noopener" title="${esc(c.author)}">${avatar(c)}</a><a class="corner round-action source-corner" href="${esc(safeURL(c.source_url))}" target="_blank" rel="noopener" aria-label="查看作品原始来源">${icon('arrow-up-right')}</a><button class="corner round-action save-corner ${saved.has(c.id)?'saved':''}" data-save="${esc(c.id)}" aria-label="${saved.has(c.id)?'取消收藏':'收藏作品'}" aria-pressed="${saved.has(c.id)}">${icon('bookmark')}</button>${local(c)?`<button class="corner round-action play-corner" data-play="${esc(c.id)}" aria-label="播放动画">${icon('play')}</button>`:''}`;
+ if(c.media_authorized==='embed_only'){
+ el.classList.add('embedded-work');el.dataset.ratio='0.52';
+ el.innerHTML=`<div class="grid-tweet"><p class="tweet-status" role="status">正在加载作者原作…</p><button class="embed-retry">加载原作</button><a href="${esc(safeURL(c.source_url))}" target="_blank" rel="noopener">在 X 查看原作 ↗</a></div><button class="embed-detail" data-open="${esc(c.id)}">${esc(c.title)} <span>查看案例 ↗</span></button>`;
+ const shell=el.querySelector('.grid-tweet');shell.querySelector('button').onclick=()=>loadTweet(c,shell);requestAnimationFrame(()=>loadTweet(c,shell));
+ new ResizeObserver(()=>layout()).observe(shell);
+ }
  return el;
 }
 function layout(){cancelAnimationFrame(layoutFrame);layoutFrame=requestAnimationFrame(()=>{
  const grid=$('#grid'),width=grid.clientWidth,gap=12;
  const cols=innerWidth<=700?1:Math.max(1,Math.min(6,Math.floor((width+gap)/280)));
  const cw=(width-gap*(cols-1))/cols,heights=Array(cols).fill(0);
- for(const el of grid.children){const col=heights.indexOf(Math.min(...heights)),height=cw/Number(el.dataset.ratio);el.style.width=cw+'px';el.style.height=height+'px';el.style.transform=`translate(${col*(cw+gap)}px,${heights[col]}px)`;heights[col]+=height+gap;if(el.dataset.enter){delete el.dataset.enter;AtlasMotion.enter(el.querySelector('.media-stage'),{y:6,duration:220})}}
+ for(const el of grid.children){const col=heights.indexOf(Math.min(...heights)),height=el.classList.contains('embedded-work')?Math.max(420,el.querySelector('.grid-tweet').scrollHeight+64):cw/Number(el.dataset.ratio);el.style.width=cw+'px';el.style.height=height+'px';el.style.transform=`translate(${col*(cw+gap)}px,${heights[col]}px)`;heights[col]+=height+gap;if(el.dataset.enter){delete el.dataset.enter;AtlasMotion.enter(el.querySelector('.media-stage'),{y:6,duration:220})}}
  grid.style.height=Math.max(0,Math.max(...heights)-gap)+'px';
 })}
 function teardownCard(el){nearObserver.unobserve(el);visibleObserver.unobserve(el);visibleCards.delete(el);const v=el.querySelector('video');if(v){positions.set(el.dataset.caseId,v.currentTime);v.pause();v.removeAttribute('src');v.load()}}
@@ -122,7 +128,7 @@ $('#repo').href=safeURL(window.ATLAS.repository)||'https://github.com/biletian/a
 $('#searchIcon').innerHTML=icon('search');setMenu(false);
 for(const m of [...new Set(cases.map(c=>c.model_family||c.model))]){const b=document.createElement('button');b.dataset.model=m;b.textContent=m==='ChatGPT Images 2.6'?'Images 2.6':m;$('#modelLinks').append(b)}
 for(const cat of ['',...new Set(cases.map(c=>c.category))]){const b=document.createElement('button');b.dataset.category=cat;b.textContent=cat||'全部';$('#categories').append(b)}
-$('#aboutButton').onclick=()=>{if(current){closeDetail({navigate:false});ownedHistory=false;history.replaceState(history.state,'',urlFor(null))}gridScroll=scrollY;returnFocus=document.activeElement;pauseGrid();document.body.classList.add('detail-open');$('#page').inert=true;$('#detail').hidden=false;setMenu(false);$('#detailBody').innerHTML=`<div class="about-layout"><button class="icon-button" data-close aria-label="关闭">${icon('x')}</button><h2>作品属于创作者。</h2><p>Atlas 展示经视觉筛选的 AI 影像案例。当前展示 12 条动态案例及 5 张新收录的静态作品，其他记录与素材保留归档，不在发现页展示。</p><p>使用作者明确授权的媒体或 X 官方嵌入。收藏仅保存在当前浏览器。收录不代表所有作品都可以自由商用，请查看各作品的许可。</p><p>本轮按画面完成度、创意、用途和重复度筛选。动态素材采用抽帧检查，新增静态作品按全尺寸检查；不代表行业最佳或生成效果保证。GPT Image 案例未注明版本，不归入 Images 2.6。没有公开的提示词，不以推测补齐。</p></div>`;$('#detail [data-close]').focus()};
+$('#aboutButton').onclick=()=>{if(current){closeDetail({navigate:false});ownedHistory=false;history.replaceState(history.state,'',urlFor(null))}gridScroll=scrollY;returnFocus=document.activeElement;pauseGrid();document.body.classList.add('detail-open');$('#page').inert=true;$('#detail').hidden=false;setMenu(false);$('#detailBody').innerHTML=`<div class="about-layout"><button class="icon-button" data-close aria-label="关闭">${icon('x')}</button><h2>作品属于创作者。</h2><p>Atlas 展示经视觉筛选的 AI 影像案例。当前精选 6 位创作者的 8 件作品，其他记录与素材保留归档，不在发现页展示。</p><p>使用作者明确授权的媒体或 X 官方嵌入。收藏仅保存在当前浏览器。收录不代表所有作品都可以自由商用，请查看各作品的许可。</p><p>本轮按画面完成度、创意、用途和重复度筛选。动态素材采用抽帧检查，新增静态作品按全尺寸检查；不代表行业最佳或生成效果保证。GPT Image 案例未注明版本，不归入 Images 2.6。没有公开的提示词，不以推测补齐。</p></div>`;$('#detail [data-close]').focus()};
 window.addEventListener('resize',layout);new ResizeObserver(layout).observe($('#grid'));
 window.addEventListener('popstate',syncHistory);window.addEventListener('hashchange',syncHistory);
 document.addEventListener('visibilitychange',()=>{if(document.hidden){pauseGrid();$('#detailVideo')?.pause()}else schedulePlayback()});

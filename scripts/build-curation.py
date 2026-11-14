@@ -5,7 +5,7 @@ from PIL import Image
 root=Path(__file__).resolve().parents[1]
 def download(item):
  assert item['path'].startswith('dist/assets/') and '..' not in Path(item['path']).parts
- assert urllib.parse.urlparse(item['url']).scheme=='https' and urllib.parse.urlparse(item['url']).hostname=='wsrv.nl'
+ assert urllib.parse.urlparse(item['url']).scheme=='https' and urllib.parse.urlparse(item['url']).hostname in {'wsrv.nl','pbs.twimg.com'}
  p=root/item['path'];p.parent.mkdir(parents=True,exist_ok=True)
  if p.exists() and hashlib.sha256(p.read_bytes()).hexdigest()==item['sha256']:return
  for attempt in range(3):
@@ -21,7 +21,11 @@ for manifest in sorted((root/'scripts').glob('media-batch*.json')):
 cases=json.load(open(root/'dist/cases.json'));seen={c['id'] for c in cases}
 for batch in sorted((root/'scripts').glob('content-batch*.json')):
  for c in json.load(open(batch)):
-  if c['id'] not in seen:cases.append(c);seen.add(c['id'])
-  image=Image.open(root/'dist'/c['image_url']);image.thumbnail((640,900));image.convert('RGB').save(root/'dist'/c['thumbnail_url'],'WEBP',quality=84)
+  if c['id'] in seen:cases=[c if old['id']==c['id'] else old for old in cases]
+  else:cases.append(c);seen.add(c['id'])
+  media=[{'url':c['image_url'],'thumbnail_url':c['thumbnail_url']}]+c.get('images',[])
+  for m in media:
+   if m.get('thumbnail_url'):
+    image=Image.open(root/'dist'/m['url']);image.thumbnail((640,900));image.convert('RGB').save(root/'dist'/m['thumbnail_url'],'WEBP',quality=84)
 for c in cases:c['category']={'广告与品牌':'品牌与广告','信息图与知识可视化':'信息图'}.get(c.get('category'),c.get('category'))
 (root/'dist/cases.json').write_text(json.dumps(cases,ensure_ascii=False,indent=2))

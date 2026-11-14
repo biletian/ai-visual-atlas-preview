@@ -4,10 +4,12 @@ const safeURL=u=>{try{const v=new URL(u);return v.protocol==='https:'?v.href:''}
 const mediaURL=u=>/^assets\/[a-zA-Z0-9_./-]+$/.test(u||'')?u:safeURL(u);
 const icon=n=>window.AtlasUI.icon(n),avatar=c=>window.AtlasUI.avatar(c);
 const archivedCases=window.ATLAS.cases.filter(c=>c.publish_ready),byID=new Map(archivedCases.map(c=>[c.id,c]));
-const cases=window.ATLAS_CURATION.featured_ids.map(id=>byID.get(id)).filter(Boolean);
+const selectedCases=window.ATLAS_CURATION.featured_ids.map(id=>byID.get(id)).filter(Boolean);
 const local=c=>!!(c.image_url&&c.media_authorized==='cc-by-4.0'&&c.image_url.endsWith('.gif'));
 const still=c=>c.media_authorized==='mit'&&c.image_url?.endsWith('.png');
 const hasMedia=c=>local(c)||still(c);
+// Discovery is media-first. Embed-only records stay accessible by their source/deep links.
+const cases=selectedCases.filter(hasMedia);
 const previewURL=c=>still(c)?mediaURL(c.thumbnail_url||c.image_url):posterURL(c);
 const videoURL=c=>mediaURL(c.image_url).replace(/\.gif$/,'.mp4'),posterURL=c=>mediaURL(c.image_url).replace(/\.gif$/,'.webp');
 const dimensions=c=>mediaDimensions[(c.image_url||'').split('/').pop()]||[4,3];
@@ -24,7 +26,7 @@ function syncNav(){
  $$('[data-type]').forEach(b=>{const on=b.dataset.type===type;b.classList.toggle('selected',on);b.setAttribute('aria-pressed',String(on))});
  $$('[data-model]').forEach(b=>{const on=b.dataset.model===model;b.classList.toggle('selected',on);b.setAttribute('aria-pressed',String(on))});
  $$('[data-category]').forEach(b=>{const on=b.dataset.category===category;b.classList.toggle('selected',on);b.setAttribute('aria-pressed',String(on))});
- $('#savedCount').textContent=saved.size||'';$('#pageTitle').textContent=type==='saved'?'收藏的作品':model||'精选作品';
+ $('#savedCount').textContent=cases.filter(c=>saved.has(c.id)).length||'';$('#pageTitle').textContent=type==='saved'?'收藏的作品':model||(type==='image'?'图像与动图':type==='video'?'视频作品':'精选作品');
 }
 function persistSaved(){try{localStorage.setItem('visual-atlas-saved',JSON.stringify([...saved]))}catch{toast('收藏仅在本次浏览中保存')}}
 function save(id){saved.has(id)?saved.delete(id):saved.add(id);persistSaved();$$('[data-save]').filter(b=>b.dataset.save===id).forEach(b=>{b.classList.toggle('saved',saved.has(id));b.setAttribute('aria-pressed',String(saved.has(id)));b.setAttribute('aria-label',saved.has(id)?'取消收藏':'收藏作品')});syncNav();$$('[data-save]').filter(b=>b.dataset.save===id).forEach(b=>AtlasMotion.pulse(b));if(type==='saved'&&!current)render()}
@@ -32,12 +34,7 @@ function card(c){
  const el=document.createElement('article');el.className='work';el.dataset.caseId=c.id;el.setAttribute('aria-label',c.title);
  const [w,h]=still(c)?[c.width,c.height]:local(c)?dimensions(c):[4,3];el.dataset.ratio=String(w/h);el.dataset.enter='true';
  el.innerHTML=`<div class="media-stage">${hasMedia(c)?`<img class="work-image" src="${esc(previewURL(c))}" alt="${esc(c.title)}" width="${w}" height="${h}" loading="lazy" decoding="async">`:`<div class="x-card"><span class="x-mark">𝕏</span><h2>${esc(c.title)}</h2><p>${esc(c.author)} · ${esc(c.model_family||c.model)}</p></div>`}<button class="open-work" data-open="${esc(c.id)}" aria-label="查看 ${esc(c.title)}">查看作品</button></div><a class="corner author-corner" href="${esc(authorURL(c))}" target="_blank" rel="noopener" title="${esc(c.author)}">${avatar(c)}</a><a class="corner round-action source-corner" href="${esc(safeURL(c.source_url))}" target="_blank" rel="noopener" aria-label="查看作品原始来源">${icon('arrow-up-right')}</a><button class="corner round-action save-corner ${saved.has(c.id)?'saved':''}" data-save="${esc(c.id)}" aria-label="${saved.has(c.id)?'取消收藏':'收藏作品'}" aria-pressed="${saved.has(c.id)}">${icon('bookmark')}</button>${local(c)?`<button class="corner round-action play-corner" data-play="${esc(c.id)}" aria-label="播放动画">${icon('play')}</button>`:''}`;
- if(c.media_authorized==='embed_only'){
- el.classList.add('embedded-work');el.dataset.ratio='0.52';
- el.innerHTML=`<div class="grid-tweet"><p class="tweet-status" role="status">正在加载作者原作…</p><button class="embed-retry">加载原作</button><a href="${esc(safeURL(c.source_url))}" target="_blank" rel="noopener">在 X 查看原作 ↗</a></div><button class="embed-detail" data-open="${esc(c.id)}">${esc(c.title)} <span>查看案例 ↗</span></button>`;
- const shell=el.querySelector('.grid-tweet');shell.querySelector('button').onclick=()=>loadTweet(c,shell);requestAnimationFrame(()=>loadTweet(c,shell));
- 
- }
+ const img=el.querySelector('.work-image');if(img)img.addEventListener('error',()=>{const status=document.createElement('span');status.className='media-error';status.textContent='图片暂时无法加载 · 点击查看来源';img.hidden=true;el.querySelector('.media-stage').prepend(status);},{once:true});
  return el;
 }
 function layout(){cancelAnimationFrame(layoutFrame);layoutFrame=requestAnimationFrame(()=>{
@@ -53,11 +50,11 @@ function render(reset=true){
  const q=$('#search').value.trim().toLowerCase();
  filtered=cases.filter(c=>(type==='all'||type==='saved'&&saved.has(c.id)||c.type===type)&&(!model||(c.model_family||c.model)===model)&&(!category||c.category===category)&&(!$('#promptOnly').checked||c.prompt||c.prompt_reply_url)&&(!q||searchIndex.get(c.id).includes(q)));
  if($('#sort').value==='recent')filtered.sort((a,b)=>String(b.checked_at||'').localeCompare(String(a.checked_at||'')));
- const grid=$('#grid'),posts=$('#postGrid');if(reset){[...grid.children,...posts.children].forEach(teardownCard);grid.replaceChildren();posts.replaceChildren()}
- const from=grid.children.length+posts.children.length;
- for(const c of filtered.slice(from,limit)){const el=card(c);(c.media_authorized==='embed_only'?posts:grid).append(el);if(local(c)){nearObserver.observe(el);visibleObserver.observe(el)}}
- $('#originals').hidden=!posts.children.length;grid.hidden=!grid.children.length;
- $('#empty').hidden=filtered.length>0;$('#count').textContent=`${filtered.length} 件作品`;$('#loadMore').hidden=limit>=filtered.length;
+ const grid=$('#grid');if(reset){[...grid.children].forEach(teardownCard);grid.replaceChildren()}
+ const from=grid.children.length;
+ for(const c of filtered.slice(from,limit)){const el=card(c);grid.append(el);if(local(c)){nearObserver.observe(el);visibleObserver.observe(el)}}
+ grid.hidden=!grid.children.length;
+ $('#empty').hidden=filtered.length>0;if(!filtered.length){$('#empty h2').textContent=type==='saved'?'还没有符合筛选的收藏':type==='video'?'精选视频正在整理':'没有找到相关作品';$('#empty p').textContent=type==='video'?'先看看图像与动图，或清除筛选。':'换个关键词，或清除筛选再看看。'}$('#count').textContent=`${filtered.length} 件作品`;$('#loadMore').hidden=limit>=filtered.length;
  syncNav();layout();setMenu(false);$('#clearSearch').hidden=!q;
 }
 function attachVideo(el){
@@ -129,7 +126,7 @@ $('#repo').href=safeURL(window.ATLAS.repository)||'https://github.com/biletian/a
 $('#searchIcon').innerHTML=icon('search');setMenu(false);
 for(const m of [...new Set(cases.map(c=>c.model_family||c.model))]){const b=document.createElement('button');b.dataset.model=m;b.textContent=m==='ChatGPT Images 2.6'?'Images 2.6':m;$('#modelLinks').append(b)}
 for(const cat of ['',...new Set(cases.map(c=>c.category))]){const b=document.createElement('button');b.dataset.category=cat;b.textContent=cat||'全部';$('#categories').append(b)}
-$('#aboutButton').onclick=()=>{if(current){closeDetail({navigate:false});ownedHistory=false;history.replaceState(history.state,'',urlFor(null))}gridScroll=scrollY;returnFocus=document.activeElement;pauseGrid();document.body.classList.add('detail-open');$('#page').inert=true;$('#detail').hidden=false;setMenu(false);$('#detailBody').innerHTML=`<div class="about-layout"><button class="icon-button" data-close aria-label="关闭">${icon('x')}</button><h2>作品属于创作者。</h2><p>Atlas 展示经视觉筛选的 AI 影像案例。当前精选 6 位创作者的 8 件作品，其他记录与素材保留归档，不在发现页展示。</p><p>使用作者明确授权的媒体或 X 官方嵌入。收藏仅保存在当前浏览器。收录不代表所有作品都可以自由商用，请查看各作品的许可。</p><p>本轮按画面完成度、创意、用途和重复度筛选。动态素材采用抽帧检查，新增静态作品按全尺寸检查；不代表行业最佳或生成效果保证。GPT Image 案例未注明版本，不归入 Images 2.6。没有公开的提示词，不以推测补齐。</p></div>`;$('#detail [data-close]').focus()};
+$('#aboutButton').onclick=()=>{if(current){closeDetail({navigate:false});ownedHistory=false;history.replaceState(history.state,'',urlFor(null))}gridScroll=scrollY;returnFocus=document.activeElement;pauseGrid();document.body.classList.add('detail-open');$('#page').inert=true;$('#detail').hidden=false;setMenu(false);$('#detailBody').innerHTML=`<div class="about-layout"><button class="icon-button" data-close aria-label="关闭">${icon('x')}</button><h2>作品属于创作者。</h2><p>Atlas 展示经视觉筛选的 AI 影像案例。首页只展示可独立呈现的授权作品。点击图片后查看提示词、作者和来源；其他记录与素材保留归档。</p><p>首页使用作者明确授权的媒体。仅支持整帖嵌入的作品暂不展示在首页，原记录仍可通过旧链接访问。收藏仅保存在当前浏览器。收录不代表所有作品都可以自由商用，请查看各作品的许可。</p><p>本轮按画面完成度、创意、用途和重复度筛选。动态素材采用抽帧检查，新增静态作品按全尺寸检查；不代表行业最佳或生成效果保证。GPT Image 案例未注明版本，不归入 Images 2.6。没有公开的提示词，不以推测补齐。</p></div>`;$('#detail [data-close]').focus()};
 window.addEventListener('resize',layout);new ResizeObserver(layout).observe($('#grid'));
 window.addEventListener('popstate',syncHistory);window.addEventListener('hashchange',syncHistory);
 document.addEventListener('visibilitychange',()=>{if(document.hidden){pauseGrid();$('#detailVideo')?.pause()}else schedulePlayback()});

@@ -10,10 +10,11 @@ def download(item):
  if p.exists() and hashlib.sha256(p.read_bytes()).hexdigest()==item['sha256']:return
  urls=[item['url']]
  parsed=urllib.parse.urlparse(item['url'])
- if parsed.hostname=='pbs.twimg.com':urls.append('https://wsrv.nl/?url='+urllib.parse.quote(item['url'],safe=''))
+ if parsed.hostname=='pbs.twimg.com':
+  urls=[item['url']+('&' if parsed.query else '?')+'format=jpg',item['url'],'https://wsrv.nl/?url='+urllib.parse.quote(item['url'],safe='')]
  elif parsed.hostname=='wsrv.nl':
   original=urllib.parse.parse_qs(parsed.query).get('url',[''])[0]
-  if urllib.parse.urlparse(original).hostname=='pbs.twimg.com':urls.append(original)
+  if urllib.parse.urlparse(original).hostname=='pbs.twimg.com':urls.extend([original+('&' if '?' in original else '?')+'format=jpg',original])
  errors=[]
  for url in urls:
   for attempt in range(2):

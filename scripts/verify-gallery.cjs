@@ -22,9 +22,9 @@ for (const c of visible) {
  assert(c.author && c.source_url && c.author_url, 'missing attribution for ' + c.id);
  const media = c.image_set_verified ? c.images : [{url: c.image_url}];
  assert(media && media.length, 'empty image set for ' + c.id);
- images += media.length;
+ images += c.type==='video'?0:media.length;
  for (const url of [c.image_url, c.thumbnail_url, c.author_avatar_url, ...media.flatMap(m=>[m.url,m.thumbnail_url])].filter(Boolean)) {
   if (url.startsWith('assets/')) assert(fs.existsSync(path.join(dist, url)), 'missing asset ' + url);
  }
 }
-console.log(JSON.stringify({selected: selected.length, rendered: visible.length, authors: new Set(visible.map(c=>c.author_handle || c.author)).size, images, prompts: visible.filter(c=>c.prompt).length}));
+console.log(JSON.stringify({selected: selected.length, rendered: visible.length, authors: new Set(visible.map(c=>c.author_handle || c.author)).size, images, videos:visible.filter(c=>c.type==='video').length, prompts: visible.filter(c=>c.prompt).length}));

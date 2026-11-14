@@ -26,7 +26,7 @@ function syncNav(){
  $$('[data-type]').forEach(b=>{const on=b.dataset.type===type;b.classList.toggle('selected',on);b.setAttribute('aria-pressed',String(on))});
  $$('[data-model]').forEach(b=>{const on=b.dataset.model===model;b.classList.toggle('selected',on);b.setAttribute('aria-pressed',String(on))});
  $$('[data-category]').forEach(b=>{const on=b.dataset.category===category;b.classList.toggle('selected',on);b.setAttribute('aria-pressed',String(on))});
- $('#savedCount').textContent=saved.size||'';$('#pageTitle').textContent=type==='saved'?'收藏的作品':model||'精选作品';
+ $('#savedCount').textContent=cases.filter(c=>saved.has(c.id)).length||'';$('#pageTitle').textContent=type==='saved'?'收藏的作品':model||(type==='image'?'图像与动图':type==='video'?'视频作品':'精选作品');
 }
 function persistSaved(){try{localStorage.setItem('visual-atlas-saved',JSON.stringify([...saved]))}catch{toast('收藏仅在本次浏览中保存')}}
 function save(id){saved.has(id)?saved.delete(id):saved.add(id);persistSaved();$$('[data-save]').filter(b=>b.dataset.save===id).forEach(b=>{b.classList.toggle('saved',saved.has(id));b.setAttribute('aria-pressed',String(saved.has(id)));b.setAttribute('aria-label',saved.has(id)?'取消收藏':'收藏作品')});syncNav();$$('[data-save]').filter(b=>b.dataset.save===id).forEach(b=>AtlasMotion.pulse(b));if(type==='saved'&&!current)render()}
@@ -34,6 +34,7 @@ function card(c){
  const el=document.createElement('article');el.className='work';el.dataset.caseId=c.id;el.setAttribute('aria-label',c.title);
  const [w,h]=still(c)?[c.width,c.height]:local(c)?dimensions(c):[4,3];el.dataset.ratio=String(w/h);el.dataset.enter='true';
  el.innerHTML=`<div class="media-stage">${hasMedia(c)?`<img class="work-image" src="${esc(previewURL(c))}" alt="${esc(c.title)}" width="${w}" height="${h}" loading="lazy" decoding="async">`:`<div class="x-card"><span class="x-mark">𝕏</span><h2>${esc(c.title)}</h2><p>${esc(c.author)} · ${esc(c.model_family||c.model)}</p></div>`}<button class="open-work" data-open="${esc(c.id)}" aria-label="查看 ${esc(c.title)}">查看作品</button></div><a class="corner author-corner" href="${esc(authorURL(c))}" target="_blank" rel="noopener" title="${esc(c.author)}">${avatar(c)}</a><a class="corner round-action source-corner" href="${esc(safeURL(c.source_url))}" target="_blank" rel="noopener" aria-label="查看作品原始来源">${icon('arrow-up-right')}</a><button class="corner round-action save-corner ${saved.has(c.id)?'saved':''}" data-save="${esc(c.id)}" aria-label="${saved.has(c.id)?'取消收藏':'收藏作品'}" aria-pressed="${saved.has(c.id)}">${icon('bookmark')}</button>${local(c)?`<button class="corner round-action play-corner" data-play="${esc(c.id)}" aria-label="播放动画">${icon('play')}</button>`:''}`;
+ const img=el.querySelector('.work-image');if(img)img.addEventListener('error',()=>{const status=document.createElement('span');status.className='media-error';status.textContent='图片暂时无法加载 · 点击查看来源';img.hidden=true;el.querySelector('.media-stage').prepend(status);},{once:true});
  return el;
 }
 function layout(){cancelAnimationFrame(layoutFrame);layoutFrame=requestAnimationFrame(()=>{
@@ -53,7 +54,7 @@ function render(reset=true){
  const from=grid.children.length;
  for(const c of filtered.slice(from,limit)){const el=card(c);grid.append(el);if(local(c)){nearObserver.observe(el);visibleObserver.observe(el)}}
  grid.hidden=!grid.children.length;
- $('#empty').hidden=filtered.length>0;$('#count').textContent=`${filtered.length} 件作品`;$('#loadMore').hidden=limit>=filtered.length;
+ $('#empty').hidden=filtered.length>0;if(!filtered.length){$('#empty h2').textContent=type==='saved'?'还没有符合筛选的收藏':type==='video'?'精选视频正在整理':'没有找到相关作品';$('#empty p').textContent=type==='video'?'先看看图像与动图，或清除筛选。':'换个关键词，或清除筛选再看看。'}$('#count').textContent=`${filtered.length} 件作品`;$('#loadMore').hidden=limit>=filtered.length;
  syncNav();layout();setMenu(false);$('#clearSearch').hidden=!q;
 }
 function attachVideo(el){

@@ -6,7 +6,7 @@ const icon=n=>window.AtlasUI.icon(n),avatar=c=>window.AtlasUI.avatar(c);
 const archivedCases=window.ATLAS.cases.filter(c=>c.publish_ready),byID=new Map(archivedCases.map(c=>[c.id,c]));
 const selectedCases=window.ATLAS_CURATION.featured_ids.map(id=>byID.get(id)).filter(Boolean);
 const local=c=>!!(c.image_url&&c.media_authorized==='cc-by-4.0'&&c.image_url.endsWith('.gif'));
-const still=c=>['mit','user-confirmed-display'].includes(c.media_authorized)&&/\.(png|webp|jpe?g)$/.test(c.image_url||'')&&c.width>0&&c.height>0;
+const still=c=>['mit','user-confirmed-display','owner-directed-display'].includes(c.media_authorized)&&/\.(png|webp|jpe?g)$/.test(c.image_url||'')&&c.width>0&&c.height>0;
 const hasMedia=c=>local(c)||still(c);
 // Discovery is media-first. Embed-only records stay accessible by their source/deep links.
 const cases=selectedCases.filter(hasMedia);

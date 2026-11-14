@@ -1,0 +1,2 @@
+# Eleventh batch
+17 source-matched works: 13 static (16 output images), 4 original Veo 3 videos. Six GPT Image/Flare/Sunburst works and seven Nano Banana works; exact model claims retained, references/template omissions disclosed. Existing template and 136-item relative order preserved. Source mirrors checked against media; portraits/avatars fetched from original author metadata. Excluded explicit no-reposting author, ambiguous multi-model outputs, reference images mislabeled as outputs and wrong-prompt variants. Videos decoded and frame-reviewed; audio not audited.

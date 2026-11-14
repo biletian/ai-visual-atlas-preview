@@ -8,14 +8,23 @@ def download(item):
  assert urllib.parse.urlparse(item['url']).scheme=='https' and urllib.parse.urlparse(item['url']).hostname in {'wsrv.nl','pbs.twimg.com'}
  p=root/item['path'];p.parent.mkdir(parents=True,exist_ok=True)
  if p.exists() and hashlib.sha256(p.read_bytes()).hexdigest()==item['sha256']:return
- for attempt in range(3):
-  try:
-   data=urllib.request.urlopen(item['url'],timeout=60).read()
-   assert hashlib.sha256(data).hexdigest()==item['sha256'], 'Media hash mismatch: '+item['path']
-   p.write_bytes(data);return
-  except Exception:
-   if attempt==2:raise
-   time.sleep(2)
+ urls=[item['url']]
+ parsed=urllib.parse.urlparse(item['url'])
+ if parsed.hostname=='pbs.twimg.com':urls.append('https://wsrv.nl/?url='+urllib.parse.quote(item['url'],safe=''))
+ elif parsed.hostname=='wsrv.nl':
+  original=urllib.parse.parse_qs(parsed.query).get('url',[''])[0]
+  if urllib.parse.urlparse(original).hostname=='pbs.twimg.com':urls.append(original)
+ errors=[]
+ for url in urls:
+  for attempt in range(2):
+   try:
+    data=urllib.request.urlopen(url,timeout=30).read()
+    assert hashlib.sha256(data).hexdigest()==item['sha256'], 'Media hash mismatch'
+    p.write_bytes(data);print('verified',item['path'],flush=True);return
+   except Exception as e:
+    errors.append(str(e));time.sleep(1)
+ raise RuntimeError('Media unavailable: '+item['path']+'; '+str(errors))
+
 for manifest in sorted((root/'scripts').glob('media-batch*.json')):
  with ThreadPoolExecutor(max_workers=4) as pool:list(pool.map(download,json.load(open(manifest))))
 cases=json.load(open(root/'dist/cases.json'));seen={c['id'] for c in cases}

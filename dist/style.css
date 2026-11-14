@@ -42,3 +42,5 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
 @media(max-width:700px){.search{height:34px;width:210px;padding:5px 8px;background:#f6f6f5}.sort-trigger{font-size:12px;gap:6px;padding:5px 2px}.sort-menu{width:190px}.copy-button{min-height:44px}.icon-button{width:36px;height:36px}.detail-info{padding:24px 20px 50px}.detail-title{line-height:1.45}.round-action{width:30px;height:30px}.sort-menu button{min-height:48px}#toast{max-width:calc(100vw - 32px);white-space:nowrap;font-size:13px}.prompt-toggle{display:none}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{transition:none!important;animation:none!important;scroll-behavior:auto!important}.shared-poster{display:none!important}}
 
+
+.media-error{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;text-align:center;padding:28px;color:#777;font-size:14px;line-height:1.7;background:#f4f4f2}

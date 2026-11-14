@@ -5,14 +5,14 @@ const mediaURL=u=>/^assets\/[a-zA-Z0-9_./-]+$/.test(u||'')?u:safeURL(u);
 const icon=n=>window.AtlasUI.icon(n),avatar=c=>window.AtlasUI.avatar(c);
 const archivedCases=window.ATLAS.cases.filter(c=>c.publish_ready),byID=new Map(archivedCases.map(c=>[c.id,c]));
 const selectedCases=window.ATLAS_CURATION.featured_ids.map(id=>byID.get(id)).filter(Boolean);
-const local=c=>!!(c.image_url&&c.media_authorized==='cc-by-4.0'&&c.image_url.endsWith('.gif'));
+const local=c=>!!(c.image_url&&((c.media_authorized==='cc-by-4.0'&&c.image_url.endsWith('.gif'))||(c.type==='video'&&c.media_authorized==='owner-directed-display'&&/^assets\/[a-zA-Z0-9_./-]+\.mp4$/.test(c.image_url)&&/^assets\/[a-zA-Z0-9_./-]+\.(png|webp|jpe?g)$/.test(c.poster_url||'')&&c.width>0&&c.height>0)));
 const still=c=>['mit','user-confirmed-display','owner-directed-display'].includes(c.media_authorized)&&/\.(png|webp|jpe?g)$/.test(c.image_url||'')&&c.width>0&&c.height>0;
 const hasMedia=c=>local(c)||still(c);
 // Discovery is media-first. Embed-only records stay accessible by their source/deep links.
 const cases=selectedCases.filter(hasMedia);
 const previewURL=c=>still(c)?mediaURL(c.thumbnail_url||c.image_url):posterURL(c);
-const videoURL=c=>mediaURL(c.image_url).replace(/\.gif$/,'.mp4'),posterURL=c=>mediaURL(c.image_url).replace(/\.gif$/,'.webp');
-const dimensions=c=>mediaDimensions[(c.image_url||'').split('/').pop()]||[4,3];
+const videoURL=c=>mediaURL(c.image_url).replace(/\.gif$/,'.mp4'),posterURL=c=>mediaURL(c.poster_url||c.image_url.replace(/\.gif$/,'.webp'));
+const dimensions=c=>c.width>0&&c.height>0?[c.width,c.height]:mediaDimensions[(c.image_url||'').split('/').pop()]||[4,3];
 const authorURL=c=>c.author_url?safeURL(c.author_url):c.author==='ailingqu'?'https://github.com/ailingqu':safeURL(c.source_url);
 const searchIndex=new Map(cases.map(c=>[c.id,[c.title,c.author,c.model,c.model_family,c.category,c.prompt,c.description].join(' ').toLowerCase()]));
 let saved;try{saved=new Set(JSON.parse(localStorage.getItem('visual-atlas-saved')||'[]'))}catch{saved=new Set()}

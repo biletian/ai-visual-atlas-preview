@@ -5,7 +5,7 @@ from PIL import Image
 root=Path(__file__).resolve().parents[1]
 def download(item):
  assert item['path'].startswith('dist/assets/') and '..' not in Path(item['path']).parts
- assert urllib.parse.urlparse(item['url']).scheme=='https' and urllib.parse.urlparse(item['url']).hostname in {'wsrv.nl','pbs.twimg.com'}
+ assert urllib.parse.urlparse(item['url']).scheme=='https' and urllib.parse.urlparse(item['url']).hostname in {'wsrv.nl','pbs.twimg.com','video.twimg.com'}
  p=root/item['path'];p.parent.mkdir(parents=True,exist_ok=True)
  if p.exists() and hashlib.sha256(p.read_bytes()).hexdigest()==item['sha256']:return
  urls=[item['url']]
@@ -33,6 +33,7 @@ for batch in sorted((root/'scripts').glob('content-batch*.json')):
  for c in json.load(open(batch)):
   if c['id'] in seen:cases=[c if old['id']==c['id'] else old for old in cases]
   else:cases.append(c);seen.add(c['id'])
+  if c.get('type')=='video':continue
   media=[{'url':c['image_url'],'thumbnail_url':c['thumbnail_url']}]+c.get('images',[])
   for m in media:
    if m.get('thumbnail_url'):

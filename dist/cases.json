@@ -2233,7 +2233,54 @@
     "checked_at": "2026-11-14",
     "type": "image",
     "category": "时装与拼贴",
-    "media_authorized": "user-confirmed-display"
+    "media_authorized": "user-confirmed-display",
+    "image_set_verified": true,
+    "image_set_kind": "same-author-template",
+    "images": [
+      {
+        "url": "assets/sets/C67-0.jpg",
+        "thumbnail_url": "assets/sets/C67-0-thumb.webp",
+        "width": 941,
+        "height": 1671,
+        "alt": "围巾里的冬日时装 · 同模板变体 1",
+        "source_url": "https://x.com/MrLarus/status/2120192333148987761",
+        "original_image_url": "https://pbs.twimg.com/media/HWxsQxObUAAN1C6.jpg?name=orig"
+      },
+      {
+        "url": "assets/sets/C67-1.jpg",
+        "thumbnail_url": "assets/sets/C67-1-thumb.webp",
+        "width": 941,
+        "height": 1672,
+        "alt": "围巾里的冬日时装 · 同模板变体 2",
+        "source_url": "https://x.com/MrLarus/status/2120192333148987761",
+        "original_image_url": "https://pbs.twimg.com/media/HWxsQwQacAATuNQ.jpg?name=orig"
+      },
+      {
+        "url": "assets/sets/C67-2.jpg",
+        "thumbnail_url": "assets/sets/C67-2-thumb.webp",
+        "width": 941,
+        "height": 1672,
+        "alt": "围巾里的冬日时装 · 同模板变体 3",
+        "source_url": "https://x.com/MrLarus/status/2120192333148987761",
+        "original_image_url": "https://pbs.twimg.com/media/HWxsQ7Ja8AAuJ-b.jpg?name=orig"
+      },
+      {
+        "url": "assets/sets/C67-3.jpg",
+        "thumbnail_url": "assets/sets/C67-3-thumb.webp",
+        "width": 941,
+        "height": 1672,
+        "alt": "围巾里的冬日时装 · 同模板变体 4",
+        "source_url": "https://x.com/MrLarus/status/2120192333148987761",
+        "original_image_url": "https://pbs.twimg.com/media/HWxsRNoaoAA30Kl.jpg?name=orig"
+      }
+    ],
+    "image_set_evidence": {
+      "source_url": "https://x.com/MrLarus/status/2120192333148987761",
+      "checked_at": "2026-11-14",
+      "method": "Original-post metadata and visual inspection of complete media",
+      "scope": "Same public variable template; not asserted identical literal prompt per output"
+    },
+    "prompt_note": "作者在同一原帖公开的成组作品与提示词模板；各图可能调整模板变量，并非确认使用完全相同的逐字输入。"
   },
   {
     "id": "2119302158936146170",
@@ -2339,7 +2386,54 @@
     "checked_at": "2026-11-14",
     "type": "image",
     "category": "旅行与城市",
-    "media_authorized": "user-confirmed-display"
+    "media_authorized": "user-confirmed-display",
+    "image_set_verified": true,
+    "image_set_kind": "same-author-template",
+    "images": [
+      {
+        "url": "assets/sets/F27-0.jpg",
+        "thumbnail_url": "assets/sets/F27-0-thumb.webp",
+        "width": 1122,
+        "height": 1402,
+        "alt": "首尔 · 纸上旅行 · 同模板变体 1",
+        "source_url": "https://x.com/Goodmanprotocol/status/2100875159175651540",
+        "original_image_url": "https://pbs.twimg.com/media/HSfOyqZaMAAG9_U.jpg?name=orig"
+      },
+      {
+        "url": "assets/sets/F27-1.jpg",
+        "thumbnail_url": "assets/sets/F27-1-thumb.webp",
+        "width": 1122,
+        "height": 1402,
+        "alt": "首尔 · 纸上旅行 · 同模板变体 2",
+        "source_url": "https://x.com/Goodmanprotocol/status/2100875159175651540",
+        "original_image_url": "https://pbs.twimg.com/media/HSfOzQzbUAA55LG.jpg?name=orig"
+      },
+      {
+        "url": "assets/sets/F27-2.jpg",
+        "thumbnail_url": "assets/sets/F27-2-thumb.webp",
+        "width": 1122,
+        "height": 1402,
+        "alt": "首尔 · 纸上旅行 · 同模板变体 3",
+        "source_url": "https://x.com/Goodmanprotocol/status/2100875159175651540",
+        "original_image_url": "https://pbs.twimg.com/media/HSfOzydaoAEAZXp.jpg?name=orig"
+      },
+      {
+        "url": "assets/sets/F27-3.jpg",
+        "thumbnail_url": "assets/sets/F27-3-thumb.webp",
+        "width": 1122,
+        "height": 1402,
+        "alt": "首尔 · 纸上旅行 · 同模板变体 4",
+        "source_url": "https://x.com/Goodmanprotocol/status/2100875159175651540",
+        "original_image_url": "https://pbs.twimg.com/media/HSfO0WwbUAA7U_T.jpg?name=orig"
+      }
+    ],
+    "image_set_evidence": {
+      "source_url": "https://x.com/Goodmanprotocol/status/2100875159175651540",
+      "checked_at": "2026-11-14",
+      "method": "Original-post metadata and visual inspection of complete media",
+      "scope": "Same public variable template; not asserted identical literal prompt per output"
+    },
+    "prompt_note": "作者在同一原帖公开的成组作品与提示词模板；各图可能调整模板变量，并非确认使用完全相同的逐字输入。"
   },
   {
     "id": "2092277085914206655",
@@ -2374,7 +2468,36 @@
     "checked_at": "2026-11-14",
     "type": "image",
     "category": "海报与字体",
-    "media_authorized": "user-confirmed-display"
+    "media_authorized": "user-confirmed-display",
+    "image_set_verified": true,
+    "image_set_kind": "same-author-template",
+    "images": [
+      {
+        "url": "assets/sets/F31-0.jpg",
+        "thumbnail_url": "assets/sets/F31-0-thumb.webp",
+        "width": 2336,
+        "height": 3504,
+        "alt": "G · 超越形式 · 同模板变体 1",
+        "source_url": "https://x.com/ChillaiKalan__/status/2092277085914206655",
+        "original_image_url": "https://pbs.twimg.com/media/HQlC5EOaQAAQCOp.jpg?name=orig"
+      },
+      {
+        "url": "assets/sets/F31-1.jpg",
+        "thumbnail_url": "assets/sets/F31-1-thumb.webp",
+        "width": 2336,
+        "height": 3504,
+        "alt": "G · 超越形式 · 同模板变体 2",
+        "source_url": "https://x.com/ChillaiKalan__/status/2092277085914206655",
+        "original_image_url": "https://pbs.twimg.com/media/HQlC5EYa4AAKoBG.jpg?name=orig"
+      }
+    ],
+    "image_set_evidence": {
+      "source_url": "https://x.com/ChillaiKalan__/status/2092277085914206655",
+      "checked_at": "2026-11-14",
+      "method": "Original-post metadata and visual inspection of complete media",
+      "scope": "Same public variable template; not asserted identical literal prompt per output"
+    },
+    "prompt_note": "作者在同一原帖公开的成组作品与提示词模板；各图可能调整模板变量，并非确认使用完全相同的逐字输入。"
   },
   {
     "id": "2086559615878082837",
@@ -2444,7 +2567,54 @@
     "checked_at": "2026-11-14",
     "type": "image",
     "category": "旅行与城市",
-    "media_authorized": "user-confirmed-display"
+    "media_authorized": "user-confirmed-display",
+    "image_set_verified": true,
+    "image_set_kind": "same-author-template",
+    "images": [
+      {
+        "url": "assets/sets/F47-0.jpg",
+        "thumbnail_url": "assets/sets/F47-0-thumb.webp",
+        "width": 1086,
+        "height": 1448,
+        "alt": "伊斯坦布尔旅行海报 · 同模板变体 1",
+        "source_url": "https://x.com/MahnoorAi12/status/2091349007922778211",
+        "original_image_url": "https://pbs.twimg.com/media/HQX205cbMAA6F6S.jpg?name=orig"
+      },
+      {
+        "url": "assets/sets/F47-1.jpg",
+        "thumbnail_url": "assets/sets/F47-1-thumb.webp",
+        "width": 1086,
+        "height": 1448,
+        "alt": "伊斯坦布尔旅行海报 · 同模板变体 2",
+        "source_url": "https://x.com/MahnoorAi12/status/2091349007922778211",
+        "original_image_url": "https://pbs.twimg.com/media/HQX205naYAAzdqS.jpg?name=orig"
+      },
+      {
+        "url": "assets/sets/F47-2.jpg",
+        "thumbnail_url": "assets/sets/F47-2-thumb.webp",
+        "width": 1086,
+        "height": 1448,
+        "alt": "伊斯坦布尔旅行海报 · 同模板变体 3",
+        "source_url": "https://x.com/MahnoorAi12/status/2091349007922778211",
+        "original_image_url": "https://pbs.twimg.com/media/HQX205caYAAKzCE.jpg?name=orig"
+      },
+      {
+        "url": "assets/sets/F47-3.jpg",
+        "thumbnail_url": "assets/sets/F47-3-thumb.webp",
+        "width": 1086,
+        "height": 1448,
+        "alt": "伊斯坦布尔旅行海报 · 同模板变体 4",
+        "source_url": "https://x.com/MahnoorAi12/status/2091349007922778211",
+        "original_image_url": "https://pbs.twimg.com/media/HQX205zaYAAjYW2.jpg?name=orig"
+      }
+    ],
+    "image_set_evidence": {
+      "source_url": "https://x.com/MahnoorAi12/status/2091349007922778211",
+      "checked_at": "2026-11-14",
+      "method": "Original-post metadata and visual inspection of complete media",
+      "scope": "Same public variable template; not asserted identical literal prompt per output"
+    },
+    "prompt_note": "作者在同一原帖公开的成组作品与提示词模板；各图可能调整模板变量，并非确认使用完全相同的逐字输入。"
   },
   {
     "id": "2085663511225516095",
@@ -2479,6 +2649,53 @@
     "checked_at": "2026-11-14",
     "type": "image",
     "category": "品牌与广告",
-    "media_authorized": "user-confirmed-display"
+    "media_authorized": "user-confirmed-display",
+    "image_set_verified": true,
+    "image_set_kind": "same-author-template",
+    "images": [
+      {
+        "url": "assets/sets/F65-0.jpg",
+        "thumbnail_url": "assets/sets/F65-0-thumb.webp",
+        "width": 541,
+        "height": 725,
+        "alt": "海岸护肤品静物 · 同模板变体 1",
+        "source_url": "https://x.com/wiliam_web3/status/2085663511225516095",
+        "original_image_url": "https://pbs.twimg.com/media/HPHD50KXkAAJfKy.jpg?name=orig"
+      },
+      {
+        "url": "assets/sets/F65-1.jpg",
+        "thumbnail_url": "assets/sets/F65-1-thumb.webp",
+        "width": 724,
+        "height": 724,
+        "alt": "海岸护肤品静物 · 同模板变体 2",
+        "source_url": "https://x.com/wiliam_web3/status/2085663511225516095",
+        "original_image_url": "https://pbs.twimg.com/media/HPHD50JXsAA_HIk.jpg?name=orig"
+      },
+      {
+        "url": "assets/sets/F65-2.jpg",
+        "thumbnail_url": "assets/sets/F65-2-thumb.webp",
+        "width": 724,
+        "height": 724,
+        "alt": "海岸护肤品静物 · 同模板变体 3",
+        "source_url": "https://x.com/wiliam_web3/status/2085663511225516095",
+        "original_image_url": "https://pbs.twimg.com/media/HPHD50WXYAAtPDo.jpg?name=orig"
+      },
+      {
+        "url": "assets/sets/F65-3.jpg",
+        "thumbnail_url": "assets/sets/F65-3-thumb.webp",
+        "width": 724,
+        "height": 724,
+        "alt": "海岸护肤品静物 · 同模板变体 4",
+        "source_url": "https://x.com/wiliam_web3/status/2085663511225516095",
+        "original_image_url": "https://pbs.twimg.com/media/HPHD50KWwAA7RcY.jpg?name=orig"
+      }
+    ],
+    "image_set_evidence": {
+      "source_url": "https://x.com/wiliam_web3/status/2085663511225516095",
+      "checked_at": "2026-11-14",
+      "method": "Original-post metadata and visual inspection of complete media",
+      "scope": "Same public variable template; not asserted identical literal prompt per output"
+    },
+    "prompt_note": "作者在同一原帖公开的成组作品与提示词模板；各图可能调整模板变量，并非确认使用完全相同的逐字输入。"
   }
 ]

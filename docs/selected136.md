@@ -1,0 +1,2 @@
+# Tenth batch
+32 source-matched static works, 49 output images from three independent source streams. Published original posts matched to prompts and real author avatars, with uncertain model versions, reference-input requirements, fictional signatures and illustration-only knowledge/engineering claims preserved. No repository recreations substituted for author work. Six reviewed works lead the home selection while preserving other prior ordering. Original media SHA verified after deterministic chunk reconstruction.

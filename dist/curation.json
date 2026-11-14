@@ -1,6 +1,6 @@
 {
   "date": "2026-11-14",
-  "method": "Fifteen selected works with original author attribution. First eight display confirmation recorded separately; next seven added following owner direction, without claiming verified open licensing. Prompts source-matched, not independently reproduced.",
+  "method": "Twenty-two selected works with source-matched images and prompts, real author attribution and source links. Owner-directed display is not asserted open licensing; ambiguous model versions remain explicit.",
   "featured_ids": [
     "2120192333148987761",
     "2119302158936146170",
@@ -16,7 +16,14 @@
     "2055487295734620522",
     "2053075349424992532",
     "2053084576520573269",
-    "2052766810500649197"
+    "2052766810500649197",
+    "2051399740986740986",
+    "2049044698900361241",
+    "2049044716642316758",
+    "2052237839119835280",
+    "2115715709363978448",
+    "2112211420695720134",
+    "2115415848861024720"
   ],
   "candidate_ids": [
     "ailingqu-perfume-water-spin",

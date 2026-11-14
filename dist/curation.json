@@ -1,15 +1,15 @@
 {
-  "date": "2026-11-13",
-  "method": "Eight selected cases from six creators. X original posts and imagery reviewed; X media displayed only through official embeds. Static works reviewed at full size; animation selection based on sampled frames, not complete playback. No industry-best claim.",
+  "date": "2026-11-14",
+  "method": "Eight owner-selected works from eight original creators; display permission confirmed by owner. Six matched public prompts; two prompts intentionally omitted pending exact-image verification.",
   "featured_ids": [
-    "2118193088128745875",
-    "2118308538564989025",
-    "2120469968060043639",
-    "2119841736679686222",
-    "shuryne-riso-concert-poster",
-    "ailingqu-house-cutaway",
-    "shuryne-gouache-rainy-tram-stop",
-    "ailingqu-ink-wash-horse"
+    "2120192333148987761",
+    "2119302158936146170",
+    "2100563846595580362",
+    "2100875159175651540",
+    "2092277085914206655",
+    "2086559615878082837",
+    "2091349007922778211",
+    "2085663511225516095"
   ],
   "candidate_ids": [
     "ailingqu-perfume-water-spin",
@@ -73,7 +73,15 @@
     "ailingqu-signature-ink-write",
     "ailingqu-risograph-blob-drift",
     "ailingqu-calendar-page-flip",
-    "ailingqu-pixel-potion-shop"
+    "ailingqu-pixel-potion-shop",
+    "2118193088128745875",
+    "2118308538564989025",
+    "2120469968060043639",
+    "2119841736679686222",
+    "shuryne-riso-concert-poster",
+    "ailingqu-house-cutaway",
+    "shuryne-gouache-rainy-tram-stop",
+    "ailingqu-ink-wash-horse"
   ],
   "pending_media_review_ids": [
     "2118135343354720648",
@@ -90,6 +98,6 @@
     "2120189335194706023",
     "2120470049672826952"
   ],
-  "preservation": "All source records, prompts and media remain unchanged. Nonfeatured work is excluded from discovery but previous direct links remain readable.",
+  "preservation": "Previous records, media and direct links retained. Latest discovery selection contains the eight owner-approved works.",
   "static_review": "Five Shuryne originals reviewed at full resolution with matching original prompts and explicit MIT media license."
 }

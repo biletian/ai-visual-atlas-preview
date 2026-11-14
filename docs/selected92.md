@@ -1,0 +1,2 @@
+# Eighth batch
+41 additional static works, selected for varied composition, design systems, diagrams, poster, editorial, miniature and illustration approaches. Three collection streams independently checked original posts and media. Four animated works remain staged separately, not counted. Prompt excerpts and references clearly distinguished. Original attribution and source credits preserved. No open media license asserted.

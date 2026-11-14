@@ -15,6 +15,7 @@ def download(item):
  elif parsed.hostname=='wsrv.nl':
   original=urllib.parse.parse_qs(parsed.query).get('url',[''])[0]
   if urllib.parse.urlparse(original).hostname=='pbs.twimg.com':urls.extend([original+('&' if '?' in original else '?')+'format=jpg',original])
+ urls.insert(0,'https://biletian.github.io/ai-visual-atlas-preview/'+item['path'].removeprefix('dist/'))
  errors=[]
  for url in urls:
   for attempt in range(2):

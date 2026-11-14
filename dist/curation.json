@@ -1,12 +1,11 @@
 {
-  "date": "2026-11-13",
-  "method": "Eight selected cases from six creators. X original posts and imagery reviewed; X media displayed only through official embeds. Static works reviewed at full size; animation selection based on sampled frames, not complete playback. No industry-best claim.",
+  "date": "2026-11-14",
+  "method": "Seven selected image-first works from five creators. Visually reviewed originals with explicit image and prompt permissions. Source archive preserved; X candidates excluded pending independent display permission.",
   "featured_ids": [
-    "2118193088128745875",
-    "2118308538564989025",
-    "2120469968060043639",
-    "2119841736679686222",
+    "taste-journey-shimmer-lounge",
+    "zenlee-ukiyoe-astronaut",
     "shuryne-riso-concert-poster",
+    "vcl-house-cutaway",
     "ailingqu-house-cutaway",
     "shuryne-gouache-rainy-tram-stop",
     "ailingqu-ink-wash-horse"

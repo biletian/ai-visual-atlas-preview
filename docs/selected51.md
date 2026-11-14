@@ -1,3 +1,3 @@
-# Seventh batch
-Four source-matched outputs and original prompts from YouMind discovery, canonical X author attribution and actual avatars. D13 requires input photo and version remains uncertain. D30 fictional film poster laurels are not factual awards. D40 only Baby Ruth matches prompt. Original evidence package: atlas-youmind-round4/ready-next4.json. No blanket licensing assertion.
-Also fix safe local avatar rendering for selected and candidates directories; normalize synonymous categories.
+# Seventh curation batch, second set
+
+Added four works with nine images: two nine-lighting portrait grids, four punk character print illustrations, one intact two-panel newspaper food composite, and two Korean food posters. All are attributed to the original authors and their public prompt templates. Lighting grids are creative outputs, not verified photography instruction. Korean text is not independently proofread. Reference-input requirements and editable template variables remain explicit.

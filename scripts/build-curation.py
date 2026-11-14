@@ -1,4 +1,4 @@
-import json,hashlib,urllib.request,urllib.parse,time
+import base64,json,hashlib,urllib.request,urllib.parse,time
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor
 from PIL import Image
@@ -8,6 +8,11 @@ def download(item):
  assert urllib.parse.urlparse(item['url']).scheme=='https' and urllib.parse.urlparse(item['url']).hostname in {'wsrv.nl','pbs.twimg.com','video.twimg.com'}
  p=root/item['path'];p.parent.mkdir(parents=True,exist_ok=True)
  if p.exists() and hashlib.sha256(p.read_bytes()).hexdigest()==item['sha256']:return
+ if item.get('chunks'):
+  assert all(c.startswith('scripts/media-chunks/') and '..' not in Path(c).parts for c in item['chunks'])
+  data=base64.b64decode(''.join((root/c).read_text() for c in item['chunks']),validate=True)
+  assert hashlib.sha256(data).hexdigest()==item['sha256'], 'Stored media hash mismatch'
+  p.write_bytes(data);return
  urls=[item['url']]
  parsed=urllib.parse.urlparse(item['url'])
  if parsed.hostname=='pbs.twimg.com':
@@ -39,5 +44,5 @@ for batch in sorted((root/'scripts').glob('content-batch*.json')):
   for m in media:
    if m.get('thumbnail_url'):
     image=Image.open(root/'dist'/m['url']);image.thumbnail((640,900));image.convert('RGB').save(root/'dist'/m['thumbnail_url'],'WEBP',quality=84)
-for c in cases:c['category']={'广告与品牌':'品牌与广告','信息图与知识可视化':'信息图'}.get(c.get('category'),c.get('category'))
+for c in cases:c['category']={'广告与品牌':'品牌与广告','信息图与知识可视化':'信息图','海报与字体':'海报与排版','插画与艺术':'插画与角色','绘画与插画':'插画与角色','产品摄影':'产品与电商','品牌与排版':'品牌与平面设计'}.get(c.get('category'),c.get('category'))
 (root/'dist/cases.json').write_text(json.dumps(cases,ensure_ascii=False,indent=2))

@@ -1,6 +1,6 @@
 {
   "date": "2026-11-14",
-  "method": "43 source-matched selected works, original prompts and real author attribution. Owner-directed display is not asserted open licensing. Model uncertainty and reference input requirements remain explicit.",
+  "method": "51 source-matched selected works. Original source attribution, model uncertainty and reference requirements preserved. Owner-directed display is not an open-license claim.",
   "featured_ids": [
     "2120192333148987761",
     "2119302158936146170",
@@ -44,7 +44,15 @@
     "2100829530164277695",
     "2045764695827562686",
     "2045013913901867334",
-    "2097441918187675744"
+    "2097441918187675744",
+    "2083060815884701877",
+    "2083031698258997337",
+    "2073207584186941903",
+    "2082737202635899193",
+    "2082439483140505762",
+    "2082744921602306395",
+    "2081944070117900375",
+    "2081766364558340548"
   ],
   "candidate_ids": [
     "ailingqu-perfume-water-spin",
@@ -133,6 +141,6 @@
     "2120189335194706023",
     "2120470049672826952"
   ],
-  "preservation": "Previous records, media and direct links retained. Latest discovery selection contains the eight owner-approved works.",
-  "static_review": "Five Shuryne originals reviewed at full resolution with matching original prompts and explicit MIT media license."
+  "preservation": "Previous records, media and direct links retained. Historical batch reviews remain in docs; featured_ids defines current selection.",
+  "static_review": "Selected outputs visually reviewed against their source prompts. Per-work attribution, reference requirements and model uncertainty retained; no blanket media license assertion."
 }

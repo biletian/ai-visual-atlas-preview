@@ -1,0 +1,10 @@
+const fs=require('fs'),vm=require('vm'),assert=require('assert');
+const s=fs.readFileSync('dist/app.js','utf8');const unit=s.slice(s.indexOf('function workImages'),s.indexOf('function imageRail'));
+const ctx={still:c=>c.type==='image',mediaURL:u=>/^assets\//.test(u||'')?u:'',Set};vm.createContext(ctx);vm.runInContext(unit,ctx);
+const base={type:'image',image_url:'assets/cover.jpg',width:800,height:1000,title:'Fixture'};
+assert.equal(ctx.workImages(base).length,1);
+assert.equal(ctx.workImages({...base,images:[{url:'assets/a.jpg'},{url:'assets/b.jpg'}]}).length,1,'unverified grouping must be ignored');
+assert.equal(ctx.workImages({...base,image_set_verified:true,images:[{url:'assets/a.jpg'},{url:'assets/b.jpg'},{url:'assets/a.jpg'},{url:'javascript:bad'}]}).length,2,'deduplicate and reject unsafe URLs');
+assert.equal(ctx.workImages({...base,type:'video',image_set_verified:true,images:[{url:'assets/a.jpg'},{url:'assets/b.jpg'}]}).length,1,'video must not become image gallery');
+assert.equal(ctx.workImages({...base,image_set_verified:true,images:[]}).length,1);
+console.log('PASS: single image, unverified groups, valid group, deduplication, unsafe URL, video fallback, empty fallback');

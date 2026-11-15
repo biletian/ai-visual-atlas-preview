@@ -1,0 +1,526 @@
+{
+  "added": [
+    {
+      "id": "2009887009591226787",
+      "title": "悬浮食材电影感广告",
+      "author": "Shahid Wani",
+      "author_handle": "meng_dagg695",
+      "author_url": "https://x.com/meng_dagg695",
+      "author_avatar_url": "assets/authors/r13-meng_dagg695.jpg",
+      "model": "GPT Image 1.5",
+      "model_family": "GPT Image 1.5",
+      "type": "image",
+      "category": "品牌与广告",
+      "image_url": "assets/selected103/2009887009591226787-1.jpg",
+      "thumbnail_url": "assets/selected103/2009887009591226787-1-thumb.webp",
+      "images": [
+        {
+          "url": "assets/selected103/2009887009591226787-1.jpg",
+          "thumbnail_url": "assets/selected103/2009887009591226787-1-thumb.webp",
+          "alt": "悬浮食材电影感广告 1"
+        },
+        {
+          "url": "assets/selected103/2009887009591226787-2.jpg",
+          "thumbnail_url": "assets/selected103/2009887009591226787-2-thumb.webp",
+          "alt": "悬浮食材电影感广告 2"
+        },
+        {
+          "url": "assets/selected103/2009887009591226787-3.jpg",
+          "thumbnail_url": "assets/selected103/2009887009591226787-3-thumb.webp",
+          "alt": "悬浮食材电影感广告 3"
+        }
+      ],
+      "image_set_verified": true,
+      "width": 1024,
+      "height": 1536,
+      "prompt": "{\n  \"global_settings\": {\n    \"resolution\": \"8K ultra high definition\",\n    \"aspect_ratio\": \"2:3 vertical\",\n    \"image_type\": \"AI-edited cinematic food photography\",\n    \"detail_level\": \"extreme micro-detail, sharp focus, clean edges\",\n    \"style_constraint\": \"enhanced realism, minimal alteration from original composition\"\n  },\n\n  \"module_1_image_1_style\": {\n    \"subject\": \"single hard-shell taco\",\n    \"composition\": {\n      \"orientation\": \"diagonal, floating in mid-air\",\n      \"foreground_focus\": \"taco shell and filling\",\n      \"motion\": \"ingredients suspended, sauce splash frozen mid-air\"\n    },\n    \"visible_elements\": {\n      \"shell\": \"golden yellow hard taco shell with crisp texture\",\n      \"filling\": [\n        \"shredded cooked meat with visible fibers\",\n        \"green sauce layered on top\",\n        \"small red diced pieces\",\n        \"white crumbled cheese\"\n      ],\n      \"floating_garnish\": [\n        \"avocado slices\",\n        \"purple onion rings\",\n        \"green herb leaves\",\n        \"small reddish-brown meat cubes\",\n        \"tiny white crumbs\"\n      ],\n      \"liquid\": \"orange-red sauce splash erupting upward behind taco\"\n    },\n    \"lighting\": {\n      \"type\": \"high-contrast studio lighting\",\n      \"highlights\": \"glossy reflections on sauce and meat\",\n      \"background_lights\": \"soft circular bokeh in warm and cool tones\"\n    },\n    \"background\": {\n      \"color\": \"dark with neon-like blurred lights\",\n      \"depth\": \"strong depth of field, background fully defocused\"\n    }\n  },\n\n  \"module_2_image_2_style\": {\n    \"subject\": \"three grilled meat skewers\",\n    \"composition\": {\n      \"orientation\": \"vertical skewers, slightly angled\",\n      \"foreground_focus\": \"center skewer\",\n      \"motion\": \"ingredients and sauce suspended\"\n    },\n    \"visible_elements\": {\n      \"skewers\": \"wooden sticks with pointed ends\",\n      \"meat\": \"chunked grilled meat with char marks and uneven texture\",\n      \"garnish\": \"small green herb leaves attached to meat\",\n      \"floating_items\": [\n        \"round cucumber slices\",\n        \"thin onion rings\"\n      ],\n      \"sauce\": {\n        \"container\": \"small white ramekin\",\n        \"action\": \"thick orange sauce splashing upward from bowl\"\n      },\n      \"particles\": \"tiny spice or crumb particles scattered in air\"\n    },\n    \"lighting\": {\n      \"type\": \"dramatic directional lighting\",\n      \"highlights\": \"strong sheen on meat surface\",\n      \"contrast\": \"deep shadows\"\n    },\n    \"background\": {\n      \"color\": \"solid deep red\",\n      \"texture\": \"soft grain with floating particles\"\n    }\n  },\n\n  \"module_3_image_3_style\": {\n    \"subject\": \"four sushi rolls\",\n    \"composition\": {\n      \"orientation\": \"floating cluster\",\n      \"spacing\": \"uneven depth, some closer, some blurred behind\",\n      \"motion\": \"sesame seeds and herbs suspended\"\n    },\n    \"visible_elements\": {\n      \"sushi_structure\": {\n        \"outer_layer\": \"white rice\",\n        \"inner_layer\": \"dark seaweed\",\n        \"fillings\": [\n          \"orange fish slice\",\n          \"green avocado\"\n        ]\n      },\n      \"toppings\": [\n        \"toasted sesame seeds\",\n        \"brown crunchy coating\",\n        \"finely chopped green herbs\"\n      ],\n      \"particles\": [\n        \"sesame seeds\",\n        \"small green herb pieces\"\n      ]\n    },\n    \"lighting\": {\n      \"type\": \"soft but crisp studio lighting\",\n      \"focus\": \"front sushi pieces sharp, rear slightly blurred\"\n    },\n    \"background\": {\n      \"color\": \"dark blue-grey\",\n      \"depth\": \"clean bokeh-free backdrop with floating particles\"\n    }\n  },\n  \"post_processing\": {\n    \"clarity\": \"ultra-sharp\",\n    \"noise\": \"minimal\",\n    \"color_balance\": \"rich but natural\",\n    \"ai_signature\": \"clean AI-edited look without exaggeration\"\n  }\n}",
+      "prompt_status": "原作者公开提示词，保留原文；未独立复现。",
+      "source_url": "https://x.com/meng_dagg695/status/2009887009591226787",
+      "prompt_source_url": "https://x.com/meng_dagg695/status/2009887009591226787",
+      "source_kind": "x",
+      "description": "悬浮寿司、肉串与塔可的食材广告视觉，只保留对应原JSON三模块的输出；未匹配提示词的原帖首图不收。",
+      "attribution": "Shahid Wani · @meng_dagg695",
+      "engagement": {
+        "likes": 460,
+        "bookmarks": 404,
+        "checked_at": "2026-11-15T15:02:32.592685+00:00"
+      },
+      "license": "作品归原作者所有，保留作者及原帖来源；其他用途请联系作者。",
+      "verification_status": "source_matched_owner_directed_display",
+      "publish_ready": true,
+      "checked_at": "2026-11-15",
+      "media_authorized": "owner-directed-display",
+      "display_permission": {
+        "status": "owner_confirmed_reuse",
+        "basis": "Owner confirmed attributed collection and uploads; not a blanket open-license assertion."
+      }
+    },
+    {
+      "id": "2024563588602429812",
+      "title": "人物手持商品破框广告",
+      "author": "ΛRMIN",
+      "author_handle": "Arminn_Ai",
+      "author_url": "https://x.com/Arminn_Ai",
+      "author_avatar_url": "assets/authors/r13-Arminn_Ai.jpg",
+      "model": "Nano Banana Pro",
+      "model_family": "Nano Banana Pro",
+      "type": "image",
+      "category": "品牌与广告",
+      "image_url": "assets/selected103/2024563588602429812-0.jpg",
+      "thumbnail_url": "assets/selected103/2024563588602429812-0-thumb.webp",
+      "images": [
+        {
+          "url": "assets/selected103/2024563588602429812-0.jpg",
+          "thumbnail_url": "assets/selected103/2024563588602429812-0-thumb.webp",
+          "alt": "人物手持商品破框广告 1"
+        }
+      ],
+      "image_set_verified": true,
+      "width": 1800,
+      "height": 2400,
+      "prompt": "A professional high-end graphic design advertisement composition on a pure solid white canvas. Centered is a perfectly symmetrical, large solid rounded square (not a hollow frame). The entire interior of this square is filled with a smooth, vibrant color gradient fading from [Top-Left Color/Hex] to [Bottom-Right Color/Hex].\n\nA [Description of Character] is positioned such that the bottom of their torso is perfectly flush and aligned with the very bottom edge of the square, leaving no thick colored border visible beneath them. Crucially, the person and their clothing maintain natural, realistic colors and textures, illuminated by professional studio lighting that is independent of the background gradient (preventing any color cast on their skin or clothes).\n\nThey are firmly and realistically gripping [Product Description]. Crucially, the top of their head and hair break the top boundary of the square, partially overlapping the white background. Their hands and the [Product Name] also break the side boundaries for a powerful 3D breakout effect, extending onto the white canvas.\n\nTypography Layout: At the top, in the white space distinctly above the square with a clear gap, is the [Font Style] brand text '[Brand Name]' in [Top Text Color]. In the bottom-right corner, layered directly on top of the gradient inside the square, is a block of small, thin, clean [Bottom Text Color] descriptive text: '[Slogan/Tagline]'.\n\nThe lighting is [Lighting Type: e.g., Sharp/Soft], crisp, and commercial, emphasizing the textures of both the subject and the product.\"",
+      "prompt_status": "原作者公开提示词，保留原文；未独立复现。",
+      "source_url": "https://x.com/Arminn_Ai/status/2024563588602429812",
+      "prompt_source_url": "https://x.com/Arminn_Ai/status/2024563588602429812",
+      "source_kind": "x",
+      "description": "人物手持商品突破版面边框的品牌概念；一张四方案总览，并非真实品牌代言。",
+      "attribution": "ΛRMIN · @Arminn_Ai",
+      "engagement": {
+        "likes": 850,
+        "bookmarks": 771,
+        "checked_at": "2026-11-15T15:02:32.592724+00:00"
+      },
+      "license": "作品归原作者所有，保留作者及原帖来源；其他用途请联系作者。",
+      "verification_status": "source_matched_owner_directed_display",
+      "publish_ready": true,
+      "checked_at": "2026-11-15",
+      "media_authorized": "owner-directed-display",
+      "display_permission": {
+        "status": "owner_confirmed_reuse",
+        "basis": "Owner confirmed attributed collection and uploads; not a blanket open-license assertion."
+      }
+    },
+    {
+      "id": "2022178815955636413",
+      "title": "科技演进微缩时间轴",
+      "author": "Aleena Amir",
+      "author_handle": "aleenaamiir",
+      "author_url": "https://x.com/aleenaamiir",
+      "author_avatar_url": "assets/authors/r13-aleenaamiir.jpg",
+      "model": "Nano Banana Pro",
+      "model_family": "Nano Banana Pro",
+      "type": "image",
+      "category": "信息图",
+      "image_url": "assets/selected103/2022178815955636413-0.jpg",
+      "thumbnail_url": "assets/selected103/2022178815955636413-0-thumb.webp",
+      "images": [
+        {
+          "url": "assets/selected103/2022178815955636413-0.jpg",
+          "thumbnail_url": "assets/selected103/2022178815955636413-0-thumb.webp",
+          "alt": "科技演进微缩时间轴 1"
+        },
+        {
+          "url": "assets/selected103/2022178815955636413-1.jpg",
+          "thumbnail_url": "assets/selected103/2022178815955636413-1-thumb.webp",
+          "alt": "科技演进微缩时间轴 2"
+        },
+        {
+          "url": "assets/selected103/2022178815955636413-2.jpg",
+          "thumbnail_url": "assets/selected103/2022178815955636413-2-thumb.webp",
+          "alt": "科技演进微缩时间轴 3"
+        },
+        {
+          "url": "assets/selected103/2022178815955636413-3.jpg",
+          "thumbnail_url": "assets/selected103/2022178815955636413-3-thumb.webp",
+          "alt": "科技演进微缩时间轴 4"
+        }
+      ],
+      "image_set_verified": true,
+      "width": 1408,
+      "height": 768,
+      "prompt": "“Create a clean isometric miniature 3D diorama visualizing the evolution of [TOPIC] from [START ERA] to [MODERN ERA]. Use a 45° top-down perspective. Materials are soft and refined with realistic PBR shading.\n\nLighting is neutral and evenly balanced. Design a horizontally stepped base divided into clear time periods. Each section includes era-specific objects, tools, environments, or technology.\n\nAdd tiny stylized figures interacting with each stage with heavy facial details). Use subtle arrows or dividers to show chronological flow.\n\nBackground remains solid [BACKGROUND COLOR]. Top center text displays [TOPIC] in bold. Below it show “From [START ERA] to [MODERN ERA].” Add a minimal timeline icon underneath. Text adapts automatically for contras.”",
+      "prompt_status": "原作者公开提示词，保留原文；未独立复现。",
+      "source_url": "https://x.com/aleenaamiir/status/2022178815955636413",
+      "prompt_source_url": "https://x.com/aleenaamiir/status/2022178815955636413",
+      "source_kind": "x",
+      "description": "科技演进的微缩时间轴模板四变体；时间、历史和技术知识未专业审校。",
+      "attribution": "Aleena Amir · @aleenaamiir",
+      "engagement": {
+        "likes": 597,
+        "bookmarks": 515,
+        "checked_at": "2026-11-15T15:02:32.592736+00:00"
+      },
+      "license": "作品归原作者所有，保留作者及原帖来源；其他用途请联系作者。",
+      "verification_status": "source_matched_owner_directed_display",
+      "publish_ready": true,
+      "checked_at": "2026-11-15",
+      "media_authorized": "owner-directed-display",
+      "display_permission": {
+        "status": "owner_confirmed_reuse",
+        "basis": "Owner confirmed attributed collection and uploads; not a blanket open-license assertion."
+      }
+    },
+    {
+      "id": "2010009737816162736",
+      "title": "建筑蓝图生长为施工模型",
+      "author": "Alexandra Aisling",
+      "author_handle": "AllaAisling",
+      "author_url": "https://x.com/AllaAisling",
+      "author_avatar_url": "assets/authors/r13-AllaAisling.jpg",
+      "model": "Nano Banana Pro",
+      "model_family": "Nano Banana Pro",
+      "type": "image",
+      "category": "微缩与超现实",
+      "image_url": "assets/selected103/2010009737816162736-0.jpg",
+      "thumbnail_url": "assets/selected103/2010009737816162736-0-thumb.webp",
+      "images": [
+        {
+          "url": "assets/selected103/2010009737816162736-0.jpg",
+          "thumbnail_url": "assets/selected103/2010009737816162736-0-thumb.webp",
+          "alt": "建筑蓝图生长为施工模型 1"
+        },
+        {
+          "url": "assets/selected103/2010009737816162736-1.jpg",
+          "thumbnail_url": "assets/selected103/2010009737816162736-1-thumb.webp",
+          "alt": "建筑蓝图生长为施工模型 2"
+        },
+        {
+          "url": "assets/selected103/2010009737816162736-2.jpg",
+          "thumbnail_url": "assets/selected103/2010009737816162736-2-thumb.webp",
+          "alt": "建筑蓝图生长为施工模型 3"
+        },
+        {
+          "url": "assets/selected103/2010009737816162736-3.jpg",
+          "thumbnail_url": "assets/selected103/2010009737816162736-3-thumb.webp",
+          "alt": "建筑蓝图生长为施工模型 4"
+        }
+      ],
+      "image_set_verified": true,
+      "width": 1200,
+      "height": 896,
+      "prompt": "Epic 3D scene: a massive architectural blueprint of [BUILDING/STRUCTURE] pinned to a drafting table, its ink lines rising off the paper into fully realized construction. Blue lines become steel beams mid-weld, floor plans inflate into furnished rooms, elevation drawings push outward into facades with working windows. Construction phases coexist simultaneously: foundation being poured in one corner while the penthouse is already inhabited in another. Tiny workers, cranes, and scaffolding swarm the rising structure. The flat drawing and the living building merge at impossible angles. Technical annotations float as dimensional signage. Architect's coffee cup sits at the edge, casting shadow across unbuilt sections. Extreme scale contrast, construction dust catching afternoon light, 8K, photorealistic.",
+      "prompt_status": "原作者公开提示词，保留原文；未独立复现。",
+      "source_url": "https://x.com/AllaAisling/status/2010009737816162736",
+      "prompt_source_url": "https://x.com/AllaAisling/status/2010009737816162736",
+      "source_kind": "x",
+      "description": "建筑蓝图生长为施工模型的超现实场景；不是实际工程图或施工指导。",
+      "attribution": "Alexandra Aisling · @AllaAisling",
+      "engagement": {
+        "likes": 539,
+        "bookmarks": 476,
+        "checked_at": "2026-11-15T15:02:32.592743+00:00"
+      },
+      "license": "作品归原作者所有，保留作者及原帖来源；其他用途请联系作者。",
+      "verification_status": "source_matched_owner_directed_display",
+      "publish_ready": true,
+      "checked_at": "2026-11-15",
+      "media_authorized": "owner-directed-display",
+      "display_permission": {
+        "status": "owner_confirmed_reuse",
+        "basis": "Owner confirmed attributed collection and uploads; not a blanket open-license assertion."
+      }
+    },
+    {
+      "id": "2018606861403197833",
+      "title": "品牌丝带环绕悬浮瓶身",
+      "author": "Harboris",
+      "author_handle": "harboriis",
+      "author_url": "https://x.com/harboriis",
+      "author_avatar_url": "assets/authors/r13-harboriis.jpg",
+      "model": "未确认",
+      "model_family": "未确认",
+      "type": "image",
+      "category": "品牌与广告",
+      "image_url": "assets/selected103/2018606861403197833-0.jpg",
+      "thumbnail_url": "assets/selected103/2018606861403197833-0-thumb.webp",
+      "images": [
+        {
+          "url": "assets/selected103/2018606861403197833-0.jpg",
+          "thumbnail_url": "assets/selected103/2018606861403197833-0-thumb.webp",
+          "alt": "品牌丝带环绕悬浮瓶身 1"
+        }
+      ],
+      "image_set_verified": true,
+      "width": 1792,
+      "height": 2400,
+      "prompt": "A product photo in a premium advertising style. Two tall matte bottles of Salton Shoe Deodorant levitate in the air in a dynamic, balanced composition.\nThe bottles are positioned at an angle to each other, creating a striking diagonal composition. One bottle is slightly forward, the other is slightly behind, creating depth and hierarchy. Both bottles are elegantly wrapped with a wide black and brown satin ribbon featuring the repeating \"Salton\" branding. The lettering is executed in a neat, contrasting font, legible without distortion, and is repeated evenly along the entire length of the ribbon. The ribbon flows smoothly between the bottles, uniting them into a single composition, without obscuring key messages on the packaging or clashing with the main branding on the bottles. Shot from a slightly lower angle, the bottles are slightly tilted, enhancing a sense of confidence, strength, and premium quality. The background is a solid studio color, a deep warm shade (chocolate, dark caramel or soft terracotta), clean and minimalist, without distracting details.",
+      "prompt_status": "原作者公开提示词，保留原文；未独立复现。",
+      "source_url": "https://x.com/harboriis/status/2018606861403197833",
+      "prompt_source_url": "https://x.com/harboriis/status/2018606861403197833",
+      "source_kind": "x",
+      "description": "丝带环绕悬浮瓶身的品牌视觉；原帖同时提Nano Banana Pro与Grok Imagine，未对应本静态图，型号未确认。",
+      "attribution": "Harboris · @harboriis",
+      "engagement": {
+        "likes": 495,
+        "bookmarks": 413,
+        "checked_at": "2026-11-15T15:02:32.592748+00:00"
+      },
+      "license": "作品归原作者所有，保留作者及原帖来源；其他用途请联系作者。",
+      "verification_status": "source_matched_owner_directed_display",
+      "publish_ready": true,
+      "checked_at": "2026-11-15",
+      "media_authorized": "owner-directed-display",
+      "display_permission": {
+        "status": "owner_confirmed_reuse",
+        "basis": "Owner confirmed attributed collection and uploads; not a blanket open-license assertion."
+      }
+    },
+    {
+      "id": "2010275488703381858",
+      "title": "镜面石台与自然护肤静物",
+      "author": "Mo",
+      "author_handle": "Kerroudjm",
+      "author_url": "https://x.com/Kerroudjm",
+      "author_avatar_url": "assets/authors/r13-Kerroudjm.jpg",
+      "model": "Nano Banana Pro",
+      "model_family": "Nano Banana Pro",
+      "type": "image",
+      "category": "产品与电商",
+      "image_url": "assets/selected103/2010275488703381858-0.jpg",
+      "thumbnail_url": "assets/selected103/2010275488703381858-0-thumb.webp",
+      "images": [
+        {
+          "url": "assets/selected103/2010275488703381858-0.jpg",
+          "thumbnail_url": "assets/selected103/2010275488703381858-0-thumb.webp",
+          "alt": "镜面石台与自然护肤静物 1"
+        },
+        {
+          "url": "assets/selected103/2010275488703381858-1.jpg",
+          "thumbnail_url": "assets/selected103/2010275488703381858-1-thumb.webp",
+          "alt": "镜面石台与自然护肤静物 2"
+        },
+        {
+          "url": "assets/selected103/2010275488703381858-2.jpg",
+          "thumbnail_url": "assets/selected103/2010275488703381858-2-thumb.webp",
+          "alt": "镜面石台与自然护肤静物 3"
+        },
+        {
+          "url": "assets/selected103/2010275488703381858-3.jpg",
+          "thumbnail_url": "assets/selected103/2010275488703381858-3-thumb.webp",
+          "alt": "镜面石台与自然护肤静物 4"
+        }
+      ],
+      "image_set_verified": true,
+      "width": 1024,
+      "height": 1024,
+      "prompt": "A high-end editorial studio photograph of a (PRODUCT FORM, e.g. bottle, jar, tube…), made of (MATERIAL, e.g. glass, ceramic, matte plastic…) with a (COLOR) (DETAIL, e.g. cap, texture, label…). The product is placed on a natural, textured (BASE SURFACE, e.g. stone, wood, marble…) slab, itself resting on a round mirror laid on a (SURFACE TONE, e.g. beige, sand, light gray…) surface. Around the mirror and on the slab are scattered droplets of (LIQUID, e.g. serum, oil, gel…) with realistic reflections. A few sprigs of (DECORATIVE NATURAL ELEMENTS, e.g. lavender, eucalyptus, rose petals…) lie gently across the slab and mirror, connecting both surfaces naturally. Strong, warm sunlight filters from the top left, casting soft diagonal leaf shadows to simulate filtered daylight. The aesthetic is (VISUAL STYLE, e.g. minimalist, organic, fresh, premium…), with realistic materials and natural textures highlighted by golden hour tones. Style: 3D realism, luxury product photography, shallow depth of field. Format: 1:1, ultra-detailed.",
+      "prompt_status": "原作者公开提示词，保留原文；未独立复现。",
+      "source_url": "https://x.com/Kerroudjm/status/2010275488703381858",
+      "prompt_source_url": "https://x.com/Kerroudjm/status/2010275488703381858",
+      "source_kind": "x",
+      "description": "镜面石台、自然光和护肤产品的虚构广告视觉，并非品牌官方广告。",
+      "attribution": "Mo · @Kerroudjm",
+      "engagement": {
+        "likes": 508,
+        "bookmarks": 584,
+        "checked_at": "2026-11-15T15:02:32.592753+00:00"
+      },
+      "license": "作品归原作者所有，保留作者及原帖来源；其他用途请联系作者。",
+      "verification_status": "source_matched_owner_directed_display",
+      "publish_ready": true,
+      "checked_at": "2026-11-15",
+      "media_authorized": "owner-directed-display",
+      "display_permission": {
+        "status": "owner_confirmed_reuse",
+        "basis": "Owner confirmed attributed collection and uploads; not a blanket open-license assertion."
+      }
+    },
+    {
+      "id": "2019618076246090053",
+      "title": "纸地图上的立体城市",
+      "author": "Duet | AI",
+      "author_handle": "Sheldon056",
+      "author_url": "https://x.com/Sheldon056",
+      "author_avatar_url": "assets/authors/r13-Sheldon056.jpg",
+      "model": "Nano Banana Pro",
+      "model_family": "Nano Banana Pro",
+      "type": "image",
+      "category": "微缩与超现实",
+      "image_url": "assets/selected103/2019618076246090053-0.jpg",
+      "thumbnail_url": "assets/selected103/2019618076246090053-0-thumb.webp",
+      "images": [
+        {
+          "url": "assets/selected103/2019618076246090053-0.jpg",
+          "thumbnail_url": "assets/selected103/2019618076246090053-0-thumb.webp",
+          "alt": "纸地图上的立体城市 1"
+        },
+        {
+          "url": "assets/selected103/2019618076246090053-1.jpg",
+          "thumbnail_url": "assets/selected103/2019618076246090053-1-thumb.webp",
+          "alt": "纸地图上的立体城市 2"
+        },
+        {
+          "url": "assets/selected103/2019618076246090053-2.jpg",
+          "thumbnail_url": "assets/selected103/2019618076246090053-2-thumb.webp",
+          "alt": "纸地图上的立体城市 3"
+        },
+        {
+          "url": "assets/selected103/2019618076246090053-3.jpg",
+          "thumbnail_url": "assets/selected103/2019618076246090053-3-thumb.webp",
+          "alt": "纸地图上的立体城市 4"
+        }
+      ],
+      "image_set_verified": true,
+      "width": 1024,
+      "height": 1536,
+      "prompt": "A street-style map of {CITY_NAME} placed on a {MAP_SURFACE}, with a photorealistic miniature version of {CITY_NAME} emerging from it {LANDMARK_1},{LANDMARK_2},{LANDMARK_3}, {NATURE_ELEMENT}, {URBAN_LIFE_ELEMENT}, {ICONIC_TRANSPORT},and {EXTRA_DETAIL}.All elements grow from the map like a 3D urban diorama. Studio soft lighting, cinematic depth, 2:3 format",
+      "prompt_status": "原作者公开提示词，保留原文；未独立复现。",
+      "source_url": "https://x.com/Sheldon056/status/2019618076246090053",
+      "prompt_source_url": "https://x.com/Sheldon056/status/2019618076246090053",
+      "source_kind": "x",
+      "description": "纸地图上的立体城市视觉；四个城市模板变体，地理布局未逐项核实。",
+      "attribution": "Duet | AI · @Sheldon056",
+      "engagement": {
+        "likes": 887,
+        "bookmarks": 967,
+        "checked_at": "2026-11-15T15:02:32.592758+00:00"
+      },
+      "license": "作品归原作者所有，保留作者及原帖来源；其他用途请联系作者。",
+      "verification_status": "source_matched_owner_directed_display",
+      "publish_ready": true,
+      "checked_at": "2026-11-15",
+      "media_authorized": "owner-directed-display",
+      "display_permission": {
+        "status": "owner_confirmed_reuse",
+        "basis": "Owner confirmed attributed collection and uploads; not a blanket open-license assertion."
+      }
+    },
+    {
+      "id": "2033887066363502882",
+      "title": "蓝图纸上的微缩施工现场",
+      "author": "两斤",
+      "author_handle": "0x00_Krypt",
+      "author_url": "https://x.com/0x00_Krypt",
+      "author_avatar_url": "assets/authors/r13-0x00_Krypt.jpg",
+      "model": "Nano Banana 2",
+      "model_family": "Nano Banana 2",
+      "type": "image",
+      "category": "微缩与超现实",
+      "image_url": "assets/selected103/2033887066363502882-0.jpg",
+      "thumbnail_url": "assets/selected103/2033887066363502882-0-thumb.webp",
+      "images": [
+        {
+          "url": "assets/selected103/2033887066363502882-0.jpg",
+          "thumbnail_url": "assets/selected103/2033887066363502882-0-thumb.webp",
+          "alt": "蓝图纸上的微缩施工现场 1"
+        }
+      ],
+      "image_set_verified": true,
+      "width": 1610,
+      "height": 2400,
+      "prompt": "An architectural blueprint of {BUILDING_NAME} placed on a {SURFACE}, with a photorealistic miniature under-construction version of {BUILDING_NAME} emerging from it — {STRUCTURAL_ELEMENT_1}, {STRUCTURAL_ELEMENT_2}, {STRUCTURAL_ELEMENT_3}, {CONSTRUCTION_DETAIL}, {WORKER_SCENE}, {MATERIAL_ELEMENT}, and {EXTRA_DETAIL}. All elements grow from the blueprint like a 3D architectural diorama, steel beams rising from the drawn lines, scaffolding threading through the paper. Studio soft lighting, cinematic depth, 2:3",
+      "prompt_status": "原作者公开提示词，保留原文；未独立复现。",
+      "source_url": "https://x.com/0x00_Krypt/status/2033887066363502882",
+      "prompt_source_url": "https://x.com/0x00_Krypt/status/2033887066363502882",
+      "source_kind": "x",
+      "description": "蓝图纸上的微缩建筑施工现场；一张主图与细节拼板，非可执行工程设计。",
+      "attribution": "两斤 · @0x00_Krypt",
+      "engagement": {
+        "likes": 419,
+        "bookmarks": 354,
+        "checked_at": "2026-11-15T15:02:32.592764+00:00"
+      },
+      "license": "作品归原作者所有，保留作者及原帖来源；其他用途请联系作者。",
+      "verification_status": "source_matched_owner_directed_display",
+      "publish_ready": true,
+      "checked_at": "2026-11-15",
+      "media_authorized": "owner-directed-display",
+      "display_permission": {
+        "status": "owner_confirmed_reuse",
+        "basis": "Owner confirmed attributed collection and uploads; not a blanket open-license assertion."
+      }
+    },
+    {
+      "id": "2024707382727889320",
+      "title": "焦糖咖啡悬浮双方案",
+      "author": "Emma",
+      "author_handle": "Emmma___0",
+      "author_url": "https://x.com/Emmma___0",
+      "author_avatar_url": "assets/authors/r13-Emmma___0.jpg",
+      "model": "Nano Banana Pro",
+      "model_family": "Nano Banana Pro",
+      "type": "image",
+      "category": "品牌与广告",
+      "image_url": "assets/selected103/2024707382727889320-0.jpg",
+      "thumbnail_url": "assets/selected103/2024707382727889320-0-thumb.webp",
+      "images": [
+        {
+          "url": "assets/selected103/2024707382727889320-0.jpg",
+          "thumbnail_url": "assets/selected103/2024707382727889320-0-thumb.webp",
+          "alt": "焦糖咖啡悬浮双方案 1"
+        },
+        {
+          "url": "assets/selected103/2024707382727889320-1.jpg",
+          "thumbnail_url": "assets/selected103/2024707382727889320-1-thumb.webp",
+          "alt": "焦糖咖啡悬浮双方案 2"
+        }
+      ],
+      "image_set_verified": true,
+      "width": 1080,
+      "height": 1935,
+      "prompt": "Prompt 1:\n\nUltra-realistic commercial product photography of a caramel frappuccino in a clear plastic cup with dome lid and green straw, topped with whipped cream and caramel drizzle, floating mid-air. Coffee beans exploding around the cup with fine coffee powder dust particles suspended in the air, dynamic caramel splash trails swirling around the drink. Dark smoky background with dramatic spotlight from above, warm golden rim lighting, high contrast, sharp focus, macro details, cinematic depth of field, hyper-detailed texture, premium beverage advertisement, 8K resolution.\n\nPrompt 2:\nCinematic product shot of a whipped cream topped iced caramel coffee in a clear takeaway cup, floating in mid-air without straw. Surrounded by flying coffee beans and caramel streaks forming dynamic motion trails, coffee powder burst effect behind the cup. Moody dark brown background with soft smoke texture and strong overhead spotlight, volumetric lighting, rich warm tones, ultra-detailed, photorealistic, shallow depth of field, high-speed capture look, luxury café advertisement style, 8K ultra HD.",
+      "prompt_status": "原作者公开提示词，保留原文；未独立复现。",
+      "source_url": "https://x.com/Emmma___0/status/2024707382727889320",
+      "prompt_source_url": "https://x.com/Emmma___0/status/2024707382727889320",
+      "source_kind": "x",
+      "description": "焦糖咖啡悬浮的两种广告视觉；保留两段提示词对应两张图，品牌概念不是官方投放。",
+      "attribution": "Emma · @Emmma___0",
+      "engagement": {
+        "likes": 439,
+        "bookmarks": 346,
+        "checked_at": "2026-11-15T15:02:32.592783+00:00"
+      },
+      "license": "作品归原作者所有，保留作者及原帖来源；其他用途请联系作者。",
+      "verification_status": "source_matched_owner_directed_display",
+      "publish_ready": true,
+      "checked_at": "2026-11-15",
+      "media_authorized": "owner-directed-display",
+      "display_permission": {
+        "status": "owner_confirmed_reuse",
+        "basis": "Owner confirmed attributed collection and uploads; not a blanket open-license assertion."
+      }
+    },
+    {
+      "id": "2021349878232907790",
+      "title": "路飞写代码怒扔电脑",
+      "author": "BOOTOSHI 👑",
+      "author_handle": "KingBootoshi",
+      "author_url": "https://x.com/KingBootoshi",
+      "author_avatar_url": "assets/authors/r13-KingBootoshi.jpg",
+      "model": "Seedance 2.0",
+      "model_family": "Seedance 2.0",
+      "type": "video",
+      "category": "短片与镜头",
+      "image_url": "assets/selected103/2021349878232907790.mp4",
+      "thumbnail_url": "assets/selected103/2021349878232907790-poster.jpg",
+      "poster_url": "assets/selected103/2021349878232907790-poster.jpg",
+      "width": 1280,
+      "height": 720,
+      "duration": 15.116009,
+      "prompt": "Luffy coding on a Macbook on the Thousand Sunny, RAGING, then throwing it overboard.",
+      "prompt_status": "原作者公开提示词，保留原文；未独立复现。",
+      "source_url": "https://x.com/KingBootoshi/status/2021349878232907790",
+      "prompt_source_url": "https://x.com/KingBootoshi/status/2021349878232907790",
+      "source_kind": "x",
+      "description": "路飞在船上编程、愤怒并把电脑扔入海中的动画短片；原帖公开简短动作提示词。动漫IP二次创作，角色权利归原权利方，不是原创商用IP授权。",
+      "attribution": "BOOTOSHI 👑 · @KingBootoshi",
+      "engagement": {
+        "likes": 18468,
+        "bookmarks": 6539,
+        "checked_at": "2026-11-15"
+      },
+      "media_source_url": "https://video.twimg.com/amplify_video/2021349487088992256/vid/avc1/1280x720/FhxiDXTEnnrNB5Kf.mp4?tag=21",
+      "media_provenance": "Downloaded from original X video URL, transcoded to 720p web playback; no scene cuts.",
+      "license": "作品归原作者所有，保留作者及原帖来源；其他用途请联系作者。",
+      "verification_status": "source_matched_owner_directed_display",
+      "publish_ready": true,
+      "checked_at": "2026-11-15",
+      "media_authorized": "owner-directed-display",
+      "display_permission": {
+        "status": "owner_confirmed_reuse",
+        "basis": "Owner confirmed attributed collection and uploads; not a blanket open-license assertion."
+      }
+    }
+  ],
+  "verification": "Author statements and selected output/prompt scope checked. No explicit prohibitions found in captured source posts/profiles. Owner-directed attributed collection, not an open-license assertion."
+}

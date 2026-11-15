@@ -1,0 +1,172 @@
+{
+  "checked_at": "2026-11-15",
+  "source": "Original post text, ALT and image files; original source URLs retained",
+  "owner_authorization": "Owner confirmed reuse and uploads with source attribution; not an assertion of open licensing",
+  "excluded": [
+    {
+      "author": "mugi_AI_Art",
+      "ids": [
+        "2112801064500293753",
+        "2113888995520417974"
+      ],
+      "reason": "Explicit restriction in author bio"
+    },
+    {
+      "author": "munou_ac",
+      "ids": [
+        "1996129537806213597"
+      ],
+      "reason": "Explicit restriction in author bio"
+    }
+  ],
+  "added": [
+    {
+      "id": "1995532450861080956",
+      "source": "https://x.com/michalmalewicz/status/1995532450861080956",
+      "author": "michalmalewicz",
+      "model": "Nano Banana Pro",
+      "images": 2
+    },
+    {
+      "id": "1998085942201163905",
+      "source": "https://x.com/NanoBanana/status/1998085942201163905",
+      "author": "NanoBanana",
+      "model": "版本未确认",
+      "images": 4
+    },
+    {
+      "id": "1994483569625022487",
+      "source": "https://x.com/NanoBanana/status/1994483569625022487",
+      "author": "NanoBanana",
+      "model": "Nano Banana Pro",
+      "images": 1
+    },
+    {
+      "id": "2052609040539328759",
+      "source": "https://x.com/oggii_0/status/2052609040539328759",
+      "author": "oggii_0",
+      "model": "GPT Image 2",
+      "images": 2
+    },
+    {
+      "id": "2048606301039820821",
+      "source": "https://x.com/AIwithkhan/status/2048606301039820821",
+      "author": "AIwithkhan",
+      "model": "GPT Image 2",
+      "images": 1
+    },
+    {
+      "id": "2045332620352119274",
+      "source": "https://x.com/liyue_ai/status/2045332620352119274",
+      "author": "liyue_ai",
+      "model": "GPT Image 2",
+      "images": 1
+    },
+    {
+      "id": "1994624635300974734",
+      "source": "https://x.com/IamEmily2050/status/1994624635300974734",
+      "author": "IamEmily2050",
+      "model": "Nano Banana Pro",
+      "images": 1
+    },
+    {
+      "id": "1999110884879221052",
+      "source": "https://x.com/TechieBySA/status/1999110884879221052",
+      "author": "TechieBySA",
+      "model": "Nano Banana Pro",
+      "images": 1
+    },
+    {
+      "id": "2045504669401653414",
+      "source": "https://x.com/MrLarus/status/2045504669401653414",
+      "author": "MrLarus",
+      "model": "GPT Image 2",
+      "images": 1
+    },
+    {
+      "id": "1994908289813880915",
+      "source": "https://x.com/dotey/status/1994908289813880915",
+      "author": "dotey",
+      "model": "Nano Banana（具体版本未确认）",
+      "images": 4
+    },
+    {
+      "id": "2050272100884340783",
+      "source": "https://x.com/Emmma___0/status/2050272100884340783",
+      "author": "Emmma___0",
+      "model": "GPT Image 2",
+      "images": 2
+    },
+    {
+      "id": "2050226420681757102",
+      "source": "https://x.com/berryxia/status/2050226420681757102",
+      "author": "berryxia",
+      "model": "版本未确认",
+      "images": 1
+    },
+    {
+      "id": "2053523890744545437",
+      "source": "https://x.com/Goodmanprotocol/status/2053523890744545437",
+      "author": "Goodmanprotocol",
+      "model": "GPT Image 2",
+      "images": 4
+    },
+    {
+      "id": "2045378877363798279",
+      "source": "https://x.com/midori_tatsuta/status/2045378877363798279",
+      "author": "midori_tatsuta",
+      "model": "GPT Image 2",
+      "images": 2
+    },
+    {
+      "id": "2048834306379075759",
+      "source": "https://x.com/Ankit_patel211/status/2048834306379075759",
+      "author": "Ankit_patel211",
+      "model": "GPT Image 2",
+      "images": 2
+    },
+    {
+      "id": "2048529821706195442",
+      "source": "https://x.com/dotey/status/2048529821706195442",
+      "author": "dotey",
+      "model": "GPT Image 2",
+      "images": 1
+    },
+    {
+      "id": "2046172416716759171",
+      "source": "https://x.com/GeekCatX/status/2046172416716759171",
+      "author": "GeekCatX",
+      "model": "GPT Image 2",
+      "images": 2
+    },
+    {
+      "id": "2112779843251376490",
+      "source": "https://x.com/Sairah_0/status/2112779843251376490",
+      "author": "Sairah_0",
+      "model": "GPT Image 2",
+      "images": 2
+    },
+    {
+      "id": "2118686059126984796",
+      "source": "https://x.com/Taaruk_/status/2118686059126984796",
+      "author": "Taaruk_",
+      "model": "GPT Image 2",
+      "images": 2
+    },
+    {
+      "id": "2107021472493666555",
+      "source": "https://x.com/VoxcatAI/status/2107021472493666555",
+      "author": "VoxcatAI",
+      "model": "GPT Image 2",
+      "images": 4
+    }
+  ],
+  "tests": [
+    "183 avatar paths admitted",
+    "infinite scroll units",
+    "model grouping units",
+    "gallery group units",
+    "all 20 have source prompt",
+    "40 artwork images plus 18 author avatars"
+  ]
+}

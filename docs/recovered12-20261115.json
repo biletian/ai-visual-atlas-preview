@@ -1,0 +1,191 @@
+{
+  "date": "2026-11-15",
+  "basis": "Owner confirmed reuse and uploads; source attribution retained. No claim of open licensing.",
+  "recovery": "Original temporary package unavailable. Media recovered afresh from original posts, resized/reencoded for web. Not identical to prior package.",
+  "duplicatesExcluded": [
+    "2118308538564989025"
+  ],
+  "validation": "Photo contact sheets and video sampled frames inspected. 12 author avatars downloaded from original profiles. Unit tests pass. Browser test unavailable in this sandbox.",
+  "files": [
+    {
+      "path": "/tmp/atlas-old13/web/2120470049672826952-3.jpg",
+      "sha": "5ff6510a8d8b413557385695599f59172bae0abc"
+    },
+    {
+      "path": "/tmp/atlas-old13/web/2120470049672826952-1.jpg",
+      "sha": "998adfa2459a8c28e2c856afb4f4758fb86e0ae7"
+    },
+    {
+      "path": "/tmp/atlas-old13/web/2120189335194706023-0.jpg",
+      "sha": "0e6fd3890cf59e20db65b04b81feb270391d2d8d"
+    },
+    {
+      "path": "/tmp/atlas-old13/web/2120470049672826952-0.jpg",
+      "sha": "7712859f91c4e0bcda3f0333e5979804913498be"
+    },
+    {
+      "path": "/tmp/atlas-old13/web/2120470049672826952-2.jpg",
+      "sha": "5240cf7e02da95835bb0c7ce18ee1278a9fd8675"
+    },
+    {
+      "path": "/tmp/atlas-old13/web/2120189335194706023-1.jpg",
+      "sha": "b78f80576191274853958d19d35f8418585afd8d"
+    },
+    {
+      "path": "/tmp/atlas-old13/web/2120469968060043639-0.jpg",
+      "sha": "cff35da83f8e6d0d1f6d7df92944b119dcf28c6a"
+    },
+    {
+      "path": "/tmp/atlas-old13/web/2120469968060043639-2.jpg",
+      "sha": "43e054234b8a488437364d87790e40dac97ad92b"
+    },
+    {
+      "path": "/tmp/atlas-old13/web/2118381855166881928-1.jpg",
+      "sha": "dc06c9338ad30ed6b05033ecbe0f224a9aa85d92"
+    },
+    {
+      "path": "/tmp/atlas-old13/web/2120469968060043639-3.jpg",
+      "sha": "e72efeef1d4664b00348fdaaad11762469dd404a"
+    },
+    {
+      "path": "/tmp/atlas-old13/web/2118381855166881928-0.jpg",
+      "sha": "4aa662292b4c96967616589dd635e2aef612720b"
+    },
+    {
+      "path": "/tmp/atlas-old13/web/2120469968060043639-1.jpg",
+      "sha": "fbf647157d492e66eea28efd8401ec55340d5bf5"
+    },
+    {
+      "path": "/tmp/atlas-old13/web/2118670168415182931-0-poster.jpg",
+      "sha": "35e6b9db645d23bd23cdf93c51660669a114bae7"
+    },
+    {
+      "path": "/tmp/atlas-old13/web/2118670168415182931-0.mp4",
+      "sha": "145622cd5bfc3e845a66297e616c4d5b1079c199"
+    },
+    {
+      "path": "/tmp/atlas-old13/web/2118360718554894395-0.mp4",
+      "sha": "4ab4e9e149a6a4d808052fd8cf466a2a73e897ec"
+    },
+    {
+      "path": "/tmp/atlas-old13/web/2118408795026043260-0-poster.jpg",
+      "sha": "08ba6ba05ee4304505f91e3c55d15d9d1987b299"
+    },
+    {
+      "path": "/tmp/atlas-old13/web/2118408795026043260-0.mp4",
+      "sha": "aef88096a5a3801ee171229eab3bf32a4924c040"
+    },
+    {
+      "path": "/tmp/atlas-old13/web/2118235544459387112-0-poster.jpg",
+      "sha": "3f07f288f7de98305680df335042a620ff66d70a"
+    },
+    {
+      "path": "/tmp/atlas-old13/web/2118235544459387112-0.mp4",
+      "sha": "55f4e49246290d8f75212dcbd5ecde4cc78e0e88"
+    },
+    {
+      "path": "/tmp/atlas-old13/web/2119841736679686222-0-poster.jpg",
+      "sha": "a7fd3ef6c60e6b40b51c887da584e5d46e5c3973"
+    },
+    {
+      "path": "/tmp/atlas-old13/web/2119841736679686222-0.mp4",
+      "sha": "e9fb50026f8e032912721f25130c93e3a50c9ac7"
+    },
+    {
+      "path": "/tmp/atlas-old13/web/2119275395736584576-0-poster.jpg",
+      "sha": "a2cbc7596eb765aa10d023cef7d8f59e0d82abb5"
+    },
+    {
+      "path": "/tmp/atlas-old13/web/2119275395736584576-0.mp4",
+      "sha": "32ba655959edc70110f6e3bd6895fbe5d2a73629"
+    },
+    {
+      "path": "/tmp/atlas-old13/web/2118446768006541800-0-poster.jpg",
+      "sha": "b7b05d215ecf87b004744920d9d1207a49844de6"
+    },
+    {
+      "path": "/tmp/atlas-old13/web/2118446768006541800-0.mp4",
+      "sha": "cf6e87568a9a9d7228e702471057747220d781f0"
+    },
+    {
+      "path": "/tmp/atlas-old13/web/2118135343354720648-0-poster.jpg",
+      "sha": "60515c766d5af03da3331d008baf5ee81d7ab661"
+    },
+    {
+      "path": "/tmp/atlas-old13/web/2118135343354720648-0.mp4",
+      "sha": "2747f34f8289549668c8f8c6987168cc853cabc6"
+    },
+    {
+      "path": "/tmp/atlas-old13/dist/index.html",
+      "sha": "ed753d8f9d6107a57c885eb502be3a0d1882050e"
+    },
+    {
+      "path": "/tmp/atlas-old13/dist/curation.js",
+      "sha": "03ba4db32d5a1e8f1088360085ee9ae1e56eab43"
+    },
+    {
+      "path": "/tmp/atlas-old13/dist/curation.json",
+      "sha": "2b05fae8280234945e0bc24c50c6246e749a8c1e"
+    },
+    {
+      "path": "/tmp/atlas-old13/web/2118360718554894395-0-poster.jpg",
+      "sha": "3598ff851de06319abcccb9838dc78294ec825d0"
+    },
+    {
+      "path": "/tmp/atlas-old13/web/2120470049672826952-avatar.jpg",
+      "sha": "47845525741318ba7998c583026ef7f13cb8d2cd"
+    },
+    {
+      "path": "/tmp/atlas-old13/web/2120189335194706023-avatar.jpg",
+      "sha": "591adb6cc46f73e1e50809ed3be0ef643e72e41e"
+    },
+    {
+      "path": "/tmp/atlas-old13/web/2118670168415182931-avatar.jpg",
+      "sha": "bfd13999b2cdfa93e74aac076fe3e06192cc8282"
+    },
+    {
+      "path": "/tmp/atlas-old13/web/2119841736679686222-avatar.jpg",
+      "sha": "3c9eecbe627679528563199ed2f27abea64be8f1"
+    },
+    {
+      "path": "/tmp/atlas-old13/web/2118408795026043260-avatar.jpg",
+      "sha": "0606aa797feb64a38046d31c426631a4facedeba"
+    },
+    {
+      "path": "/tmp/atlas-old13/web/2118381855166881928-avatar.jpg",
+      "sha": "7dad3493aef7a32dd22f4cee2e9acd1141c17996"
+    },
+    {
+      "path": "/tmp/atlas-old13/web/2120469968060043639-avatar.jpg",
+      "sha": "4018773a6a2bc05ce2238cf78fca8cac54b876df"
+    },
+    {
+      "path": "/tmp/atlas-old13/web/2118360718554894395-avatar.jpg",
+      "sha": "d50c693790b2ad226ca3f7ce840f29206082079f"
+    },
+    {
+      "path": "/tmp/atlas-old13/web/2118446768006541800-avatar.jpg",
+      "sha": "f6d7528ced412841b5430a1d255f7698eb9cf91c"
+    },
+    {
+      "path": "/tmp/atlas-old13/web/2119275395736584576-avatar.jpg",
+      "sha": "4018773a6a2bc05ce2238cf78fca8cac54b876df"
+    },
+    {
+      "path": "/tmp/atlas-old13/web/2118235544459387112-avatar.jpg",
+      "sha": "e8fcd88b0676b339b06984f4592341e59407f156"
+    },
+    {
+      "path": "/tmp/atlas-old13/web/2118135343354720648-avatar.jpg",
+      "sha": "28431bb1b5e58f10e90f13bfe75bbca2bbfc4e82"
+    },
+    {
+      "path": "/tmp/atlas-old13/dist/cases.json",
+      "sha": "62af995455f00795d20efba7d7f60ad14aec5875"
+    },
+    {
+      "path": "/tmp/atlas-old13/dist/data.js",
+      "sha": "7ebccd1f4dfcde06275bb77605414a60ed74eb16"
+    }
+  ]
+}

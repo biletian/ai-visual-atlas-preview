@@ -21,6 +21,11 @@ function modelFamily(name){
  if(/Nano Banana/i.test(name))return 'Nano Banana';
  if(/^Veo/i.test(name))return 'Veo';
  if(/^Midjourney/i.test(name))return 'Midjourney';
+ if(/^Seedance(?=\s|\d|[（(]|$)/i.test(name))return 'Seedance';
+ if(/^Kling(?=\s|\d|[（(]|$)/i.test(name))return 'Kling';
+ if(/^(?:MiniMax|Hailuo)(?=\s|\d|[（(]|$)/i.test(name))return 'MiniMax';
+ if(/^Sora(?=\s|\d|[（(]|$)/i.test(name))return 'Sora';
+ if(/^Wan(?=\s|\d|[（(]|$)/i.test(name))return 'Wan';
  return '其他 / 待确认';
 }
 function modelKey(name){return name==='Gemini Nano Banana Pro'?'Nano Banana Pro':name}
@@ -184,4 +189,3 @@ document.addEventListener('visibilitychange',()=>{if(document.hidden){pauseGrid(
 document.addEventListener('keydown',e=>{if((e.metaKey||e.ctrlKey)&&e.key.toLowerCase()==='k'){e.preventDefault();if(current)closeDetail();$('#search').focus()}if(e.key==='Escape'){setMenu(false);closeDetail()}if(!$('#detail').hidden&&e.key==='Tab'){const focusables=$$('#detail button:not(:disabled),#detail a[href],#detail video[controls],#detail summary').filter(el=>el.offsetParent!==null);if(!focusables.length)return;const first=focusables[0],last=focusables.at(-1);if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus()}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus()}}if(current&&!['INPUT','TEXTAREA','SELECT','VIDEO'].includes(document.activeElement.tagName)){if(e.key==='ArrowRight')moveDetail(1);if(e.key==='ArrowLeft')moveDetail(-1);if(e.key==='ArrowDown'&&workImages(byID.get(current)).length>1){e.preventDefault();selectWorkImage(activeImageIndex+1)}if(e.key==='ArrowUp'&&workImages(byID.get(current)).length>1){e.preventDefault();selectWorkImage(activeImageIndex-1)}}});
 matchMedia('(prefers-reduced-motion: reduce)').addEventListener('change',e=>{reduceMotion=e.matches;if(reduceMotion){pauseGrid();$('#detailVideo')?.pause()}else schedulePlayback()});
 render();syncHistory();
-

@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-15",
+  "added": 11,
+  "image_sets": 10,
+  "output_images": 35,
+  "video": 1,
+  "authors": 8,
+  "checks": [
+    "Source author descriptions read; no explicit prohibition found",
+    "Original prompts matched original text",
+    "Reference photo inputs excluded from hand-drawn set",
+    "Seedance video sampled frames inspected",
+    "Four unit suites passed"
+  ],
+  "source_files": [
+    "atlas-source-b/round2/verified10.json",
+    "atlas-sources-c/video-shortlist1.json"
+  ],
+  "authorization": "Owner-confirmed attributed collection; not an open-license assertion"
+}

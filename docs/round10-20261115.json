@@ -1,0 +1,432 @@
+{
+  "added": [
+    {
+      "id": "2048725842096976020",
+      "title": "桌面日常手绘标注摄影",
+      "author": "Sairah",
+      "author_handle": "Sairah_0",
+      "author_url": "https://x.com/Sairah_0",
+      "author_avatar_url": "assets/authors/r10-Sairah_0.jpg",
+      "model": "Nano Banana Pro",
+      "model_family": "Nano Banana Pro",
+      "type": "image",
+      "category": "摄影与人像",
+      "image_url": "assets/selected100/2048725842096976020-0.jpg",
+      "thumbnail_url": "assets/selected100/2048725842096976020-0-thumb.webp",
+      "images": [
+        {
+          "url": "assets/selected100/2048725842096976020-0.jpg",
+          "thumbnail_url": "assets/selected100/2048725842096976020-0-thumb.webp",
+          "alt": "桌面日常手绘标注摄影 1"
+        }
+      ],
+      "image_set_verified": true,
+      "width": 896,
+      "height": 1200,
+      "prompt": "Top-down flat lay on a rustic wooden table, cozy aesthetic, soft natural light. A glass of iced tea with lemon slices and ice cubes, a glazed donut, a small succulent plant in a white pot, a vintage book, and eyeglasses. A sleeping tabby cat curled on a blanket at the edge. White hand-drawn doodle outlines and arrows around each object with playful handwritten labels like “refreshing iced tea,” “sweet treat,” “little green friend,” “afternoon read,” and “cutest thing in the world – cat.” Warm tones, minimal shadows, lifestyle photography, high detail, Instagram aesthetic.",
+      "prompt_status": "原作者公开提示词，保留原文；未独立复现。",
+      "source_url": "https://x.com/Sairah_0/status/2048725842096976020",
+      "prompt_source_url": "https://x.com/Sairah_0/status/2048725842096976020",
+      "source_kind": "x",
+      "description": "桌面物件与手绘线条结合；仅保留对应首段提示词的第一张。",
+      "attribution": "Sairah · @Sairah_0",
+      "engagement": {
+        "likes": 619,
+        "bookmarks": 405,
+        "checked_at": "2026-11-15T14:37:58.501077+00:00"
+      },
+      "license": "作品归原作者所有，保留作者及原帖来源；其他用途请联系作者。",
+      "verification_status": "source_matched_owner_directed_display",
+      "publish_ready": true,
+      "checked_at": "2026-11-15",
+      "media_authorized": "owner-directed-display",
+      "display_permission": {
+        "status": "owner_confirmed_reuse",
+        "basis": "Owner confirmed attributed collection and uploads; not a blanket open-license assertion."
+      }
+    },
+    {
+      "id": "2047305151342596557",
+      "title": "红楼梦人物剪影叙事海报",
+      "author": "李岳",
+      "author_handle": "liyue_ai",
+      "author_url": "https://x.com/liyue_ai",
+      "author_avatar_url": "assets/authors/r10-liyue_ai.jpg",
+      "model": "GPT Image 2",
+      "model_family": "GPT Image 2",
+      "type": "image",
+      "category": "海报与排版",
+      "image_url": "assets/selected100/2047305151342596557-0.jpg",
+      "thumbnail_url": "assets/selected100/2047305151342596557-0-thumb.webp",
+      "images": [
+        {
+          "url": "assets/selected100/2047305151342596557-0.jpg",
+          "thumbnail_url": "assets/selected100/2047305151342596557-0-thumb.webp",
+          "alt": "红楼梦人物剪影叙事海报 1"
+        }
+      ],
+      "image_set_verified": true,
+      "width": 979,
+      "height": 1606,
+      "prompt": "根据{红楼梦}自动生成一张 收藏版史诗叙事海报，\n\n巨大优雅的{林黛玉}人物侧脸剪影作为外轮廓，剪影内部自动生长出最契合该主题的完整世界观、标志性场景、角色关系、象征符号、关键建筑、生物、道具与氛围。\n\n整体不是普通拼贴，而是高级的剪影轮廓填充式叙事合成，带有双重曝光式联想，但强化为电影级叙事表达与空间调度。\n\n电影海报风格 + 东方现实主义美学融合，强调真实物理光影、镜头语言、空间纵深与叙事层级。\n\n光影采用电影级侧逆光与局部暖光点缀，冷暖对比克制真实，加入体积光与轻雾增强空间感。\n\n材质表现为真实质感（建筑、丝绸、肌肤、石材），避免纯绘画笔触感，\n\n保留柔和空气透视，但优化为电影级景深与焦点控制。\n\n轻微胶片颗粒，边缘飞白与刷痕改为电影式柔和融合过渡，\n\n大面积留白，版式克制高级，安静、宏大、克制、宿命感强的东方电影叙事。\n\n所有元素必须强绑定主题，一眼识别，不要杂乱，不要硬拼贴，不要模板化背景，不要廉价奇幻素材。",
+      "prompt_status": "原作者公开提示词，保留原文；未独立复现。",
+      "source_url": "https://x.com/liyue_ai/status/2047305151342596557",
+      "prompt_source_url": "https://x.com/liyue_ai/status/2047305151342596557",
+      "source_kind": "x",
+      "description": "红楼梦人物剪影叙事海报，仅收对应林黛玉提示词的图像。",
+      "attribution": "李岳 · @liyue_ai",
+      "engagement": {
+        "likes": 426,
+        "bookmarks": 280,
+        "checked_at": "2026-11-15T14:37:58.501101+00:00"
+      },
+      "license": "作品归原作者所有，保留作者及原帖来源；其他用途请联系作者。",
+      "verification_status": "source_matched_owner_directed_display",
+      "publish_ready": true,
+      "checked_at": "2026-11-15",
+      "media_authorized": "owner-directed-display",
+      "display_permission": {
+        "status": "owner_confirmed_reuse",
+        "basis": "Owner confirmed attributed collection and uploads; not a blanket open-license assertion."
+      }
+    },
+    {
+      "id": "2024277162652815403",
+      "title": "国家轮廓云端微缩岛屿",
+      "author": "simeon-sanai",
+      "author_handle": "Naiknelofar788",
+      "author_url": "https://x.com/Naiknelofar788",
+      "author_avatar_url": "assets/authors/r10-Naiknelofar788.jpg",
+      "model": "GPT Image 1.5",
+      "model_family": "GPT Image 1.5",
+      "type": "image",
+      "category": "微缩与超现实",
+      "image_url": "assets/selected100/2024277162652815403-0.jpg",
+      "thumbnail_url": "assets/selected100/2024277162652815403-0-thumb.webp",
+      "images": [
+        {
+          "url": "assets/selected100/2024277162652815403-0.jpg",
+          "thumbnail_url": "assets/selected100/2024277162652815403-0-thumb.webp",
+          "alt": "国家轮廓云端微缩岛屿 1"
+        },
+        {
+          "url": "assets/selected100/2024277162652815403-1.jpg",
+          "thumbnail_url": "assets/selected100/2024277162652815403-1-thumb.webp",
+          "alt": "国家轮廓云端微缩岛屿 2"
+        },
+        {
+          "url": "assets/selected100/2024277162652815403-2.jpg",
+          "thumbnail_url": "assets/selected100/2024277162652815403-2-thumb.webp",
+          "alt": "国家轮廓云端微缩岛屿 3"
+        }
+      ],
+      "image_set_verified": true,
+      "width": 1080,
+      "height": 1340,
+      "prompt": "Create an ultra-HD, hyper-realistic digital poster of a floating miniature island shaped like [Country], resting on white clouds in the sky. Blend iconic landmarks, natural landscapes (like [landmark 1], [landscape 2], or [landscape 3]), and cultural elements unique to [Country]. Carve \"[Country]\" into the terrain using large white 3D letters. Add artistic details like [wildlife], cinematic lighting, vivid colors, aerial perspective, and sun reflections to enhance realism",
+      "prompt_status": "原作者公开提示词，保留原文；未独立复现。",
+      "source_url": "https://x.com/Naiknelofar788/status/2024277162652815403",
+      "prompt_source_url": "https://x.com/Naiknelofar788/status/2024277162652815403",
+      "source_kind": "x",
+      "description": "国家轮廓与云端微缩岛屿结合；地理细节未核实。",
+      "attribution": "simeon-sanai · @Naiknelofar788",
+      "engagement": {
+        "likes": 418,
+        "bookmarks": 314,
+        "checked_at": "2026-11-15T14:37:58.501109+00:00"
+      },
+      "license": "作品归原作者所有，保留作者及原帖来源；其他用途请联系作者。",
+      "verification_status": "source_matched_owner_directed_display",
+      "publish_ready": true,
+      "checked_at": "2026-11-15",
+      "media_authorized": "owner-directed-display",
+      "display_permission": {
+        "status": "owner_confirmed_reuse",
+        "basis": "Owner confirmed attributed collection and uploads; not a blanket open-license assertion."
+      }
+    },
+    {
+      "id": "2018215856577360311",
+      "title": "透明玻璃水滴护肤产品图",
+      "author": "Harboris",
+      "author_handle": "harboriis",
+      "author_url": "https://x.com/harboriis",
+      "author_avatar_url": "assets/authors/r10-harboriis.jpg",
+      "model": "未确认（原帖列GPT Image 1.5与Grok Imagine）",
+      "model_family": "未确认（原帖列GPT Image 1.5与Grok Imagine）",
+      "type": "image",
+      "category": "产品与电商",
+      "image_url": "assets/selected100/2018215856577360311-0.jpg",
+      "thumbnail_url": "assets/selected100/2018215856577360311-0-thumb.webp",
+      "images": [
+        {
+          "url": "assets/selected100/2018215856577360311-0.jpg",
+          "thumbnail_url": "assets/selected100/2018215856577360311-0-thumb.webp",
+          "alt": "透明玻璃水滴护肤产品图 1"
+        }
+      ],
+      "image_set_verified": true,
+      "width": 1024,
+      "height": 1536,
+      "prompt": "Commercial luxury product photography, photorealistic, ultra high detail, 8K quality. A minimalist matte black cosmetic dropper bottle placed on a clear glass podium. Low angle camera view to make the bottle feel tall and powerful. The bottom of the bottle is clearly visible through the transparent glass. The glass surface is wet with realistic water droplets, with a few drops hanging underneath the glass, frozen mid drip for a time stopped effect. Matte light gray background with no texture or gradient. Soft, even studio lighting with clean reflections, premium skincare advertising look, sharp focus, realistic materials, no distractions.",
+      "prompt_status": "原作者公开提示词，保留原文；未独立复现。",
+      "source_url": "https://x.com/harboriis/status/2018215856577360311",
+      "prompt_source_url": "https://x.com/harboriis/status/2018215856577360311",
+      "source_kind": "x",
+      "description": "透明玻璃与水滴护肤概念图；原帖同时提到GPT Image 1.5与Grok，未指明本图来源模型。",
+      "attribution": "Harboris · @harboriis",
+      "engagement": {
+        "likes": 251,
+        "bookmarks": 192,
+        "checked_at": "2026-11-15T14:37:58.501118+00:00"
+      },
+      "license": "作品归原作者所有，保留作者及原帖来源；其他用途请联系作者。",
+      "verification_status": "source_matched_owner_directed_display",
+      "publish_ready": true,
+      "checked_at": "2026-11-15",
+      "media_authorized": "owner-directed-display",
+      "display_permission": {
+        "status": "owner_confirmed_reuse",
+        "basis": "Owner confirmed attributed collection and uploads; not a blanket open-license assertion."
+      }
+    },
+    {
+      "id": "2046603938485637446",
+      "title": "老干妈咖啡虚构联名品牌板",
+      "author": "黄小木",
+      "author_handle": "ai_xiaomu",
+      "author_url": "https://x.com/ai_xiaomu",
+      "author_avatar_url": "assets/authors/r10-ai_xiaomu.jpg",
+      "model": "未确认",
+      "model_family": "未确认",
+      "type": "image",
+      "category": "品牌与平面设计",
+      "image_url": "assets/selected100/2046603938485637446-0.jpg",
+      "thumbnail_url": "assets/selected100/2046603938485637446-0-thumb.webp",
+      "images": [
+        {
+          "url": "assets/selected100/2046603938485637446-0.jpg",
+          "thumbnail_url": "assets/selected100/2046603938485637446-0-thumb.webp",
+          "alt": "老干妈咖啡虚构联名品牌板 1"
+        }
+      ],
+      "image_set_verified": true,
+      "width": 1024,
+      "height": 1536,
+      "prompt": "生成完整高端的品牌运营图 ，产品是老干妈和星巴克的联名款：老干妈美式，中间是主图，下面放一些联名的设计，包装袋、杯套以及吉祥物。",
+      "prompt_status": "原作者公开提示词，保留原文；未独立复现。",
+      "source_url": "https://x.com/ai_xiaomu/status/2046603938485637446",
+      "prompt_source_url": "https://x.com/ai_xiaomu/status/2046603938485637446",
+      "source_kind": "x",
+      "description": "老干妈咖啡的AI虚构联名品牌板，并非真实联名或商品。",
+      "attribution": "黄小木 · @ai_xiaomu",
+      "engagement": {
+        "likes": 242,
+        "bookmarks": 116,
+        "checked_at": "2026-11-15T14:37:58.501123+00:00"
+      },
+      "license": "作品归原作者所有，保留作者及原帖来源；其他用途请联系作者。",
+      "verification_status": "source_matched_owner_directed_display",
+      "publish_ready": true,
+      "checked_at": "2026-11-15",
+      "media_authorized": "owner-directed-display",
+      "display_permission": {
+        "status": "owner_confirmed_reuse",
+        "basis": "Owner confirmed attributed collection and uploads; not a blanket open-license assertion."
+      }
+    },
+    {
+      "id": "2002751900337275167",
+      "title": "行李箱里的微缩人物世界",
+      "author": "Saman | AI",
+      "author_handle": "Samann_ai",
+      "author_url": "https://x.com/Samann_ai",
+      "author_avatar_url": "assets/authors/r10-Samann_ai.jpg",
+      "model": "GPT Image 1.5",
+      "model_family": "GPT Image 1.5",
+      "type": "image",
+      "category": "微缩与超现实",
+      "image_url": "assets/selected100/2002751900337275167-0.jpg",
+      "thumbnail_url": "assets/selected100/2002751900337275167-0-thumb.webp",
+      "images": [
+        {
+          "url": "assets/selected100/2002751900337275167-0.jpg",
+          "thumbnail_url": "assets/selected100/2002751900337275167-0-thumb.webp",
+          "alt": "行李箱里的微缩人物世界 1"
+        },
+        {
+          "url": "assets/selected100/2002751900337275167-1.jpg",
+          "thumbnail_url": "assets/selected100/2002751900337275167-1-thumb.webp",
+          "alt": "行李箱里的微缩人物世界 2"
+        }
+      ],
+      "image_set_verified": true,
+      "width": 1610,
+      "height": 2400,
+      "prompt": "{\n  \"prompt\": \"Create a hyper-realistic, ultra-detailed cinematic photo featuring a MINIATURE version of the person from the provided reference image (preserve facial likeness, skin tone, hairstyle, and overall identity). The tiny character is relaxing inside an OPEN vintage hard-shell suitcase that is used like a tiny bed. The suitcase sits on a clean stone/tile floor in a bright room with strong natural sunlight casting soft rectangular window shadows across the floor.\\n\\nONLY VARIABLES:\\n1) Character: use the user reference photo for the person’s face and identity.\\n2) Theme/Genre: {THEME}\\n\\nCOMPOSITION & SCALE:\\n- The person must be clearly mini-sized (toy-scale) relative to the suitcase, with correct perspective and believable proportions.\\n- The open suitcase interior is styled like a cozy miniature scene: pillow, textured blanket or towel, and themed tiny props.\\n- Add realistic micro-details: fabric weave, zipper teeth, suitcase latches, scuffs, stitching, subtle dust, realistic contact shadows.\\n\\nTHEME STYLING (derive everything from {THEME}):\\n- Choose a cohesive color palette and make the SUITCASE COLOR match the theme (e.g., beach = warm coral/sand; football = deep green/black or team-inspired; sporty = bold neon accents; cozy-casual = muted cream/tan; luxury = black/ivory/gold).\\n- Dress the tiny character in an outfit that fits {THEME}.\\n- Place 5–8 tiny theme props neatly inside the suitcase near the character (miniature scale, photoreal materials). Examples by theme:\\n  • Beach: tiny sunscreen bottle, mini sunglasses, seashells, flip-flops, mini straw hat, folded towel.\\n  • Football/Soccer: tiny soccer ball, mini jersey/scarf, cleats, shin guards, whistle, small tactic board.\\n  • Sporty/Fitness: tiny water bottle, mini dumbbell, resistance band, smartwatch, towel, energy bar.\\n  • Cozy/Casual: tiny book/magazine, mug, knitted throw, headphones, mini candle.\\n(If {THEME} is different, invent equivalent props that strongly communicate that theme.)\\n\\nLIGHTING & CAMERA:\\n- Bright natural sunlight, soft realistic shadows, subtle bounce light, HDR-like dynamic range.\\n- Photographic realism: shallow depth of field (but keep face and key props sharp), 50–85mm lens look.\\n- No text, no logos, no watermarks.\\n\\nFINAL LOOK:\\n- Hyper-real, high detail, clean editorial product-photography vibe, believable miniature diorama realism, crisp textures and natural skin rendering.\",\n  \"negative_prompt\": \"cartoon, CGI, illustration, anime, plastic-looking skin, uncanny face, distorted anatomy, extra fingers, deformed hands, duplicated limbs, wrong perspective, unrealistic scale, blurry, low-res, noisy, harsh artifacts, over-smoothed, bad shadows, floating objects, cluttered scene, messy background, text, watermark, logo, brand names, extra people, face not matching reference\",\n  \"variables\": {\n    \"THEME\": \"beach | football | sporty | cozy-casual | luxury | etc.\",\n    \"USER_IMAGE\": \"reference photo uploaded by the user (required)\"\n  }\n}",
+      "prompt_status": "原作者公开提示词，保留原文；未独立复现。",
+      "source_url": "https://x.com/Samann_ai/status/2002751900337275167",
+      "prompt_source_url": "https://x.com/Samann_ai/status/2002751900337275167",
+      "source_kind": "x",
+      "description": "用行李箱构成微缩人物世界，需要人物参考照片。",
+      "attribution": "Saman | AI · @Samann_ai",
+      "engagement": {
+        "likes": 128,
+        "bookmarks": 107,
+        "checked_at": "2026-11-15T14:37:58.501136+00:00"
+      },
+      "license": "作品归原作者所有，保留作者及原帖来源；其他用途请联系作者。",
+      "verification_status": "source_matched_owner_directed_display",
+      "publish_ready": true,
+      "checked_at": "2026-11-15",
+      "media_authorized": "owner-directed-display",
+      "display_permission": {
+        "status": "owner_confirmed_reuse",
+        "basis": "Owner confirmed attributed collection and uploads; not a blanket open-license assertion."
+      }
+    },
+    {
+      "id": "2043284009116160473",
+      "title": "黑白编辑风人物插画套组",
+      "author": "Amira Zairi",
+      "author_handle": "azed_ai",
+      "author_url": "https://x.com/azed_ai",
+      "author_avatar_url": "assets/authors/r10-azed_ai.jpg",
+      "model": "未确认",
+      "model_family": "未确认",
+      "type": "image",
+      "category": "插画与角色",
+      "image_url": "assets/selected100/2043284009116160473-0.jpg",
+      "thumbnail_url": "assets/selected100/2043284009116160473-0-thumb.webp",
+      "images": [
+        {
+          "url": "assets/selected100/2043284009116160473-0.jpg",
+          "thumbnail_url": "assets/selected100/2043284009116160473-0-thumb.webp",
+          "alt": "黑白编辑风人物插画套组 1"
+        },
+        {
+          "url": "assets/selected100/2043284009116160473-1.jpg",
+          "thumbnail_url": "assets/selected100/2043284009116160473-1-thumb.webp",
+          "alt": "黑白编辑风人物插画套组 2"
+        },
+        {
+          "url": "assets/selected100/2043284009116160473-2.jpg",
+          "thumbnail_url": "assets/selected100/2043284009116160473-2-thumb.webp",
+          "alt": "黑白编辑风人物插画套组 3"
+        },
+        {
+          "url": "assets/selected100/2043284009116160473-3.jpg",
+          "thumbnail_url": "assets/selected100/2043284009116160473-3-thumb.webp",
+          "alt": "黑白编辑风人物插画套组 4"
+        }
+      ],
+      "image_set_verified": true,
+      "width": 960,
+      "height": 640,
+      "prompt": "A simple black-and-white illustration of a [subject] in [outfit], [doing action], with a [facial expression] expression, in a Notion-style minimalist editorial aesthetic, clean line art, flat monochrome design, simple shapes, subtle hand-drawn feel, minimal detail, expressive posture, clean white background, neat modern layout, soft playful character style",
+      "prompt_status": "原作者公开提示词，保留原文；未独立复现。",
+      "source_url": "https://x.com/azed_ai/status/2043284009116160473",
+      "prompt_source_url": "https://x.com/azed_ai/status/2043284009116160473",
+      "source_kind": "x",
+      "description": "黑白编辑风人物插画，四张不同姿态共用风格提示词；原帖未注明模型。",
+      "attribution": "Amira Zairi · @azed_ai",
+      "engagement": {
+        "likes": 1436,
+        "bookmarks": 1910,
+        "checked_at": "2026-11-15T14:37:58.501146+00:00"
+      },
+      "license": "作品归原作者所有，保留作者及原帖来源；其他用途请联系作者。",
+      "verification_status": "source_matched_owner_directed_display",
+      "publish_ready": true,
+      "checked_at": "2026-11-15",
+      "media_authorized": "owner-directed-display",
+      "display_permission": {
+        "status": "owner_confirmed_reuse",
+        "basis": "Owner confirmed attributed collection and uploads; not a blanket open-license assertion."
+      }
+    },
+    {
+      "id": "2036914802451169520",
+      "title": "寺庙中的星尘漩涡",
+      "author": "LudovicCreator",
+      "author_handle": "LudovicCreator",
+      "author_url": "https://x.com/LudovicCreator",
+      "author_avatar_url": "assets/authors/r10-LudovicCreator.jpg",
+      "model": "Kling 3.0",
+      "model_family": "Kling 3.0",
+      "type": "video",
+      "category": "短片与镜头",
+      "image_url": "assets/selected100/2036914802451169520.mp4",
+      "thumbnail_url": "assets/selected100/2036914802451169520-poster.jpg",
+      "poster_url": "assets/selected100/2036914802451169520-poster.jpg",
+      "width": 1280,
+      "height": 720,
+      "duration": 10.1,
+      "prompt": "A levitating monk controlling a vortex of cosmic dust in a temple courtyard.The scene starts with dust particles swirling around the still figure. Camera Motion: Circular crane motion rising above, tilting down as the vortex expands outward. Ends with the monk’s robe flowing as stars flicker within the dust spiral. Lighting: Moonlit with inner glow from the vortex, subtle rim light on the figure. Style: Mystical, high-end VFX with cosmic elements, temporal distortion, slow-motion aura ripples.",
+      "prompt_status": "原作者公开提示词，保留原文；未独立复现。",
+      "source_url": "https://x.com/LudovicCreator/status/2036914802451169520",
+      "prompt_source_url": "https://x.com/LudovicCreator/status/2036914802451169520",
+      "source_kind": "x",
+      "description": "寺庙内悬浮人物操控星尘漩涡，镜头环绕上升；原帖公开镜头、光线与风格提示词。",
+      "attribution": "LudovicCreator · @LudovicCreator",
+      "engagement": {
+        "likes": 268,
+        "bookmarks": 173,
+        "checked_at": "2026-11-15"
+      },
+      "media_source_url": "https://video.twimg.com/ext_tw_video/2036914772491329536/pu/vid/avc1/1280x720/7sTtCxcEuPx70z0C.mp4?tag=12",
+      "media_provenance": "Downloaded from original X video URL, transcoded to 720p web playback; no scene cuts.",
+      "license": "作品归原作者所有，保留作者及原帖来源；其他用途请联系作者。",
+      "verification_status": "source_matched_owner_directed_display",
+      "publish_ready": true,
+      "checked_at": "2026-11-15",
+      "media_authorized": "owner-directed-display",
+      "display_permission": {
+        "status": "owner_confirmed_reuse",
+        "basis": "Owner confirmed attributed collection and uploads; not a blanket open-license assertion."
+      }
+    },
+    {
+      "id": "2033566512141713448",
+      "title": "丛林遗迹三镜头探险",
+      "author": "Pierrick Chevallier | IA",
+      "author_handle": "CharaspowerAI",
+      "author_url": "https://x.com/CharaspowerAI",
+      "author_avatar_url": "assets/authors/r10-CharaspowerAI.jpg",
+      "model": "Kling 3.0",
+      "model_family": "Kling 3.0",
+      "type": "video",
+      "category": "短片与镜头",
+      "image_url": "assets/selected100/2033566512141713448.mp4",
+      "thumbnail_url": "assets/selected100/2033566512141713448-poster.jpg",
+      "poster_url": "assets/selected100/2033566512141713448-poster.jpg",
+      "width": 1280,
+      "height": 720,
+      "duration": 10.1,
+      "prompt": "SHOT1\nWide aerial shot, ancient stone ruins emerge from thick jungle canopy covered in vines.\n\nSHOT2\nTracking shot, an explorer pushes through tall grass toward a massive carved temple entrance.\n\nSHOT3\nGround-level shot, a gigantic stone statue suddenly collapses in font of him, blocking the entry.",
+      "prompt_status": "原作者公开提示词，保留原文；未独立复现。",
+      "source_url": "https://x.com/CharaspowerAI/status/2033566512141713448",
+      "prompt_source_url": "https://x.com/CharaspowerAI/status/2033566512141713448",
+      "source_kind": "x",
+      "description": "三镜头连接丛林遗迹、探险人物与坍塌石像；保留原帖分镜提示词与原文拼写。",
+      "attribution": "Pierrick Chevallier | IA · @CharaspowerAI",
+      "engagement": {
+        "likes": 162,
+        "bookmarks": 143,
+        "checked_at": "2026-11-15"
+      },
+      "media_source_url": "https://video.twimg.com/ext_tw_video/2033566460446900224/pu/vid/avc1/1280x720/9kFwbBbwj8Iq0KH_.mp4?tag=12",
+      "media_provenance": "Downloaded from original X video URL, transcoded to 720p web playback; no scene cuts.",
+      "license": "作品归原作者所有，保留作者及原帖来源；其他用途请联系作者。",
+      "verification_status": "source_matched_owner_directed_display",
+      "publish_ready": true,
+      "checked_at": "2026-11-15",
+      "media_authorized": "owner-directed-display",
+      "display_permission": {
+        "status": "owner_confirmed_reuse",
+        "basis": "Owner confirmed attributed collection and uploads; not a blanket open-license assertion."
+      }
+    }
+  ],
+  "verification": "Author statements and selected output/prompt scope checked. No explicit prohibitions found in captured source posts/profiles. Owner-directed attributed collection, not an open-license assertion."
+}

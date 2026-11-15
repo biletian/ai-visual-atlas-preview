@@ -63,3 +63,7 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
 #feedSentinel{display:block;width:1px;height:1px;flex:none}#feedStatus:empty{display:none}
 
 .sidebar .model-group-toggle{display:flex;align-items:center;justify-content:space-between;width:100%;gap:8px}.sidebar .model-group-toggle>span{font:inherit;color:inherit}.model-group-toggle svg{flex:none;transition:transform .16s ease}.model-group-toggle[aria-expanded="true"] svg{transform:rotate(90deg)}.sidebar .model-group-toggle.has-selection{color:#191919}.model-versions{border-left:1px solid #e8e8e8;margin:2px 0 9px 4px;padding-left:12px}.sidebar .model-versions button{font-size:13px;line-height:1.5;padding:7px 0;white-space:normal;text-align:left}.model-versions[hidden]{display:none}@media(prefers-reduced-motion:reduce){.model-group-toggle svg{transition:none}}
+
+/* External-link marks are vector icons, never platform-dependent font glyphs. */
+.external-mark{display:inline-flex;align-items:center;vertical-align:-2px;margin-left:2px}
+.external-mark svg.icon{width:14px;height:14px;display:block}

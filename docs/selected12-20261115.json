@@ -1,0 +1,632 @@
+[
+  {
+    "id": "2046231542817497392",
+    "title": "模块化宠物科普百科图",
+    "author": "Larus Canus",
+    "author_handle": "MrLarus",
+    "author_url": "https://x.com/MrLarus",
+    "author_avatar_url": "assets/authors/b12-MrLarus.jpg",
+    "model": "GPT Image 2",
+    "model_family": "GPT Image 2",
+    "type": "image",
+    "category": "插画与角色",
+    "image_url": "assets/selected12/2046231542817497392-0.jpg",
+    "thumbnail_url": "assets/selected12/2046231542817497392-0-thumb.webp",
+    "images": [
+      {
+        "url": "assets/selected12/2046231542817497392-0.jpg",
+        "thumbnail_url": "assets/selected12/2046231542817497392-0-thumb.webp",
+        "alt": "模块化宠物科普百科图 1"
+      },
+      {
+        "url": "assets/selected12/2046231542817497392-1.jpg",
+        "thumbnail_url": "assets/selected12/2046231542817497392-1-thumb.webp",
+        "alt": "模块化宠物科普百科图 2"
+      },
+      {
+        "url": "assets/selected12/2046231542817497392-2.jpg",
+        "thumbnail_url": "assets/selected12/2046231542817497392-2-thumb.webp",
+        "alt": "模块化宠物科普百科图 3"
+      },
+      {
+        "url": "assets/selected12/2046231542817497392-3.jpg",
+        "thumbnail_url": "assets/selected12/2046231542817497392-3-thumb.webp",
+        "alt": "模块化宠物科普百科图 4"
+      }
+    ],
+    "image_set_verified": true,
+    "width": 1122,
+    "height": 1402,
+    "prompt": "请根据【主题】生成一张高质量竖版「科普百科图」。 \n\n这张图不是普通海报，也不是单纯插画，而是一张兼具“图鉴感、百科感、信息结构感、收藏感”的模块化科普信息图。整体风格参考高级博物图鉴、现代百科书页、生活方式知识卡和社交媒体高传播信息图的结合。\n\n请让画面包含：\n- 一个清晰漂亮的主题主视觉\n- 若干局部特征放大细节\n- 多个圆角模块化信息分区\n- 清楚的标题层级与重点标签\n- 简洁但丰富的百科内容\n- 可视化评分、要点总结或Top 5模块\n\n内容栏目请根据主题自动适配，优先从这些方向中选择并合理组合：\n基础档案、分类信息、外观特征、习性/生态、形成机制/结构组成、生长或使用条件、养护或维护建议、风险与注意事项、适合人群或适用场景、优缺点对比、快速评分卡。\n\n视觉要求：\n浅色干净背景，柔和配色，轻阴影，精致小图标，圆角信息框，整洁排版，信息密度高但不拥挤，阅读体验好。整体必须像真正可以发布、阅读、收藏、系列化生产的科普百科卡，而不是广告图。\n\n请不要做成普通商业宣传海报。要突出“知识整理 + 模块信息 + 图鉴式展示”的特征。",
+    "prompt_status": "原作者公开提示词，保留原文；未独立复现。",
+    "source_url": "https://x.com/MrLarus/status/2046231542817497392",
+    "prompt_source_url": "https://x.com/MrLarus/status/2046231542817497392",
+    "source_kind": "x",
+    "description": "模块化宠物信息图的排版案例；图中养护知识和评分未经逐项核验，不作为专业意见。",
+    "attribution": "Larus Canus · @MrLarus",
+    "engagement": {
+      "likes": 628,
+      "bookmarks": 586,
+      "checked_at": "2026-11-15T13:27:31.450344+00:00"
+    },
+    "license": "作品归原作者所有，保留作者及原帖来源；其他用途请联系作者。",
+    "verification_status": "source_matched_owner_directed_display",
+    "publish_ready": true,
+    "checked_at": "2026-11-15",
+    "media_authorized": "owner-directed-display",
+    "display_permission": {
+      "status": "owner_confirmed_reuse",
+      "basis": "Owner confirmed attributed collection and uploads; not a blanket open-license assertion."
+    }
+  },
+  {
+    "id": "2052624395932455061",
+    "title": "社媒破屏透视概念广告",
+    "author": "serein",
+    "author_handle": "sereinworld",
+    "author_url": "https://x.com/sereinworld",
+    "author_avatar_url": "assets/authors/b12-sereinworld.jpg",
+    "model": "GPT Image 2",
+    "model_family": "GPT Image 2",
+    "type": "image",
+    "category": "插画与角色",
+    "image_url": "assets/selected12/2052624395932455061-0.jpg",
+    "thumbnail_url": "assets/selected12/2052624395932455061-0-thumb.webp",
+    "images": [
+      {
+        "url": "assets/selected12/2052624395932455061-0.jpg",
+        "thumbnail_url": "assets/selected12/2052624395932455061-0-thumb.webp",
+        "alt": "社媒破屏透视概念广告 1"
+      }
+    ],
+    "image_set_verified": true,
+    "width": 1086,
+    "height": 1448,
+    "prompt": "动态的豪华商业广告海报，特色是超现实3D渲染的充满活力的年轻女性，以上传的女性面部作为参考，穿着高级亮橙色设计师服装、豪华配饰以及时尚的金色墨镜，自信地从一个巨大的金色智能手机屏幕中爆发出色。她的姿势有力且时尚，一只运动鞋通过强烈的强制透视戏剧性地穿过数字显示屏，踏入现实。\n\n构图在前台强调她白色豪华运动鞋，带有纹理口香糖鞋底，通过电影般的广角镜头失真和浅景深增强。漂浮的闪亮3D社交媒体图标、金色几何元素和豪华品牌图形环绕着她，营造出高端影响者营销美学。\n\n明亮的摄影棚灯光营造出充满活力的优质促销氛围，金属金色手机边缘的丰富反射与哑光织物质地形成对比。主导的橙色、白色和金色调色板传递出超现代豪华X / Twitter 广告氛围。干净的白色背景上带有大胆的编辑排版、优质软件品牌元素、优雅的UI图形、漂浮的互动图标以及时尚的二维码区域。\n\n超现实8K品质、电影般的阴影、精致的商业艺术指导、豪华女性能量、时尚营销美学、现代社交媒体品牌、闪亮反射以及高端数字广告风格。\n\n宽高比：3:4。",
+    "prompt_status": "原作者公开提示词，保留原文；未独立复现。",
+    "source_url": "https://x.com/sereinworld/status/2052624395932455061",
+    "prompt_source_url": "https://x.com/sereinworld/status/2052624395932455061",
+    "source_kind": "x",
+    "description": "人物打破手机画框的透视概念广告，需参考人物照片；非品牌官方作品。",
+    "attribution": "serein · @sereinworld",
+    "engagement": {
+      "likes": 487,
+      "bookmarks": 368,
+      "checked_at": "2026-11-15T13:27:31.450366+00:00"
+    },
+    "license": "作品归原作者所有，保留作者及原帖来源；其他用途请联系作者。",
+    "verification_status": "source_matched_owner_directed_display",
+    "publish_ready": true,
+    "checked_at": "2026-11-15",
+    "media_authorized": "owner-directed-display",
+    "display_permission": {
+      "status": "owner_confirmed_reuse",
+      "basis": "Owner confirmed attributed collection and uploads; not a blanket open-license assertion."
+    }
+  },
+  {
+    "id": "2045131503001342302",
+    "title": "极简留白角色涂鸦速写",
+    "author": "VoxCat",
+    "author_handle": "VoxcatAI",
+    "author_url": "https://x.com/VoxcatAI",
+    "author_avatar_url": "assets/authors/b12-VoxcatAI.jpg",
+    "model": "GPT Image 2",
+    "model_family": "GPT Image 2",
+    "type": "image",
+    "category": "插画与角色",
+    "image_url": "assets/selected12/2045131503001342302-0.jpg",
+    "thumbnail_url": "assets/selected12/2045131503001342302-0-thumb.webp",
+    "images": [
+      {
+        "url": "assets/selected12/2045131503001342302-0.jpg",
+        "thumbnail_url": "assets/selected12/2045131503001342302-0-thumb.webp",
+        "alt": "极简留白角色涂鸦速写 1"
+      },
+      {
+        "url": "assets/selected12/2045131503001342302-1.jpg",
+        "thumbnail_url": "assets/selected12/2045131503001342302-1-thumb.webp",
+        "alt": "极简留白角色涂鸦速写 2"
+      },
+      {
+        "url": "assets/selected12/2045131503001342302-2.jpg",
+        "thumbnail_url": "assets/selected12/2045131503001342302-2-thumb.webp",
+        "alt": "极简留白角色涂鸦速写 3"
+      }
+    ],
+    "image_set_verified": true,
+    "width": 1024,
+    "height": 1536,
+    "prompt": "以涂鸦速写风表现【主题/主体】，整体呈现快速勾勒、自由变形、即兴手绘与草稿式的视觉效果。线条随手、夸张、可粗细不一，略显凌乱但具有节奏和表现力，强调概括、夸张、趣味和随性，而不是严谨写实或精细刻画。\n\n颜色采用粗糙、干刷感明显的块面表现，可保留不均匀的涂抹痕迹、刷痕、飞白与覆盖感，色彩根据【主题/主体】自动适配，但整体保持涂鸦式、速写式、概括式的表达。不要透明水彩晕染效果，不要细腻水彩过渡，不要纸纹理，不要柔和雾化，不要梦幻质感。\n\n背景以留白为主，保持简洁、轻松、未完成感和设计感，可加入少量辅助性符号、箭头、记号、圈画、重复线、随手写的文字或其他涂鸦元素，以增强速写本或随笔式视觉语言，但不可过于拥挤，不可破坏主体和留白气质。\n\n画面内容不需要预先写清楚，由【主题/主体】自动推演并生成最适合的主体形象、动作、相关元素、符号或简化场景，整体保持统一的涂鸦速写风和夸张概括的表现方式，避免复杂写实背景和过度铺陈。\n画面中需自然加入专属签名“voxcat”，作为画面的一部分，位置低调但清晰，可放在左下角、右下角或标题附近，风格需与整体版式统一，像作品署名或设计落款；签名字体精致、克制、高级，不可过大，不可破坏主体构图，不可显得突兀或廉价。",
+    "prompt_status": "原作者公开提示词，保留原文；未独立复现。",
+    "source_url": "https://x.com/VoxcatAI/status/2045131503001342302",
+    "prompt_source_url": "https://x.com/VoxcatAI/status/2045131503001342302",
+    "source_kind": "x",
+    "description": "以粗线条、留白与少量色块刻画角色；保留作者voxcat署名。",
+    "attribution": "VoxCat · @VoxcatAI",
+    "engagement": {
+      "likes": 315,
+      "bookmarks": 231,
+      "checked_at": "2026-11-15T13:27:31.450375+00:00"
+    },
+    "license": "作品归原作者所有，保留作者及原帖来源；其他用途请联系作者。",
+    "verification_status": "source_matched_owner_directed_display",
+    "publish_ready": true,
+    "checked_at": "2026-11-15",
+    "media_authorized": "owner-directed-display",
+    "display_permission": {
+      "status": "owner_confirmed_reuse",
+      "basis": "Owner confirmed attributed collection and uploads; not a blanket open-license assertion."
+    }
+  },
+  {
+    "id": "2052969695406325875",
+    "title": "暖色学习场景手账叠画",
+    "author": "Sairah",
+    "author_handle": "Sairah_0",
+    "author_url": "https://x.com/Sairah_0",
+    "author_avatar_url": "assets/authors/b12-Sairah_0.jpg",
+    "model": "GPT Image 2",
+    "model_family": "GPT Image 2",
+    "type": "image",
+    "category": "海报与排版",
+    "image_url": "assets/selected12/2052969695406325875-0.jpg",
+    "thumbnail_url": "assets/selected12/2052969695406325875-0-thumb.webp",
+    "images": [
+      {
+        "url": "assets/selected12/2052969695406325875-0.jpg",
+        "thumbnail_url": "assets/selected12/2052969695406325875-0-thumb.webp",
+        "alt": "暖色学习场景手账叠画 1"
+      }
+    ],
+    "image_set_verified": true,
+    "width": 1086,
+    "height": 1448,
+    "prompt": "Dreamy cinematic study aesthetic, young Asian girl with long dark hair studying outdoors at a wooden table during golden hour, cozy oversized green sweater and scarf, writing in notebook beside open laptop, historic university campus in background, warm sunset lighting, soft glow, autumn atmosphere, aesthetic doodles and handwritten notes floating around image, kawaii scrapbook style overlays, pastel hearts and stars, motivational text, shallow depth of field, nostalgic film grain, soft beige and warm green tones, peaceful productive vibe, ultra detailed, Pinterest aesthetic, photorealistic, cozy academia style, 35mm film look",
+    "prompt_status": "原作者公开提示词，保留原文；未独立复现。",
+    "source_url": "https://x.com/Sairah_0/status/2052969695406325875",
+    "prompt_source_url": "https://x.com/Sairah_0/status/2052969695406325875",
+    "source_kind": "x",
+    "description": "用简笔涂鸦和短句为学习照片增加手账氛围；需参考图片。",
+    "attribution": "Sairah · @Sairah_0",
+    "engagement": {
+      "likes": 319,
+      "bookmarks": 188,
+      "checked_at": "2026-11-15T13:27:31.450384+00:00"
+    },
+    "license": "作品归原作者所有，保留作者及原帖来源；其他用途请联系作者。",
+    "verification_status": "source_matched_owner_directed_display",
+    "publish_ready": true,
+    "checked_at": "2026-11-15",
+    "media_authorized": "owner-directed-display",
+    "display_permission": {
+      "status": "owner_confirmed_reuse",
+      "basis": "Owner confirmed attributed collection and uploads; not a blanket open-license assertion."
+    }
+  },
+  {
+    "id": "2058400056722731079",
+    "title": "家庭旅行纸雕场景",
+    "author": "Taaruk",
+    "author_handle": "Taaruk_",
+    "author_url": "https://x.com/Taaruk_",
+    "author_avatar_url": "assets/authors/b12-Taaruk_.jpg",
+    "model": "GPT Image 2",
+    "model_family": "GPT Image 2",
+    "type": "image",
+    "category": "插画与角色",
+    "image_url": "assets/selected12/2058400056722731079-0.jpg",
+    "thumbnail_url": "assets/selected12/2058400056722731079-0-thumb.webp",
+    "images": [
+      {
+        "url": "assets/selected12/2058400056722731079-0.jpg",
+        "thumbnail_url": "assets/selected12/2058400056722731079-0-thumb.webp",
+        "alt": "家庭旅行纸雕场景 1"
+      },
+      {
+        "url": "assets/selected12/2058400056722731079-1.jpg",
+        "thumbnail_url": "assets/selected12/2058400056722731079-1-thumb.webp",
+        "alt": "家庭旅行纸雕场景 2"
+      },
+      {
+        "url": "assets/selected12/2058400056722731079-2.jpg",
+        "thumbnail_url": "assets/selected12/2058400056722731079-2-thumb.webp",
+        "alt": "家庭旅行纸雕场景 3"
+      },
+      {
+        "url": "assets/selected12/2058400056722731079-3.jpg",
+        "thumbnail_url": "assets/selected12/2058400056722731079-3-thumb.webp",
+        "alt": "家庭旅行纸雕场景 4"
+      }
+    ],
+    "image_set_verified": true,
+    "width": 941,
+    "height": 1672,
+    "prompt": "Adorable kawaii family travel collage, combining four different scenes in one composition, cute anime-inspired parents, friends and children taking selfies and exploring together, handcrafted paper-cut diorama style, layered cardboard and felt textures, miniature world aesthetic, cozy pastel color palette, soft cinematic lighting, playful vacation atmosphere, urban city station scene, shopping mall selfie corner, outdoor nature park, and crowded playground blended into one seamless scrapbook-style artwork, charming sticker-like white outlines around characters, tiny tourists and pedestrians in background, whimsical handcrafted textures, soft depth of field, highly detailed paper craft illustration, warm nostalgic mood, cute casual outfits with glasses, caps, bags and sandals, dreamy Instagram kawaii aesthetic, storybook composition, ultra detailed miniature environment, 3D layered paper art, tilt-shift effect, cozy wholesome family travel vibes, premium handcrafted look, high detail, 8k, vertical composition",
+    "prompt_status": "原作者公开提示词，保留原文；未独立复现。",
+    "source_url": "https://x.com/Taaruk_/status/2058400056722731079",
+    "prompt_source_url": "https://x.com/Taaruk_/status/2058400056722731079",
+    "source_kind": "x",
+    "description": "以纸雕质感重现家庭旅行；原帖通用提示词要求四格，发布为四张独立图，不保证同样复现。",
+    "attribution": "Taaruk · @Taaruk_",
+    "engagement": {
+      "likes": 205,
+      "bookmarks": 105,
+      "checked_at": "2026-11-15T13:27:31.450396+00:00"
+    },
+    "license": "作品归原作者所有，保留作者及原帖来源；其他用途请联系作者。",
+    "verification_status": "source_matched_owner_directed_display",
+    "publish_ready": true,
+    "checked_at": "2026-11-15",
+    "media_authorized": "owner-directed-display",
+    "display_permission": {
+      "status": "owner_confirmed_reuse",
+      "basis": "Owner confirmed attributed collection and uploads; not a blanket open-license assertion."
+    }
+  },
+  {
+    "id": "2062376738500526347",
+    "title": "巴黎咖啡馆故事书插画",
+    "author": "Eesha",
+    "author_handle": "MissDelulu9",
+    "author_url": "https://x.com/MissDelulu9",
+    "author_avatar_url": "assets/authors/b12-MissDelulu9.jpg",
+    "model": "未确认（ChatGPT）",
+    "model_family": "未确认（ChatGPT）",
+    "type": "image",
+    "category": "插画与角色",
+    "image_url": "assets/selected12/2062376738500526347-0.jpg",
+    "thumbnail_url": "assets/selected12/2062376738500526347-0-thumb.webp",
+    "images": [
+      {
+        "url": "assets/selected12/2062376738500526347-0.jpg",
+        "thumbnail_url": "assets/selected12/2062376738500526347-0-thumb.webp",
+        "alt": "巴黎咖啡馆故事书插画 1"
+      },
+      {
+        "url": "assets/selected12/2062376738500526347-1.jpg",
+        "thumbnail_url": "assets/selected12/2062376738500526347-1-thumb.webp",
+        "alt": "巴黎咖啡馆故事书插画 2"
+      }
+    ],
+    "image_set_verified": true,
+    "width": 1023,
+    "height": 1537,
+    "prompt": "Portrait illustration in a storybook style featuring a young adult woman exploring the streets of Paris. She is laughing happily with her eyes closed, holding a coffee cup in her hand. She has long, wavy hair and wears a beret hat. The scene is set near a Parisian café in a peaceful morning atmosphere. The woman has a sweet, charming smile. Soft, dreamy mood, romantic Paris street vibe, gentle lighting, and highly detailed artwork.",
+    "prompt_status": "原作者公开提示词，保留原文；未独立复现。",
+    "source_url": "https://x.com/MissDelulu9/status/2062376738500526347",
+    "prompt_source_url": "https://x.com/MissDelulu9/status/2062376738500526347",
+    "source_kind": "x",
+    "description": "温暖的巴黎咖啡馆故事书插画，原帖仅确认ChatGPT，未明确模型版本。",
+    "attribution": "Eesha · @MissDelulu9",
+    "engagement": {
+      "likes": 171,
+      "bookmarks": 42,
+      "checked_at": "2026-11-15T13:27:31.450404+00:00"
+    },
+    "license": "作品归原作者所有，保留作者及原帖来源；其他用途请联系作者。",
+    "verification_status": "source_matched_owner_directed_display",
+    "publish_ready": true,
+    "checked_at": "2026-11-15",
+    "media_authorized": "owner-directed-display",
+    "display_permission": {
+      "status": "owner_confirmed_reuse",
+      "basis": "Owner confirmed attributed collection and uploads; not a blanket open-license assertion."
+    }
+  },
+  {
+    "id": "2090310144190218272",
+    "title": "青花敦煌刺绣四拼海报",
+    "author": "DAAI☀️",
+    "author_handle": "daaihq",
+    "author_url": "https://x.com/daaihq",
+    "author_avatar_url": "assets/authors/b12-daaihq.jpg",
+    "model": "GPT Image 2",
+    "model_family": "GPT Image 2",
+    "type": "image",
+    "category": "海报与排版",
+    "image_url": "assets/selected12/2090310144190218272-0.jpg",
+    "thumbnail_url": "assets/selected12/2090310144190218272-0-thumb.webp",
+    "images": [
+      {
+        "url": "assets/selected12/2090310144190218272-0.jpg",
+        "thumbnail_url": "assets/selected12/2090310144190218272-0-thumb.webp",
+        "alt": "青花敦煌刺绣四拼海报 1"
+      },
+      {
+        "url": "assets/selected12/2090310144190218272-1.jpg",
+        "thumbnail_url": "assets/selected12/2090310144190218272-1-thumb.webp",
+        "alt": "青花敦煌刺绣四拼海报 2"
+      }
+    ],
+    "image_set_verified": true,
+    "width": 1048,
+    "height": 1342,
+    "prompt": "请将我上传的照片制作成一张竖版拼图海报，整体采用 3:4 竖版构图。画面从上到下严格四等分为四个横向区域，每个区域的高度必须精确控制为整体画面高度的25%（四层比例严格为1:1:1:1，不允许出现比例偏差），区域之间无缝衔接，不设分隔线、不留间隙，顺序为：原图→风格1→风格2→风格3。由于每层为约3:1的极扁宽幅比例，各层主体建议横向居中排布，强调左右开阔留白与呼吸感，避免元素纵向拉伸变形或贴边拥挤。四层在人物站位、场景结构、视线方向上保持连贯呼应，呈现同一画面、四种转译的整体感。风格层（第二至四层）须遵循极简原则：每层视觉元素数量压缩至最低限度，只保留1个最核心的主体符号，其余次要装饰、背景细节与陪衬元素一律省略，画面留白占比不低于60%。\n\n第一层保留原始照片的主体结构、人物真实互动关系与姿态、真实质感、自然光影与原有色彩氛围，仅进行轻微高级摄影调色，呈现杂志摄影质感，不改变人物关系与构图逻辑，并可在不改变人物关系与构图逻辑的前提下自然扩展天空、地面或环境背景，使整体更具空间感与叙事感。\n\n第二层为青花瓷绘风格：借鉴青花瓷绘画技法，以钴蓝色线条与晕染在米白底上表现人物与场景，呈现瓷器纹样的疏朗雅致感。色彩以钴蓝与米白为主的单色系。避免蓝色浓淡层次过多显杂，避免图案化装饰堆砌。\n\n第三层为敦煌壁画风格：借鉴敦煌壁画矿物重彩质感，表现古朴斑驳的美感，需简化线条与色块。背景为土黄或赭石底色，带斑驳壁画肌理感。色彩以赭石、石青、朱砂、土黄为主。避免裂纹肌理过多堆砌，避免复杂纹样装饰。\n\n第四层为刺绣锦缎风格：以刺绣针脚肌理表现人物与场景轮廓，呈现丝缎光泽与针线纹理感，图案需极简概括。背景为米白或浅灰缎面底色。色彩以2至3种柔和色搭配金线点缀。避免针脚过密显繁琐，避免金线过多显浮夸。\n\n每一层需将主体与场景统一转换为对应风格，整体表达极度克制与简化，只保留最核心的一个主体符号及其基本轮廓关系，删除一切非必要的背景元素、装饰细节与陪衬物；人物之间的关键位置关系、互动方向与姿态特征需保留，但应抽象为可识别的轮廓关系，做到“元素越少、关系越清晰”。色彩均从原图中提取归纳，每层严格控制在2-4种主色以内。四个区域的高度比例须严格保持1:1:1:1（各占25%），不可出现拼接错位或比例偏差。整体避免朋克/赛博朋克风格、写实照片质感强行叠加、卡通风格、3D渲染感、商业海报感、复杂背景堆砌、元素过多或画面拥挤、相邻两层风格雷同，以及任何文字、Logo、水印或标题。",
+    "prompt_status": "原作者公开提示词，保留原文；未独立复现。",
+    "source_url": "https://x.com/daaihq/status/2090310144190218272",
+    "prompt_source_url": "https://x.com/daaihq/status/2090310144190218272",
+    "source_kind": "x",
+    "description": "在原照片下排列青花、敦煌与刺绣转绘，展示一张图的风格变化；每张是完整对照。",
+    "attribution": "DAAI☀️ · @daaihq",
+    "engagement": {
+      "likes": 126,
+      "bookmarks": 133,
+      "checked_at": "2026-11-15T13:27:31.450477+00:00"
+    },
+    "license": "作品归原作者所有，保留作者及原帖来源；其他用途请联系作者。",
+    "verification_status": "source_matched_owner_directed_display",
+    "publish_ready": true,
+    "checked_at": "2026-11-15",
+    "media_authorized": "owner-directed-display",
+    "display_permission": {
+      "status": "owner_confirmed_reuse",
+      "basis": "Owner confirmed attributed collection and uploads; not a blanket open-license assertion."
+    }
+  },
+  {
+    "id": "2045203839910056014",
+    "title": "手写食谱重排为杂志跨页",
+    "author": "Alex Patrascu",
+    "author_handle": "maxescu",
+    "author_url": "https://x.com/maxescu",
+    "author_avatar_url": "assets/authors/b12-maxescu.jpg",
+    "model": "GPT Image 2",
+    "model_family": "GPT Image 2",
+    "type": "image",
+    "category": "插画与角色",
+    "image_url": "assets/selected12/2045203839910056014-0.jpg",
+    "thumbnail_url": "assets/selected12/2045203839910056014-0-thumb.webp",
+    "images": [
+      {
+        "url": "assets/selected12/2045203839910056014-0.jpg",
+        "thumbnail_url": "assets/selected12/2045203839910056014-0-thumb.webp",
+        "alt": "手写食谱重排为杂志跨页 1"
+      }
+    ],
+    "image_set_verified": true,
+    "width": 1536,
+    "height": 1024,
+    "prompt": "Handwritten Recipe → Professional Cookbook Page Upload a messy handwritten family recipe; the model searches for accurate modern measurements/nutrition, then generates a polished, magazine-style double-page spread with step-by-step flat lays, perfect ingredient labels, and calorie breakdowns.\n\n[INSERT_RECIPE_LINK]",
+    "prompt_status": "原作者公开提示词，保留原文；未独立复现。",
+    "source_url": "https://x.com/maxescu/status/2045203839910056014",
+    "prompt_source_url": "https://x.com/maxescu/status/2045203839910056014",
+    "source_kind": "x",
+    "description": "将手写食谱重排为杂志页面的输入输出演示；图中营养值与配料未经核验。",
+    "attribution": "Alex Patrascu · @maxescu",
+    "engagement": {
+      "likes": 107,
+      "bookmarks": 108,
+      "checked_at": "2026-11-15T13:27:31.450511+00:00"
+    },
+    "license": "作品归原作者所有，保留作者及原帖来源；其他用途请联系作者。",
+    "verification_status": "source_matched_owner_directed_display",
+    "publish_ready": true,
+    "checked_at": "2026-11-15",
+    "media_authorized": "owner-directed-display",
+    "display_permission": {
+      "status": "owner_confirmed_reuse",
+      "basis": "Owner confirmed attributed collection and uploads; not a blanket open-license assertion."
+    }
+  },
+  {
+    "id": "2116225438204748284",
+    "title": "手绘质感3D怪物角色",
+    "author": "MayorkingAI",
+    "author_handle": "MayorKingAI",
+    "author_url": "https://x.com/MayorKingAI",
+    "author_avatar_url": "assets/authors/b12-MayorKingAI.jpg",
+    "model": "Midjourney 8.2",
+    "model_family": "Midjourney 8.2",
+    "type": "image",
+    "category": "插画与角色",
+    "image_url": "assets/selected12/2116225438204748284-0.jpg",
+    "thumbnail_url": "assets/selected12/2116225438204748284-0-thumb.webp",
+    "images": [
+      {
+        "url": "assets/selected12/2116225438204748284-0.jpg",
+        "thumbnail_url": "assets/selected12/2116225438204748284-0-thumb.webp",
+        "alt": "手绘质感3D怪物角色 1"
+      },
+      {
+        "url": "assets/selected12/2116225438204748284-1.jpg",
+        "thumbnail_url": "assets/selected12/2116225438204748284-1-thumb.webp",
+        "alt": "手绘质感3D怪物角色 2"
+      },
+      {
+        "url": "assets/selected12/2116225438204748284-2.jpg",
+        "thumbnail_url": "assets/selected12/2116225438204748284-2-thumb.webp",
+        "alt": "手绘质感3D怪物角色 3"
+      },
+      {
+        "url": "assets/selected12/2116225438204748284-3.jpg",
+        "thumbnail_url": "assets/selected12/2116225438204748284-3-thumb.webp",
+        "alt": "手绘质感3D怪物角色 4"
+      }
+    ],
+    "image_set_verified": true,
+    "width": 1600,
+    "height": 2400,
+    "prompt": "Full body shot of [CHARACTER], [FACIAL FEATURES], wearing [OUTFIT],  [POSE AND EXPRESSION], centered, isolated on pure white background, soft studio lighting with gentle rim light, stylized 3D animation with hand-painted textures projected onto 3D models, painterly brushwork on skin, hair and clothing, graphic painted lighting and shadows, concept art painting finish, illustrative 2D-3D hybrid look, grotesque caricature character design, wildly exaggerated proportions, [EXAGGERATED PROPORTION], oversized ears, huge expressive eyes --ar 2:3",
+    "prompt_status": "原作者公开提示词，保留原文；未独立复现。",
+    "source_url": "https://x.com/MayorKingAI/status/2116225438204748284",
+    "prompt_source_url": "https://x.com/MayorKingAI/status/2116225438204748284",
+    "source_kind": "x",
+    "description": "用白底与夸张比例统一四个怪物角色，保留手绘笔触与立体质感。",
+    "attribution": "MayorkingAI · @MayorKingAI",
+    "engagement": {
+      "likes": 256,
+      "bookmarks": 174,
+      "checked_at": "2026-11-15"
+    },
+    "license": "作品归原作者所有，保留作者及原帖来源；其他用途请联系作者。",
+    "verification_status": "source_matched_owner_directed_display",
+    "publish_ready": true,
+    "checked_at": "2026-11-15",
+    "media_authorized": "owner-directed-display",
+    "display_permission": {
+      "status": "owner_confirmed_reuse",
+      "basis": "Owner confirmed attributed collection and uploads; not a blanket open-license assertion."
+    }
+  },
+  {
+    "id": "2084250097403998602",
+    "title": "90年代冲浪杂志鲨鱼拼贴",
+    "author": "Rory Flynn",
+    "author_handle": "Ror_Fly",
+    "author_url": "https://x.com/Ror_Fly",
+    "author_avatar_url": "assets/authors/b12-Ror_Fly.jpg",
+    "model": "Midjourney（版本未注明）",
+    "model_family": "Midjourney（版本未注明）",
+    "type": "image",
+    "category": "插画与角色",
+    "image_url": "assets/selected12/2084250097403998602-0.jpg",
+    "thumbnail_url": "assets/selected12/2084250097403998602-0-thumb.webp",
+    "images": [
+      {
+        "url": "assets/selected12/2084250097403998602-0.jpg",
+        "thumbnail_url": "assets/selected12/2084250097403998602-0-thumb.webp",
+        "alt": "90年代冲浪杂志鲨鱼拼贴 1"
+      }
+    ],
+    "image_set_verified": true,
+    "width": 1800,
+    "height": 2124,
+    "prompt": "collage, 2d shark constructed with magazine cut out components, Maui & Sons, {neon orange, white background}, Hasselblad styling, vintage surf aesthetic branding elements, Maui & Sons logo, vintage Surf magazine logo, organized meticulous chaos --ar 51:91 --profile eftl5ji zmuvoru lgaicxx lncun5f --stylize {80, 880} --hd",
+    "prompt_status": "原作者公开提示词，保留原文；未独立复现。",
+    "source_url": "https://x.com/Ror_Fly/status/2084250097403998602",
+    "prompt_source_url": "https://x.com/Ror_Fly/status/2084250097403998602",
+    "source_kind": "x",
+    "description": "以杂志剪贴、荧光色与冲浪品牌元素构成一张六格情绪板；原帖未明确模型版本。",
+    "attribution": "Rory Flynn · @Ror_Fly",
+    "engagement": {
+      "likes": 602,
+      "bookmarks": 298,
+      "checked_at": "2026-11-15"
+    },
+    "license": "作品归原作者所有，保留作者及原帖来源；其他用途请联系作者。",
+    "verification_status": "source_matched_owner_directed_display",
+    "publish_ready": true,
+    "checked_at": "2026-11-15",
+    "media_authorized": "owner-directed-display",
+    "display_permission": {
+      "status": "owner_confirmed_reuse",
+      "basis": "Owner confirmed attributed collection and uploads; not a blanket open-license assertion."
+    }
+  },
+  {
+    "id": "2082171043020767734",
+    "title": "现代图书馆水彩插画",
+    "author": "Saul Goodman",
+    "author_handle": "Goodmanprotocol",
+    "author_url": "https://x.com/Goodmanprotocol",
+    "author_avatar_url": "assets/authors/b12-Goodmanprotocol.jpg",
+    "model": "Midjourney 8.2",
+    "model_family": "Midjourney 8.2",
+    "type": "image",
+    "category": "插画与角色",
+    "image_url": "assets/selected12/2082171043020767734-0.jpg",
+    "thumbnail_url": "assets/selected12/2082171043020767734-0-thumb.webp",
+    "images": [
+      {
+        "url": "assets/selected12/2082171043020767734-0.jpg",
+        "thumbnail_url": "assets/selected12/2082171043020767734-0-thumb.webp",
+        "alt": "现代图书馆水彩插画 1"
+      },
+      {
+        "url": "assets/selected12/2082171043020767734-1.jpg",
+        "thumbnail_url": "assets/selected12/2082171043020767734-1-thumb.webp",
+        "alt": "现代图书馆水彩插画 2"
+      },
+      {
+        "url": "assets/selected12/2082171043020767734-2.jpg",
+        "thumbnail_url": "assets/selected12/2082171043020767734-2-thumb.webp",
+        "alt": "现代图书馆水彩插画 3"
+      }
+    ],
+    "image_set_verified": true,
+    "width": 1080,
+    "height": 1443,
+    "prompt": "Minimalist pastel watercolor and ink illustration, 3:4 vertical, textured handmade cold press watercolor paper. \nSCENE: Contemporary Korean city hall library, quiet summer morning. Gently elevated viewpoint over wide wooden tiered reading steps with children, parents, and residents reading picture books, magazines, and novels. Tall curved wooden bookshelf along entire left wall extending to lower floor. White mezzanine bridge, glass railings, circular ventilation openings, small yellow bookcases below. \nMOOD: Cool summer refuge, peaceful, refreshing, communal, airy, air conditioned warmth. \nCOMPOSITION: Curved bookshelf and tiered seats as leading lines. People small, naturally distributed in lower half. Wide open ceiling, generous untouched paper at upper/outer edges. Distant shelves dissolve before frame edges.\nSTYLE: Delicate broken ink contours, translucent uneven washes, visible paper grain, wet on wet blooms, pigment granulation, dry brush gaps, softly incomplete architectural edges, quiet Korean storybook warmth. \nPALETTE: Warm ivory, pale oak brown, mint green, powder blue, muted mustard yellow, soft coral, cool gray, navy accents. \nNO text, logos, signage, or watermarks. \nNEGATIVE: Photorealism, fully rendered architecture, dense crowd, harsh shadows, saturated colors, glossy digital painting, perfect geometric lines, excessive detail, complete background wash, distorted stairs, duplicated people, malformed hands.",
+    "prompt_status": "原作者公开提示词，保留原文；未独立复现。",
+    "source_url": "https://x.com/Goodmanprotocol/status/2082171043020767734",
+    "prompt_source_url": "https://x.com/Goodmanprotocol/status/2082171043020767734",
+    "source_kind": "x",
+    "description": "用水彩留白、细墨线与暖木色表现公共图书馆的静谧氛围。",
+    "attribution": "Saul Goodman · @Goodmanprotocol",
+    "engagement": {
+      "likes": 185,
+      "bookmarks": 149,
+      "checked_at": "2026-11-15"
+    },
+    "license": "作品归原作者所有，保留作者及原帖来源；其他用途请联系作者。",
+    "verification_status": "source_matched_owner_directed_display",
+    "publish_ready": true,
+    "checked_at": "2026-11-15",
+    "media_authorized": "owner-directed-display",
+    "display_permission": {
+      "status": "owner_confirmed_reuse",
+      "basis": "Owner confirmed attributed collection and uploads; not a blanket open-license assertion."
+    }
+  },
+  {
+    "id": "2052500469537530130",
+    "title": "红褐色粉笔素描",
+    "author": "Alexandra Aisling",
+    "author_handle": "AllaAisling",
+    "author_url": "https://x.com/AllaAisling",
+    "author_avatar_url": "assets/authors/b12-AllaAisling.jpg",
+    "model": "Midjourney（版本未注明）",
+    "model_family": "Midjourney（版本未注明）",
+    "type": "image",
+    "category": "插画与角色",
+    "image_url": "assets/selected12/2052500469537530130-0.jpg",
+    "thumbnail_url": "assets/selected12/2052500469537530130-0-thumb.webp",
+    "images": [
+      {
+        "url": "assets/selected12/2052500469537530130-0.jpg",
+        "thumbnail_url": "assets/selected12/2052500469537530130-0-thumb.webp",
+        "alt": "红褐色粉笔素描 1"
+      },
+      {
+        "url": "assets/selected12/2052500469537530130-1.jpg",
+        "thumbnail_url": "assets/selected12/2052500469537530130-1-thumb.webp",
+        "alt": "红褐色粉笔素描 2"
+      },
+      {
+        "url": "assets/selected12/2052500469537530130-2.jpg",
+        "thumbnail_url": "assets/selected12/2052500469537530130-2-thumb.webp",
+        "alt": "红褐色粉笔素描 3"
+      },
+      {
+        "url": "assets/selected12/2052500469537530130-3.jpg",
+        "thumbnail_url": "assets/selected12/2052500469537530130-3-thumb.webp",
+        "alt": "红褐色粉笔素描 4"
+      }
+    ],
+    "image_set_verified": true,
+    "width": 928,
+    "height": 1232,
+    "prompt": "A sanguine chalk drawing of a [subject] on cream laid paper, red-brown earth tones, soft modeling with stumped edges, Michelangelo figure study energy, preparatory sketch for something larger never completed.",
+    "prompt_status": "原作者公开提示词，保留原文；未独立复现。",
+    "source_url": "https://x.com/AllaAisling/status/2052500469537530130",
+    "prompt_source_url": "https://x.com/AllaAisling/status/2052500469537530130",
+    "source_kind": "x",
+    "description": "以红褐色粉笔、奶油色纸张和柔和边缘统一人物习作；原帖未明确模型版本。",
+    "attribution": "Alexandra Aisling · @AllaAisling",
+    "engagement": {
+      "likes": 248,
+      "bookmarks": 175,
+      "checked_at": "2026-11-15"
+    },
+    "license": "作品归原作者所有，保留作者及原帖来源；其他用途请联系作者。",
+    "verification_status": "source_matched_owner_directed_display",
+    "publish_ready": true,
+    "checked_at": "2026-11-15",
+    "media_authorized": "owner-directed-display",
+    "display_permission": {
+      "status": "owner_confirmed_reuse",
+      "basis": "Owner confirmed attributed collection and uploads; not a blanket open-license assertion."
+    }
+  }
+]

@@ -1,0 +1,20 @@
+const assert=require('node:assert/strict'),fs=require('node:fs');
+const expected={
+  "2055876982630686956": "摄影与人像",
+  "2058375167550845263": "摄影与人像",
+  "2092452220768002400": "图像编辑",
+  "2051420440451801240": "产品与界面设计",
+  "2062365258984177766": "信息图",
+  "2093194689222705645": "材质与工艺",
+  "2046231542817497392": "信息图",
+  "2052624395932455061": "品牌与广告",
+  "2045203839910056014": "海报与排版",
+  "2057282710469767241": "品牌与广告",
+  "2052323461268467860": "产品与界面设计",
+  "2050281206139461780": "产品与界面设计",
+  "2062358269172101240": "微缩与超现实",
+  "2077034244988150062": "产品与界面设计"
+};
+const cases=JSON.parse(fs.readFileSync('dist/cases.json','utf8'));for(const [id,category] of Object.entries(expected)){assert.equal(cases.find(c=>c.id===id)?.category,category,id);}
+for(const f of fs.readdirSync('scripts').filter(f=>/^content-batch.*\.json$/.test(f)))for(const c of JSON.parse(fs.readFileSync('scripts/'+f,'utf8')))if(expected[c.id])assert.equal(c.category,expected[c.id],f+':'+c.id);
+console.log('PASS: 14 visually reviewed categories and content-batch overrides');

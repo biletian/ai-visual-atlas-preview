@@ -1,0 +1,442 @@
+{
+  "added": [
+    {
+      "id": "2027470188644626803",
+      "title": "撕纸显露果肉的饮料广告",
+      "author": "ΛRMIN",
+      "author_handle": "Arminn_Ai",
+      "author_url": "https://x.com/Arminn_Ai",
+      "author_avatar_url": "assets/authors/r14-Arminn_Ai.jpg",
+      "model": "Nano Banana 2",
+      "model_family": "Nano Banana 2",
+      "type": "image",
+      "category": "品牌与广告",
+      "image_url": "assets/selected104/2027470188644626803-0.jpg",
+      "thumbnail_url": "assets/selected104/2027470188644626803-0-thumb.webp",
+      "images": [
+        {
+          "url": "assets/selected104/2027470188644626803-0.jpg",
+          "thumbnail_url": "assets/selected104/2027470188644626803-0-thumb.webp",
+          "alt": "撕纸显露果肉的饮料广告 1"
+        }
+      ],
+      "image_set_verified": true,
+      "width": 1800,
+      "height": 2250,
+      "prompt": "A photorealistic, highly detailed commercial product photograph of a standard aluminum [Type of Soda Can] centered against a minimal, textured [Background Color] paper background, with subtle fibers visible. A single, continuous horizontal paper-tear strip runs across the entire width of the frame, seamless from the far-right edge to the far-left edge. The torn channel cuts through the metal body of the can and continues across the background on both sides with a barely perceptible and minimal diagonal slope towards the upper-left. The tear channel is significantly broader, revealing a dense, glistening, and vibrant layer of [Description of Fruit Segments/Sacs/Berries] tightly packed inside. Near the extreme far-left end of this tear, the paper is neatly rolled into a tight, realistic coil that occupies almost the entire left margin. The can features a newly designed, minimalist branding: the upper portion has a stylized, abstract line-art illustration of [Fruit Branch/Plant] in a contrasting [Ink Color], set against a subtle matte geometric [Pattern Type] pattern on the can surface. Below this, the brand name \"[Brand Name]\" is printed in an elegant, modern dark typography, with smaller technical text \"330ml - NATURAL EXTRACT\" and a small \"Recyclable\" logo. A small, detailed graphic of the fruit is located below the torn path. The lighting is soft and cinematic, casting delicate drop shadows beneath the torn paper edges and the large left coil. 8k resolution, macro details on fibrous paper and glossy fruit texture.",
+      "prompt_status": "原作者公开提示词，保留原文；未独立复现。",
+      "source_url": "https://x.com/Arminn_Ai/status/2027470188644626803",
+      "prompt_source_url": "https://x.com/Arminn_Ai/status/2027470188644626803",
+      "source_kind": "x",
+      "description": "以撕纸窗口揭示果肉的饮料概念广告，一张四款总览，虚构品牌视觉。",
+      "attribution": "ΛRMIN · @Arminn_Ai",
+      "engagement": {
+        "likes": 589,
+        "bookmarks": 505,
+        "checked_at": "2026-11-15T15:08:34.116403+00:00"
+      },
+      "license": "作品归原作者所有，保留作者及原帖来源；其他用途请联系作者。",
+      "verification_status": "source_matched_owner_directed_display",
+      "publish_ready": true,
+      "checked_at": "2026-11-15",
+      "media_authorized": "owner-directed-display",
+      "display_permission": {
+        "status": "owner_confirmed_reuse",
+        "basis": "Owner confirmed attributed collection and uploads; not a blanket open-license assertion."
+      }
+    },
+    {
+      "id": "2008559432016286198",
+      "title": "建筑遗产三联分析展板",
+      "author": "Alexandra Aisling",
+      "author_handle": "AllaAisling",
+      "author_url": "https://x.com/AllaAisling",
+      "author_avatar_url": "assets/authors/r14-AllaAisling.jpg",
+      "model": "Nano Banana Pro",
+      "model_family": "Nano Banana Pro",
+      "type": "image",
+      "category": "信息图",
+      "image_url": "assets/selected104/2008559432016286198-0.jpg",
+      "thumbnail_url": "assets/selected104/2008559432016286198-0-thumb.webp",
+      "images": [
+        {
+          "url": "assets/selected104/2008559432016286198-0.jpg",
+          "thumbnail_url": "assets/selected104/2008559432016286198-0-thumb.webp",
+          "alt": "建筑遗产三联分析展板 1"
+        },
+        {
+          "url": "assets/selected104/2008559432016286198-1.jpg",
+          "thumbnail_url": "assets/selected104/2008559432016286198-1-thumb.webp",
+          "alt": "建筑遗产三联分析展板 2"
+        },
+        {
+          "url": "assets/selected104/2008559432016286198-2.jpg",
+          "thumbnail_url": "assets/selected104/2008559432016286198-2-thumb.webp",
+          "alt": "建筑遗产三联分析展板 3"
+        },
+        {
+          "url": "assets/selected104/2008559432016286198-3.jpg",
+          "thumbnail_url": "assets/selected104/2008559432016286198-3-thumb.webp",
+          "alt": "建筑遗产三联分析展板 4"
+        }
+      ],
+      "image_set_verified": true,
+      "width": 1200,
+      "height": 896,
+      "prompt": "A preservation architect's survey board for [BUILDING / STRUCTURE] — [STYLE / ARCHITECT / PERIOD]. Left section: site plan and context, showing the structure in its urban or landscape setting with orientation, shadows, and neighboring relationships mapped. Center section: the building dissected, a cutaway axonometric revealing structural system, material layers, hidden infrastructure, with callouts identifying original versus modified elements. Right section: the building as experienced, photographed from the canonical viewpoint in ideal light, with human figures for scale and life, the architecture inhabited. Visual style transitions from technical survey blue-line through neutral analytical greys to golden-hour warmth. Title block reading \"[BUILDING NAME] — [ARCHITECT], [CITY], [YEAR], HERITAGE SURVEY\".",
+      "prompt_status": "原作者公开提示词，保留原文；未独立复现。",
+      "source_url": "https://x.com/AllaAisling/status/2008559432016286198",
+      "prompt_source_url": "https://x.com/AllaAisling/status/2008559432016286198",
+      "source_kind": "x",
+      "description": "建筑遗产三联分析展板模板；年份、结构与调查数据未专业审校，不能代替真实建筑调查。",
+      "attribution": "Alexandra Aisling · @AllaAisling",
+      "engagement": {
+        "likes": 501,
+        "bookmarks": 441,
+        "checked_at": "2026-11-15T15:08:34.116429+00:00"
+      },
+      "license": "作品归原作者所有，保留作者及原帖来源；其他用途请联系作者。",
+      "verification_status": "source_matched_owner_directed_display",
+      "publish_ready": true,
+      "checked_at": "2026-11-15",
+      "media_authorized": "owner-directed-display",
+      "display_permission": {
+        "status": "owner_confirmed_reuse",
+        "basis": "Owner confirmed attributed collection and uploads; not a blanket open-license assertion."
+      }
+    },
+    {
+      "id": "2024375445345779759",
+      "title": "家用设备等距拆解信息图",
+      "author": "M-studioAi",
+      "author_handle": "Strength04_X",
+      "author_url": "https://x.com/Strength04_X",
+      "author_avatar_url": "assets/authors/r14-Strength04_X.jpg",
+      "model": "Nano Banana Pro",
+      "model_family": "Nano Banana Pro",
+      "type": "image",
+      "category": "信息图",
+      "image_url": "assets/selected104/2024375445345779759-0.jpg",
+      "thumbnail_url": "assets/selected104/2024375445345779759-0-thumb.webp",
+      "images": [
+        {
+          "url": "assets/selected104/2024375445345779759-0.jpg",
+          "thumbnail_url": "assets/selected104/2024375445345779759-0-thumb.webp",
+          "alt": "家用设备等距拆解信息图 1"
+        }
+      ],
+      "image_set_verified": true,
+      "width": 1800,
+      "height": 1800,
+      "prompt": "“Create a technical infographic of [OBJECT] with a 45-degree isometric 3D perspective showing the device slightly tilted to reveal depth and dimension.\nCombine a realistic photoreal render with black ink technical annotations on pure white background. Include:\nKey component labels with color-coded callout boxes\nInternal component visibility through transparent/cutaway sections\nMeasurements, dimensions, and precise scale markers\nMaterial callouts and quantities\nColor-coded arrows for function/flow: RED (power/battery), BLUE (data/connectivity), ORANGE (thermal/processor), GREEN (sensors/haptics)\nSimple schematics or cross-sectional diagrams where relevant\n\nPlace “OBJECT” title in a hand-drawn technical box (top-left corner).\nStyle: Black linework (technical pen/architectural), sketched but precise. Object remains clearly visible. Educational museum-exhibit vibe. Clean composition, balanced negative space.\nPerspective: Isometric 3D angle—tilted to show depth, dimension, and internal architecture dramatically. Like a professional product teardown or engineering manual.\nColors: ~10-15% accent density. Black dominant. White background.\nOutput: 1080×1080, ultra-crisp, social-feed optimized.”",
+      "prompt_status": "原作者公开提示词，保留原文；未独立复现。",
+      "source_url": "https://x.com/Strength04_X/status/2024375445345779759",
+      "prompt_source_url": "https://x.com/Strength04_X/status/2024375445345779759",
+      "source_kind": "x",
+      "description": "家用设备的等距拆解信息图；一张四设备拼图，生成结构与尺寸不可用于维修指导。",
+      "attribution": "M-studioAi · @Strength04_X",
+      "engagement": {
+        "likes": 467,
+        "bookmarks": 304,
+        "checked_at": "2026-11-15T15:08:34.116437+00:00"
+      },
+      "license": "作品归原作者所有，保留作者及原帖来源；其他用途请联系作者。",
+      "verification_status": "source_matched_owner_directed_display",
+      "publish_ready": true,
+      "checked_at": "2026-11-15",
+      "media_authorized": "owner-directed-display",
+      "display_permission": {
+        "status": "owner_confirmed_reuse",
+        "basis": "Owner confirmed attributed collection and uploads; not a blanket open-license assertion."
+      }
+    },
+    {
+      "id": "2015125749804454163",
+      "title": "电影名场面微缩模型",
+      "author": "Ege",
+      "author_handle": "egeberkina",
+      "author_url": "https://x.com/egeberkina",
+      "author_avatar_url": "assets/authors/r14-egeberkina.jpg",
+      "model": "Nano Banana Pro",
+      "model_family": "Nano Banana Pro",
+      "type": "image",
+      "category": "微缩与超现实",
+      "image_url": "assets/selected104/2015125749804454163-0.jpg",
+      "thumbnail_url": "assets/selected104/2015125749804454163-0-thumb.webp",
+      "images": [
+        {
+          "url": "assets/selected104/2015125749804454163-0.jpg",
+          "thumbnail_url": "assets/selected104/2015125749804454163-0-thumb.webp",
+          "alt": "电影名场面微缩模型 1"
+        },
+        {
+          "url": "assets/selected104/2015125749804454163-1.jpg",
+          "thumbnail_url": "assets/selected104/2015125749804454163-1-thumb.webp",
+          "alt": "电影名场面微缩模型 2"
+        },
+        {
+          "url": "assets/selected104/2015125749804454163-2.jpg",
+          "thumbnail_url": "assets/selected104/2015125749804454163-2-thumb.webp",
+          "alt": "电影名场面微缩模型 3"
+        },
+        {
+          "url": "assets/selected104/2015125749804454163-3.jpg",
+          "thumbnail_url": "assets/selected104/2015125749804454163-3-thumb.webp",
+          "alt": "电影名场面微缩模型 4"
+        }
+      ],
+      "image_set_verified": true,
+      "width": 1800,
+      "height": 1200,
+      "prompt": "{\n \"reference_images\": {\n \"scene_reference\": \"ATTACHED_IMAGE\",\n \"usage_rule\": \"Use this image as the sole and exact source for scene layout, object placement, and composition. Do not reinterpret or replace the scene.\"\n },\n\n \"concept\": {\n \"type\": \"miniature diorama reconstruction\",\n \"intent\": \"Rebuild the attached scene as a clean, collectible-scale diorama while preserving the original spatial relationships\"\n },\n\n \"environment\": {\n \"scale\": \"tabletop miniature\",\n \"ground\": {\n \"type\": \"sculpted base\",\n \"behavior\": \"supports all objects naturally without enclosure\",\n \"edges\": \"clean, minimal, slightly beveled\"\n },\n \"background\": {\n \"type\": \"seamless studio backdrop\",\n \"color\": \"pure white\",\n \"constraint\": \"no environment beyond the diorama base\"\n }\n },\n\n \"objects_and_elements\": {\n \"layout_rule\": \"All objects must remain in the same relative positions as in the reference image\",\n \"primary_elements\": \"exact vehicles, structures, props, and terrain visible in the reference\",\n \"detail_handling\": \"simplified but faithful miniature proportions\",\n \"characters\": {\n \"presence\": \"only if present in the reference\",\n \"style\": \"miniature figurines, no facial realism\"\n }\n },\n\n \"composition\": {\n \"view\": \"isometric or slightly elevated 3/4 perspective\",\n \"framing\": \"entire diorama visible, centered\",\n \"cropping\": \"no zoom, no cinematic crop\"\n },\n\n \"camera\": {\n \"lens_equivalent\": \"35mm–50mm\",\n \"perspective\": \"miniature realism\",\n \"distortion\": \"none\"\n },\n\n \"lighting\": {\n \"type\": \"soft studio lighting\",\n \"direction\": \"overhead and slightly angled\",\n \"shadows\": \"subtle contact shadows only beneath objects\",\n \"avoid\": [\n \"dramatic lighting\",\n \"spotlights\",\n \"cinematic contrast\"\n ]\n },\n\n \"materials_and_style\": {\n \"surface_finish\": \"smooth, matte or lightly satin\",\n \"material_quality\": \"high-quality scale model materials\",\n \"aesthetic\": \"clean, modern, premium diorama\"\n },\n\n \"quality_controls\": {\n \"image_clarity\": \"ultra-clean\",\n \"grain\": \"none\",\n \"noise\": \"none\",\n \"motion_blur\": \"none\"\n },\n\n \"negative_prompts\": [\n \"glass case\",\n \"display box\",\n \"museum enclosure\",\n \"transparent cube\",\n \"protective casing\",\n \"reflections on glass\",\n \"labels or plaques\",\n \"text overlays\",\n \"busy background\",\n \"cinematic blur\"\n ]\n}",
+      "prompt_status": "原作者公开提示词，保留原文；未独立复现。",
+      "source_url": "https://x.com/egeberkina/status/2015125749804454163",
+      "prompt_source_url": "https://x.com/egeberkina/status/2015125749804454163",
+      "source_kind": "x",
+      "description": "将电影名场景转成微缩模型，需要输入参考场景图；四张为结果，非电影官方周边。",
+      "attribution": "Ege · @egeberkina",
+      "engagement": {
+        "likes": 430,
+        "bookmarks": 510,
+        "checked_at": "2026-11-15T15:08:34.116444+00:00"
+      },
+      "license": "作品归原作者所有，保留作者及原帖来源；其他用途请联系作者。",
+      "verification_status": "source_matched_owner_directed_display",
+      "publish_ready": true,
+      "checked_at": "2026-11-15",
+      "media_authorized": "owner-directed-display",
+      "display_permission": {
+        "status": "owner_confirmed_reuse",
+        "basis": "Owner confirmed attributed collection and uploads; not a blanket open-license assertion."
+      }
+    },
+    {
+      "id": "2027745604600811970",
+      "title": "工业金属与条纹玻璃折射",
+      "author": "Lloyd Creates",
+      "author_handle": "lloydcreates",
+      "author_url": "https://x.com/lloydcreates",
+      "author_avatar_url": "assets/authors/r14-lloydcreates.jpg",
+      "model": "Nano Banana 2",
+      "model_family": "Nano Banana 2",
+      "type": "image",
+      "category": "材质与工艺",
+      "image_url": "assets/selected104/2027745604600811970-0.jpg",
+      "thumbnail_url": "assets/selected104/2027745604600811970-0-thumb.webp",
+      "images": [
+        {
+          "url": "assets/selected104/2027745604600811970-0.jpg",
+          "thumbnail_url": "assets/selected104/2027745604600811970-0-thumb.webp",
+          "alt": "工业金属与条纹玻璃折射 1"
+        }
+      ],
+      "image_set_verified": true,
+      "width": 960,
+      "height": 1200,
+      "prompt": "{\n  \"image_generation_request\": {\n    \"subject\": {\n      \"placeholder\": \"[INSERT PRODUCT HERE]\",\n      \"position\": \"dead center, eye-level, perfectly centered in frame\",\n      \"presentation\": \"levitating, floating in a weightless void, no stands, no platforms, no pedestals, no visible supports\"\n    },\n    \"environment\": {\n      \"background\": \"absolute solid pitch black, hex code #000000, infinite void\",\n      \"lighting\": \"rim lighting, cinematic chiaroscuro, high-contrast glints on metallic edges, soft orange glow from internal recesses\"\n    },\n    \"aesthetic_style\": {\n      \"textures\": [\n        \"shot-blasted matte titanium\",\n        \"brushed aerospace-grade aluminum\",\n        \"anodized dark grey metal\",\n        \"ribbed industrial vertical cooling fins\"\n      ],\n      \"optical_effects\": \"viewed through vertical fluted reeded glass, subtle chromatic distortion, refractive glass warping, radial motion blur on outer edges\",\n      \"color_palette\": {\n        \"primary_background\": \"#000000\",\n        \"secondary_metal\": \"#8E8E8E\",\n        \"accent_glow\": \"#FF8C00\",\n        \"highlights\": \"#FFFFFF\"\n      }\n    },\n    \"composition_constraints\": {\n      \"framing\": \"ensure full product visibility, do not cut off edges, wide safety margins around the subject\",\n      \"elements_to_exclude\": [\n        \"text\",\n        \"logos\",\n        \"watermarks\",\n        \"softboxes\",\n        \"light stands\",\n        \"floor\",\n        \"horizon line\",\n        \"props\",\n        \"human hands\",\n        \"shadows on surfaces\"\n      ]\n    },\n    \"technical_specs\": {\n      \"focal_length\": \"85mm macro lens\",\n      \"depth_of_field\": \"deep focus on product, blurred refractive foreground glass\",\n      \"render_engine\": \"photorealistic octane render, 8k resolution, ray-traced reflections\"\n    }\n  }\n}",
+      "prompt_status": "原作者公开提示词，保留原文；未独立复现。",
+      "source_url": "https://x.com/lloydcreates/status/2027745604600811970",
+      "prompt_source_url": "https://x.com/lloydcreates/status/2027745604600811970",
+      "source_kind": "x",
+      "description": "工业金属与条纹玻璃折射的材质总览；原提示词中的渲染器名称是风格描述，不代表实际使用的软件。",
+      "attribution": "Lloyd Creates · @lloydcreates",
+      "engagement": {
+        "likes": 426,
+        "bookmarks": 376,
+        "checked_at": "2026-11-15T15:08:34.116450+00:00"
+      },
+      "license": "作品归原作者所有，保留作者及原帖来源；其他用途请联系作者。",
+      "verification_status": "source_matched_owner_directed_display",
+      "publish_ready": true,
+      "checked_at": "2026-11-15",
+      "media_authorized": "owner-directed-display",
+      "display_permission": {
+        "status": "owner_confirmed_reuse",
+        "basis": "Owner confirmed attributed collection and uploads; not a blanket open-license assertion."
+      }
+    },
+    {
+      "id": "2009941784965853278",
+      "title": "土耳其烤肉六种动态广告",
+      "author": "Kaan",
+      "author_handle": "kaanakz",
+      "author_url": "https://x.com/kaanakz",
+      "author_avatar_url": "assets/authors/r14-kaanakz.jpg",
+      "model": "Nano Banana Pro",
+      "model_family": "Nano Banana Pro",
+      "type": "image",
+      "category": "品牌与广告",
+      "image_url": "assets/selected104/2009941784965853278-0.jpg",
+      "thumbnail_url": "assets/selected104/2009941784965853278-0-thumb.webp",
+      "images": [
+        {
+          "url": "assets/selected104/2009941784965853278-0.jpg",
+          "thumbnail_url": "assets/selected104/2009941784965853278-0-thumb.webp",
+          "alt": "土耳其烤肉六种动态广告 1"
+        }
+      ],
+      "image_set_verified": true,
+      "width": 1792,
+      "height": 2400,
+      "prompt": "{\n  \"resolution\": \"8K UHD\",\n  \"aspect_ratio\": \"3:4\",\n  \"image_style\": \"hyper-realistic commercial food photography\",\n  \"global_settings\": {\n    \"quality\": \"Ultra-high detail, razor-sharp focus, premium street food clarity\",\n    \"lighting\": \"Controlled studio lighting emphasizing meat texture, char marks, and sauce glistening\",\n    \"motion\": \"Frozen mid-air elements with subtle gravity realism\",\n    \"background_style\": \"Solid or smooth gradient background, color varies per module\",\n    \"camera\": \"High-speed photography look, shallow to medium depth of field\",\n    \"post_processing\": \"Rich contrast, warm savory tones, natural shine, appetizing color grading\"\n  },\n  \"modules\": {\n    \n    \"module_1_classic_doner_slice_explosion\": {\n      \"scene_description\": \"A dramatic vertical döner stack with flying meat slices and sauce droplets\",\n      \"doner\": {\n        \"type\": \"Traditional Turkish döner kebab slices\",\n        \"texture\": \"Thinly sliced beef and lamb mix with visible char marks\",\n        \"cut\": \"Paper-thin ribbons\",\n        \"position\": \"Stacked vertically and floating mid-air\"\n      },\n      \"details\": {\n        \"char_marks\": \"Dark caramelized edges with grill stripes\",\n        \"fat_marbling\": \"Glistening fat streaks between meat layers\",\n        \"seasoning\": \"Visible spice particles on meat surface\"\n      },\n      \"motion_effects\": {\n        \"meat_slices\": \"Individual döner slices spiraling outward\",\n        \"sauce\": \"White garlic sauce and red chili sauce droplets splashing\",\n        \"herbs\": \"Fresh parsley leaves floating in air\"\n      },\n      \"background\": {\n        \"color\": \"Deep crimson red\",\n        \"texture\": \"Smooth, seamless\"\n      }\n    },\n\n    \"module_2_minimal_doner_durum_floating\": {\n      \"scene_description\": \"Minimalist premium döner dürüm presentation with controlled floating ingredients\",\n      \"doner\": {\n        \"type\": \"Perfectly wrapped dürüm (wrap) cross-section\",\n        \"arrangement\": \"Single dürüm cut in half, floating vertically\",\n        \"surface\": \"Lightly toasted lavash bread with golden char marks\"\n      },\n      \"accent_elements\": {\n        \"filling\": \"Layered döner meat, lettuce, tomatoes, onions visible in cross-section\",\n        \"sauce\": \"White garlic yogurt sauce drizzling elegantly\",\n        \"vegetables\": \"Fresh red tomato slices, crisp lettuce, purple onion rings\"\n      },\n      \"motion_effects\": {\n        \"particles\": \"Subtle floating spice particles and herb fragments\",\n        \"drops\": \"Sauce droplets frozen mid-fall\"\n      },\n      \"background\": {\n        \"color\": \"Warm terracotta orange\",\n        \"gradient\": \"Very soft tonal gradient\"\n      }\n    },\n\n    \"module_3_doner_sauce_pour_drama\": {\n      \"scene_description\": \"Cinematic sauce pour over döner meat pile\",\n      \"doner\": {\n        \"type\": \"Mountain of freshly sliced döner meat\",\n        \"texture\": \"Highly detailed crispy edges and tender interior\"\n      },\n      \"additional_elements\": {\n        \"sauces\": {\n          \"white_sauce\": {\n            \"state\": \"Thick creamy garlic yogurt sauce pouring from above\",\n            \"motion\": \"Frozen in elegant flowing ribbon\"\n          },\n          \"red_sauce\": {\n            \"state\": \"Spicy red chili sauce drizzling alongside\",\n            \"motion\": \"Thin crimson streams intertwining with white sauce\"\n          }\n        },\n        \"vegetables\": [\n          \"Sliced tomatoes\",\n          \"Chopped lettuce\",\n          \"Thinly sliced onions\",\n          \"Fresh parsley sprigs\"\n        ]\n      },\n      \"motion_effects\": {\n        \"splashes\": \"Micro sauce splashes on meat surface\",\n        \"particles\": \"Floating spice particles and herb fragments\",\n        \"steam\": \"Subtle heat vapor rising from meat\"\n      },\n      \"background\": {\n        \"color\": \"Dark charcoal black\",\n        \"tone\": \"High contrast, premium street food aesthetic\"\n      }\n    },\n\n    \"module_4_modern_doner_deconstructed_composition\": {\n      \"scene_description\": \"Modern deconstructed döner composition in mid-air\",\n      \"elements\": {\n        \"bread\": \"Pieces of toasted lavash bread floating separately\",\n        \"meat\": \"Individual döner slices suspended at different angles\",\n        \"vegetables\": \"Tomato slices, lettuce leaves, onion rings floating between layers\",\n        \"sauces\": \"Glossy sauce ribbons connecting elements artistically\"\n      },\n      \"motion_effects\": {\n        \"particles\": \"Ultra-fine spice dust suspended in air\",\n        \"drops\": \"Scattered sauce droplets frozen in motion\",\n        \"steam\": \"Minimal heat waves rising from meat\"\n      },\n      \"background\": {\n        \"color\": \"Muted sage green\",\n        \"texture\": \"Smooth, seamless\"\n      }\n    },\n\n    \"module_5_rotating_doner_spit_close_up\": {\n      \"scene_description\": \"Extreme close-up of döner meat on vertical spit with knife slice frozen in time\",\n      \"doner_spit\": {\n        \"type\": \"Vertical döner tower on rotating spit\",\n        \"texture\": \"Layers of seasoned meat with charred outer crust\",\n        \"detail\": \"Visible spices, fat marbling, and grill marks\"\n      },\n      \"action_elements\": {\n        \"knife\": \"Large döner knife mid-slice through meat\",\n        \"meat_slice\": \"Fresh slice falling away from spit\",\n        \"shavings\": \"Meat shavings and crispy bits floating\"\n      },\n      \"motion_effects\": {\n        \"particles\": \"Charred bits and seasoning particles in air\",\n        \"steam\": \"Heat vapor wisps rising from fresh cut\"\n      },\n      \"background\": {\n        \"color\": \"Rich golden amber\",\n        \"texture\": \"Smooth gradient\"\n      }\n    },\n\n    \"module_6_doner_plate_overhead_explosion\": {\n      \"scene_description\": \"Overhead shot of döner plate with ingredients exploding upward\",\n      \"composition\": {\n        \"base\": \"Thin lavash bread pieces on bottom\",\n        \"center\": \"Pile of döner meat slices\",\n        \"explosion\": \"All ingredients bursting upward in circular pattern\"\n      },\n      \"flying_elements\": [\n        \"Döner meat slices spiraling\",\n        \"French fries launching upward\",\n        \"Grilled peppers and tomatoes\",\n        \"Fresh parsley and sumac\",\n        \"Sauce droplets spraying\",\n        \"Lemon wedges\"\n      ],\n      \"motion_effects\": {\n        \"height_variation\": \"Elements at different heights creating depth\",\n        \"rotation\": \"Some elements rotating while airborne\"\n      },\n      \"background\": {\n        \"color\": \"Deep burgundy red\",\n        \"style\": \"Vignette effect focusing on center\"\n      }\n    }\n\n  },\n  \"negative_prompt\": [\n    \"text\",\n    \"logos\",\n    \"branding\",\n    \"hands\",\n    \"people\",\n    \"utensils beyond döner knife\",\n    \"full plates visible\",\n    \"tables\",\n    \"restaurant interior\",\n    \"cartoon style\",\n    \"raw meat\",\n    \"excessive grease pooling\",\n    \"burnt or overcooked appearance\",\n    \"overexposure\",\n    \"artificial glow\",\n    \"low detail textures\",\n    \"unappetizing colors\",\n    \"plastic-looking food\"\n  ]\n}",
+      "prompt_status": "原作者公开提示词，保留原文；未独立复现。",
+      "source_url": "https://x.com/kaanakz/status/2009941784965853278",
+      "prompt_source_url": "https://x.com/kaanakz/status/2009941784965853278",
+      "source_kind": "x",
+      "description": "土耳其烤肉六种动态广告构图；完整六模块提示词对应单张六格总览，不拆为六件。",
+      "attribution": "Kaan · @kaanakz",
+      "engagement": {
+        "likes": 393,
+        "bookmarks": 322,
+        "checked_at": "2026-11-15T15:08:34.116460+00:00"
+      },
+      "license": "作品归原作者所有，保留作者及原帖来源；其他用途请联系作者。",
+      "verification_status": "source_matched_owner_directed_display",
+      "publish_ready": true,
+      "checked_at": "2026-11-15",
+      "media_authorized": "owner-directed-display",
+      "display_permission": {
+        "status": "owner_confirmed_reuse",
+        "basis": "Owner confirmed attributed collection and uploads; not a blanket open-license assertion."
+      }
+    },
+    {
+      "id": "2008986705962123774",
+      "title": "咖啡饮品分层爆炸图",
+      "author": "ttmouse - 豆爸",
+      "author_handle": "ttmouse",
+      "author_url": "https://x.com/ttmouse",
+      "author_avatar_url": "assets/authors/r14-ttmouse.jpg",
+      "model": "Nano Banana Pro",
+      "model_family": "Nano Banana Pro",
+      "type": "image",
+      "category": "信息图",
+      "image_url": "assets/selected104/2008986705962123774-0.jpg",
+      "thumbnail_url": "assets/selected104/2008986705962123774-0-thumb.webp",
+      "images": [
+        {
+          "url": "assets/selected104/2008986705962123774-0.jpg",
+          "thumbnail_url": "assets/selected104/2008986705962123774-0-thumb.webp",
+          "alt": "咖啡饮品分层爆炸图 1"
+        },
+        {
+          "url": "assets/selected104/2008986705962123774-1.jpg",
+          "thumbnail_url": "assets/selected104/2008986705962123774-1-thumb.webp",
+          "alt": "咖啡饮品分层爆炸图 2"
+        },
+        {
+          "url": "assets/selected104/2008986705962123774-2.jpg",
+          "thumbnail_url": "assets/selected104/2008986705962123774-2-thumb.webp",
+          "alt": "咖啡饮品分层爆炸图 3"
+        }
+      ],
+      "image_set_verified": true,
+      "width": 768,
+      "height": 1376,
+      "prompt": "{\n“subject”: “巧克力咖啡饮品的超写实垂直爆炸分解图”,\n“layout”: “中心垂直对齐，各组件独立悬浮且间距清晰”,\n“layers”: [\n{\n“component”: “可可粉微粒”,\n“position”: “顶部”\n},\n{\n“component”: “光泽深色巧克力酱丝带与滴落状”,\n“position”: “独立层”\n},\n{\n“component”: “轻盈的打发奶油堆”,\n“position”: “独立层”\n},\n{\n“component”: “丝滑的巧克力咖啡液态层”,\n“position”: “独立层”\n},\n{\n“component”: “烘焙咖啡豆”,\n“position”: “独立层”\n},\n{\n“component”: “糖晶体”,\n“position”: “独立层”\n},\n{\n“component”: “带配重底座的小型透明螺纹玻璃杯（空杯）”,\n“position”: “底部”\n}\n],\n“background”: “高级深色背景：干净的影棚背景，近黑色的石墨色至木炭色渐变，柔和且平滑”,\n“lighting_and_style”: {\n“lighting”: “柔和且受控的影棚光，每层下方有清晰的分层阴影”,\n“detail”: “超锐利微距写实主义，右侧极简细指示线与英文标签”,\n“category”: “高端产品信息图”,\n“resolution”: “8K”\n}\n}\n\n-------------\n\n{\n“subject”: “抹茶奶盖水果咖啡饮品的超写实垂直爆炸分解图”,\n“layout”: “中心垂直对齐，各组件独立悬浮且间距清晰”,\n“layers”: [\n{\n“component”: “细密的抹茶粉微粒”,\n“position”: “顶部”\n},\n{\n“component”: “新鲜草莓与芒果切片（带晶莹水分）”,\n“position”: “独立层”\n},\n{\n“component”: “厚实的咸芝士抹茶奶盖层（带细腻泡沫）”,\n“position”: “独立层”\n},\n{\n“component”: “清澈的冷萃咖啡液与翠绿抹茶交融层”,\n“position”: “独立层”\n},\n{\n“component”: “晶莹剔透的冰块与薄荷叶”,\n“position”: “独立层”\n},\n{\n“component”: “底部浓缩果浆（如覆盆子酱）”,\n“position”: “独立层”\n},\n{\n“component”: “极简直筒条纹玻璃杯（空杯）”,\n“position”: “底部”\n}\n],\n“background”: “清新极简背景：明亮的影棚环境，淡米色至浅灰色的柔和渐变”,\n“lighting_and_style”: {\n“lighting”: “明亮的自然光感，带有清透的玻璃反射与分层阴影”,\n“detail”: “超锐利微距写实主义，右侧极简细指示线与英文标签”,\n“category”: “高端产品信息图”,\n“resolution”: “8K”\n}\n}\n\n---------------------\n\n{\n“subject”: “粉色西柚蜜桃奶昔的超写实垂直爆炸分解图”,\n“layout”: “中心垂直对齐，各组件独立悬浮且间距清晰”,\n“layers”: [\n{\n“component”: “干燥的玫瑰花瓣碎片与金色糖粉”,\n“position”: “顶部”\n},\n{\n“component”: “晶莹剔透的水晶西柚果肉粒”,\n“position”: “独立层”\n},\n{\n“component”: “轻盈的樱花粉色打发奶油堆”,\n“position”: “独立层”\n},\n{\n“component”: “丝滑的蜜桃乌龙奶昔液态层（带有细腻挂壁感）”,\n“position”: “独立层”\n},\n{\n“component”: “新鲜多汁的蜜桃切块”,\n“position”: “独立层”\n},\n{\n“component”: “Q弹半透明的琥珀色珍珠或茶冻”,\n“position”: “独立层”\n},\n{\n“component”: “极简精致的细高足郁金香玻璃杯（空杯）”,\n“position”: “底部”\n}\n],\n“background”: “高级莫兰迪粉色背景：柔和的暖调奶油粉至浅米色渐变，纯净且通透”,\n“lighting_and_style”: {\n“lighting”: “明亮清新的自然光，高调照明，每层下方有轻盈透明的阴影”,\n“detail”: “超锐利微距写实主义，右侧极简细指示线与英文标签”,\n“category”: “高端饮品视觉海报”,\n“resolution”: “8K”\n}\n}",
+      "prompt_status": "原作者公开提示词，保留原文；未独立复现。",
+      "source_url": "https://x.com/ttmouse/status/2008986705962123774",
+      "prompt_source_url": "https://x.com/ttmouse/status/2008986705962123774",
+      "source_kind": "x",
+      "description": "三套咖啡饮品分层爆炸图；保留作者中文弯引号原文，不是可直接解析的JSON；配料与结构只作视觉示意。",
+      "attribution": "ttmouse - 豆爸 · @ttmouse",
+      "engagement": {
+        "likes": 354,
+        "bookmarks": 319,
+        "checked_at": "2026-11-15T15:08:34.116467+00:00"
+      },
+      "license": "作品归原作者所有，保留作者及原帖来源；其他用途请联系作者。",
+      "verification_status": "source_matched_owner_directed_display",
+      "publish_ready": true,
+      "checked_at": "2026-11-15",
+      "media_authorized": "owner-directed-display",
+      "display_permission": {
+        "status": "owner_confirmed_reuse",
+        "basis": "Owner confirmed attributed collection and uploads; not a blanket open-license assertion."
+      }
+    },
+    {
+      "id": "2021260675960504802",
+      "title": "一句话生成极简家居品牌短片",
+      "author": "歸藏(guizang.ai)",
+      "author_handle": "op7418",
+      "author_url": "https://x.com/op7418",
+      "author_avatar_url": "assets/authors/r14-op7418.jpg",
+      "model": "Seedance 2.0",
+      "model_family": "Seedance 2.0",
+      "type": "video",
+      "category": "短片与镜头",
+      "image_url": "assets/selected104/2021260675960504802.mp4",
+      "thumbnail_url": "assets/selected104/2021260675960504802-poster.jpg",
+      "poster_url": "assets/selected104/2021260675960504802-poster.jpg",
+      "width": 1280,
+      "height": 720,
+      "duration": 15.116009,
+      "prompt": "帮我生成一个讲述无印良品这个品牌的宣传片",
+      "prompt_status": "原作者公开提示词，保留原文；未独立复现。",
+      "source_url": "https://x.com/op7418/status/2021260675960504802",
+      "prompt_source_url": "https://x.com/op7418/status/2021260675960504802",
+      "source_kind": "x",
+      "description": "一句话提示词生成的极简家居品牌概念短片，原作者称纯提示词生成；并非无印良品官方品牌广告。",
+      "attribution": "歸藏(guizang.ai) · @op7418",
+      "engagement": {
+        "likes": 233,
+        "bookmarks": 130,
+        "checked_at": "2026-11-15"
+      },
+      "media_source_url": "https://video.twimg.com/amplify_video/2021260584776552448/vid/avc1/1280x720/ZnPPXyQ4zKudWUbx.mp4?tag=21",
+      "media_provenance": "Downloaded from original X video URL, transcoded to 720p web playback; no scene cuts.",
+      "license": "作品归原作者所有，保留作者及原帖来源；其他用途请联系作者。",
+      "verification_status": "source_matched_owner_directed_display",
+      "publish_ready": true,
+      "checked_at": "2026-11-15",
+      "media_authorized": "owner-directed-display",
+      "display_permission": {
+        "status": "owner_confirmed_reuse",
+        "basis": "Owner confirmed attributed collection and uploads; not a blanket open-license assertion."
+      }
+    },
+    {
+      "id": "2020727853281628276",
+      "title": "拉开天空后发现微缩世界",
+      "author": "John",
+      "author_handle": "johnAGI168",
+      "author_url": "https://x.com/johnAGI168",
+      "author_avatar_url": "assets/authors/r14-johnAGI168.jpg",
+      "model": "Seedance 2.0",
+      "model_family": "Seedance 2.0",
+      "type": "video",
+      "category": "短片与镜头",
+      "image_url": "assets/selected104/2020727853281628276.mp4",
+      "thumbnail_url": "assets/selected104/2020727853281628276-poster.jpg",
+      "poster_url": "assets/selected104/2020727853281628276-poster.jpg",
+      "width": 1280,
+      "height": 720,
+      "duration": 15.116667,
+      "prompt": "【风格】超现实主义（Surrealism），巨物恐惧症（Megalophobia），史诗级视觉奇观，好莱坞特效质感，光影渲染极其真实。\n【时长】15秒\n【场景】晴朗的城市上空，或者一片开阔的麦田。\n\n[00:00-00:05] 镜头1：平静的假象（The Calm）。\n画面是一片万里无云的绝美蓝天，阳光明媚，鸟儿飞过。镜头慢慢向上仰拍，给人一种岁月静好的感觉。\n关键细节：突然，天空中出现了一道巨大的、银色的金属光泽——是一条贯穿天际的**“拉链”**。\n\n[00:05-00:10] 镜头2：拉链拉开（The Unzipping）。\n一只**巨大的、半透明的上帝之手**，捏住了拉链头，伴随着巨大的轰鸣声（音效感），缓缓拉开了蓝天。\n动作：随着拉链拉开，“蓝天”像布料一样褶皱、垂落。\n视觉奇观：拉链后面露出的**不是宇宙**，而是一个**充满了霓虹灯、飞行汽车和巨大机械结构的赛博朋克未来世界**（或者一个巨大的机械眼球正在注视着我们）。\n\n[00:10-00:15] 镜头3：两个世界的对视（The Revelation）。\n蓝天只剩下一角挂在天上。原来我们生活的世界只是一个被罩住的“生态箱”。\n结尾：镜头快速拉远，发现我们的整个世界（城市/麦田）其实只是巨人桌子上的一个**玻璃微缩景观球**。巨人正凑近脸在观察我们。",
+      "prompt_status": "原作者公开提示词，保留原文；未独立复现。",
+      "source_url": "https://x.com/johnAGI168/status/2020727853281628276",
+      "prompt_source_url": "https://x.com/johnAGI168/status/2020727853281628276",
+      "source_kind": "x",
+      "description": "从天空拉链、赛博空间到玻璃微缩球的超现实三段镜头；保留原时间分段提示词，不将作者对模型能力的宣传当成验证结论。",
+      "attribution": "John · @johnAGI168",
+      "engagement": {
+        "likes": 525,
+        "bookmarks": 298,
+        "checked_at": "2026-11-15"
+      },
+      "media_source_url": "https://video.twimg.com/amplify_video/2020727089666691072/vid/avc1/2560x1440/_LvssDfhZEADU7DF.mp4?tag=21",
+      "media_provenance": "Downloaded from original X video URL, transcoded to 720p web playback; no scene cuts.",
+      "license": "作品归原作者所有，保留作者及原帖来源；其他用途请联系作者。",
+      "verification_status": "source_matched_owner_directed_display",
+      "publish_ready": true,
+      "checked_at": "2026-11-15",
+      "media_authorized": "owner-directed-display",
+      "display_permission": {
+        "status": "owner_confirmed_reuse",
+        "basis": "Owner confirmed attributed collection and uploads; not a blanket open-license assertion."
+      }
+    }
+  ],
+  "verification": "Author statements and selected output/prompt scope checked. No explicit prohibitions found in captured source posts/profiles. Owner-directed attributed collection, not an open-license assertion."
+}

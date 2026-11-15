@@ -1,0 +1,608 @@
+{
+  "added": [
+    {
+      "id": "2019338808009920744",
+      "title": "便签纸片重组电影角色海报",
+      "author": "ΛRMIN",
+      "author_handle": "Arminn_Ai",
+      "author_url": "https://x.com/Arminn_Ai",
+      "author_avatar_url": "assets/authors/r11-Arminn_Ai.jpg",
+      "model": "Nano Banana Pro",
+      "model_family": "Nano Banana Pro",
+      "type": "image",
+      "category": "海报与排版",
+      "image_url": "assets/selected101/2019338808009920744-0.jpg",
+      "thumbnail_url": "assets/selected101/2019338808009920744-0-thumb.webp",
+      "images": [
+        {
+          "url": "assets/selected101/2019338808009920744-0.jpg",
+          "thumbnail_url": "assets/selected101/2019338808009920744-0-thumb.webp",
+          "alt": "便签纸片重组电影角色海报 1"
+        }
+      ],
+      "image_set_verified": true,
+      "width": 1800,
+      "height": 2400,
+      "prompt": "A minimalist cinematic colored poster featuring a [Character Name]’s portrait from shoulders to the top of the head. The face is reconstructed using a small number of large, square-cut paper fragments arranged in a simple grid [around 4x5 or 5x6 pieces]. Each paper fragment contains a disjointed part of the face which together reconstruct the portrait. The internal paper fragments constituting the face are not perfectly flat; many have slightly curled edges and lifted corners, casting tiny, realistic shadows that give them a three-dimensional, tacked-down appearance. 4 of these squares have subtle black handwritten [text1, text2, text3, text4] directly on the skin/image. Scattered irregularly around the outer perimeter of this central grid in various randomly placed positions (not confined to the corners), several [Sticky Note Color] sticky notes are attached to the [Color] wall, containing handwritten [External Text Content, e.g., iconic quotes]. The overall layout is slightly irregular with visible gaps between the pieces showing [Color] concrete wall background. Realistic paper texture throughout, high-end studio lighting emphasizing the lifted edges, sharp focus on ink and paper grain.",
+      "prompt_status": "原作者公开提示词，保留原文；未独立复现。",
+      "source_url": "https://x.com/Arminn_Ai/status/2019338808009920744",
+      "prompt_source_url": "https://x.com/Arminn_Ai/status/2019338808009920744",
+      "source_kind": "x",
+      "description": "用便签纸片重构电影角色肖像；单张四角色拼图，非电影官方海报。",
+      "attribution": "ΛRMIN · @Arminn_Ai",
+      "engagement": {
+        "likes": 1127,
+        "bookmarks": 941,
+        "checked_at": "2026-11-15T14:51:06.019224+00:00"
+      },
+      "license": "作品归原作者所有，保留作者及原帖来源；其他用途请联系作者。",
+      "verification_status": "source_matched_owner_directed_display",
+      "publish_ready": true,
+      "checked_at": "2026-11-15",
+      "media_authorized": "owner-directed-display",
+      "display_permission": {
+        "status": "owner_confirmed_reuse",
+        "basis": "Owner confirmed attributed collection and uploads; not a blanket open-license assertion."
+      }
+    },
+    {
+      "id": "2013186574390046844",
+      "title": "鸡肉香饭食谱信息图",
+      "author": "M-studioAi",
+      "author_handle": "Strength04_X",
+      "author_url": "https://x.com/Strength04_X",
+      "author_avatar_url": "assets/authors/r11-Strength04_X.jpg",
+      "model": "Nano Banana Pro",
+      "model_family": "Nano Banana Pro",
+      "type": "image",
+      "category": "信息图",
+      "image_url": "assets/selected101/2013186574390046844-0.jpg",
+      "thumbnail_url": "assets/selected101/2013186574390046844-0-thumb.webp",
+      "images": [
+        {
+          "url": "assets/selected101/2013186574390046844-0.jpg",
+          "thumbnail_url": "assets/selected101/2013186574390046844-0-thumb.webp",
+          "alt": "鸡肉香饭食谱信息图 1"
+        }
+      ],
+      "image_set_verified": true,
+      "width": 1800,
+      "height": 1800,
+      "prompt": "“Ultra-clean modern recipe infographic. Showcase briyani in a visually appealing finished form—sliced, plated, or portioned—floating slightly in perspective or angled view. Arrange ingredients, steps, and tips around the dish in a dynamic editorial layout, not restricted to top-down. Ingredients Section: Include icons or mini illustrations for each ingredient with quantities. Arrange them in clusters, lists, or circular flows connected visually to the dish. Steps Section: Show preparation steps with numbered panels, arrows, or lines, forming a logical flow around the main dish. Include small cooking icons (knife, pan, oven, timer) where helpful. Additional Info (optional): Total calories, prep/cook time, servings, spice level—displayed as clean bubbles or badges near the dish. Visual Style: Editorial infographic meets lifestyle food photography. Vibrant, natural food colors, subtle drop shadows, clean vector icons, modern typography, soft gradients or glassmorphism for step panels. Accent colors can highlight key info (calories, prep time). Composition Guidelines: Finished meal as hero visual (perspective or angled) Ingredients and steps flow dynamically around the dish Clear visual hierarchy: dish > steps > ingredients > optional stats Enough negative space to keep design airy and readable Lighting & Background: Soft, natural studio lighting, minimal textured or gradient background for premium editorial feel. Output: 1080×1080, ultra-crisp, social-feed optimized, no watermark.”",
+      "prompt_status": "原作者公开提示词，保留原文；未独立复现。",
+      "source_url": "https://x.com/Strength04_X/status/2013186574390046844",
+      "prompt_source_url": "https://x.com/Strength04_X/status/2013186574390046844",
+      "source_kind": "x",
+      "description": "鸡肉香饭食谱视觉信息图；未核实营养和烹饪数据，仅收静态设计部分。",
+      "attribution": "M-studioAi · @Strength04_X",
+      "engagement": {
+        "likes": 1446,
+        "bookmarks": 1241,
+        "checked_at": "2026-11-15T14:51:06.019255+00:00"
+      },
+      "license": "作品归原作者所有，保留作者及原帖来源；其他用途请联系作者。",
+      "verification_status": "source_matched_owner_directed_display",
+      "publish_ready": true,
+      "checked_at": "2026-11-15",
+      "media_authorized": "owner-directed-display",
+      "display_permission": {
+        "status": "owner_confirmed_reuse",
+        "basis": "Owner confirmed attributed collection and uploads; not a blanket open-license assertion."
+      }
+    },
+    {
+      "id": "2009665973058515294",
+      "title": "穿搭单品与上身效果编辑页",
+      "author": "Keskin",
+      "author_handle": "craftian_keskin",
+      "author_url": "https://x.com/craftian_keskin",
+      "author_avatar_url": "assets/authors/r11-craftian_keskin.jpg",
+      "model": "Nano Banana Pro",
+      "model_family": "Nano Banana Pro",
+      "type": "image",
+      "category": "时尚与穿搭",
+      "image_url": "assets/selected101/2009665973058515294-0.jpg",
+      "thumbnail_url": "assets/selected101/2009665973058515294-0-thumb.webp",
+      "images": [
+        {
+          "url": "assets/selected101/2009665973058515294-0.jpg",
+          "thumbnail_url": "assets/selected101/2009665973058515294-0-thumb.webp",
+          "alt": "穿搭单品与上身效果编辑页 1"
+        }
+      ],
+      "image_set_verified": true,
+      "width": 896,
+      "height": 1200,
+      "prompt": "A refined fashion editorial image with a 3:4 aspect ratio, split into two clear sections.\n\nRight side:\nA fashionable, confident, sensual woman standing and walking casually in a modern architectural space with red luxurious walls and soft natural light. She wears a top with a deep V neckline, a 90-60-90 figure, tucked into a high-waisted blue tailored short skirt, On her feet are sleek black stiletto heels, elegant and minimal. She carries a small structured red handbag in one hand and she is wearing a luxurious diamond necklace with a blue diamond on it.\n\nHer hair is open emphasizing her facial structure. She wears subtle statement earrings. The look is refined, modern, and effortlessly chic. Natural daylight, soft shadows, realistic skin texture. Casual fashion photography style with an editorial, high-end feel. alive color palette, warm tones, shallow depth of field, cinematic realism.\n\nStyle & Mood:\nModern elegance, quiet luxury, confident, minimal, editorial casual.\n\nPhotography Details:\nEye-level angle, candid stance, 35mm lens, natural lighting, high detail, photorealistic.\n\nLeft side:\nA clean, minimalist product breakdown layout on a neutral background. The individual fashion items worn by the woman are displayed separately, neatly arranged with subtle shadows. Each item includes a small, elegant price label in refined sans-serif typography:\n\n– white deep V-neck knit top — $180\n– blue high-waisted tailored mini skirt — $220\n– Black pointed-toe stiletto heels — $350\n– Small structured red handbag — $480\n– a diamond necklace with a big blue diamond — $160000\n\nThe left side feels like a luxury fashion catalog or e-commerce lookbook, with a red carpet, luxurious walls, art pieces on wall\n\nOverall Style & Mood:\nQuiet luxury, modern elegance, editorial fashion, high-end retail aesthetic.\n\nLighting & Quality:\nSoft natural light, studio-clean clarity on product side, photorealistic, ultra-high resolution, professional fashion photography.\n\nNegative Prompt:\nCluttered layout, oversized text, flashy logos, mannequins, people on left side, harsh lighting, low resolution, cartoon style.",
+      "prompt_status": "原作者公开提示词，保留原文；未独立复现。",
+      "source_url": "https://x.com/craftian_keskin/status/2009665973058515294",
+      "prompt_source_url": "https://x.com/craftian_keskin/status/2009665973058515294",
+      "source_kind": "x",
+      "description": "穿搭单品与上身效果的编辑排版概念；图中文字价格并非实际商品报价。",
+      "attribution": "Keskin · @craftian_keskin",
+      "engagement": {
+        "likes": 1012,
+        "bookmarks": 1022,
+        "checked_at": "2026-11-15T14:51:06.019273+00:00"
+      },
+      "license": "作品归原作者所有，保留作者及原帖来源；其他用途请联系作者。",
+      "verification_status": "source_matched_owner_directed_display",
+      "publish_ready": true,
+      "checked_at": "2026-11-15",
+      "media_authorized": "owner-directed-display",
+      "display_permission": {
+        "status": "owner_confirmed_reuse",
+        "basis": "Owner confirmed attributed collection and uploads; not a blanket open-license assertion."
+      }
+    },
+    {
+      "id": "2009204329236828239",
+      "title": "巴克拉瓦甜点四格视觉",
+      "author": "Kaan",
+      "author_handle": "kaanakz",
+      "author_url": "https://x.com/kaanakz",
+      "author_avatar_url": "assets/authors/r11-kaanakz.jpg",
+      "model": "Nano Banana Pro",
+      "model_family": "Nano Banana Pro",
+      "type": "image",
+      "category": "产品与电商",
+      "image_url": "assets/selected101/2009204329236828239-0.jpg",
+      "thumbnail_url": "assets/selected101/2009204329236828239-0-thumb.webp",
+      "images": [
+        {
+          "url": "assets/selected101/2009204329236828239-0.jpg",
+          "thumbnail_url": "assets/selected101/2009204329236828239-0-thumb.webp",
+          "alt": "巴克拉瓦甜点四格视觉 1"
+        }
+      ],
+      "image_set_verified": true,
+      "width": 1529,
+      "height": 2048,
+      "prompt": "{\n  \"resolution\": \"8K UHD\",\n  \"aspect_ratio\": \"3:4\",\n  \"image_style\": \"hyper-realistic commercial dessert photography\",\n  \"global_settings\": {\n    \"quality\": \"Ultra-high detail, razor-sharp focus, luxury dessert clarity\",\n    \"lighting\": \"Controlled studio lighting emphasizing texture, layers, and syrup highlights\",\n    \"motion\": \"Frozen mid-air elements with subtle gravity realism\",\n    \"background_style\": \"Solid or smooth gradient background, color varies per module\",\n    \"camera\": \"High-speed photography look, shallow to medium depth of field\",\n    \"post_processing\": \"Rich contrast, warm tones, natural shine, no artificial glow\"\n  },\n  \"modules\": { \"module_1_classic_baklava_stack_explosion\": {\n      \"scene_description\": \"A dramatic stack of classic pistachio baklava with flying syrup droplets\",\n      \"baklava\": {\n        \"type\": \"Traditional pistachio baklava\",\n        \"layers\": \"Ultra-thin phyllo layers clearly visible\",\n        \"cut\": \"Diamond-shaped pieces\",\n        \"position\": \"Stacked and floating mid-air\"\n      },\n      \"details\": {\n        \"nuts\": \"Finely ground bright green pistachios between layers\",\n        \"syrup\": \"Golden sugar syrup glistening on edges\"\n      },\n      \"motion_effects\": {\n        \"syrup\": \"Small syrup droplets splashing outward\",\n        \"crumbs\": \"Tiny phyllo flakes suspended in air\"\n      },\n      \"background\": {\n        \"color\": \"Deep emerald green\",\n        \"texture\": \"Smooth, seamless\"\n      }\n    }, \"module_2_minimal_baklava_plate_floating\": {\n      \"scene_description\": \"Minimalist premium baklava presentation with controlled floating crumbs\",\n      \"baklava\": {\n        \"type\": \"Single-layer pistachio baklava pieces\",\n        \"arrangement\": \"Neatly aligned rectangular cuts\",\n        \"surface\": \"Glossy with light syrup sheen\"\n      },\n      \"accent_elements\": {\n        \"nuts\": \"Crushed pistachio dust lightly floating\",\n        \"syrup\": \"Thin syrup drizzle frozen mid-air\"\n      },\n      \"motion_effects\": {\n        \"particles\": \"Subtle floating crumbs and nut dust\"\n      },\n      \"background\": {\n        \"color\": \"Warm beige\",\n        \"gradient\": \"Very soft tonal gradient\"\n      }\n    }, \"module_3_baklava_syrup_pour_drama\": {\n      \"scene_description\": \"Cinematic syrup pour over baklava stack\",\n      \"baklava\": {\n        \"type\": \"Thick stacked baklava slices\",\n        \"texture\": \"Highly detailed crispy layers\"\n      },\n      \"additional_elements\": {\n        \"syrup\": {\n          \"state\": \"Thick golden syrup pouring from above\",\n          \"motion\": \"Frozen in elegant flowing strands\"\n        },\n        \"nuts\": [\n          \"Whole pistachio kernels\",\n          \"Crushed pistachio fragments\"\n        ]\n      },\n      \"motion_effects\": {\n        \"splashes\": \"Micro syrup splashes on impact points\",\n        \"particles\": \"Floating nut fragments\"\n      },\n      \"background\": {\n        \"color\": \"Dark chocolate brown\",\n        \"tone\": \"High contrast, luxury feel\"\n      }\n    }, \"module_4_modern_baklava_floating_composition\": {\n      \"scene_description\": \"Modern deconstructed baklava composition in mid-air\",\n      \"elements\": {\n        \"phyllo\": \"Crispy golden phyllo sheets floating separately\",\n        \"nuts\": \"Pistachio layers suspended between sheets\",\n        \"syrup\": \"Glossy syrup threads connecting elements\"\n      },\n      \"motion_effects\": {\n        \"flakes\": \"Ultra-fine pastry flakes suspended\",\n        \"drops\": \"Minimal syrup droplets\"\n      },\n      \"background\": {\n        \"color\": \"Muted olive green\",\n        \"texture\": \"Smooth, seamless\"\n      }\n    }\n  },\n  \"negative_prompt\": [\n    \"text\",\n    \"logos\",\n    \"branding\",\n    \"hands\",\n    \"people\",\n    \"utensils\",\n    \"plates\",\n    \"tables\",\n    \"cartoon style\",\n    \"excessive syrup pooling\",\n    \"burnt pastry\",\n    \"overexposure\",\n    \"artificial glow\",\n    \"low detail textures\"\n  ]\n}",
+      "prompt_status": "原作者公开提示词，保留原文；未独立复现。",
+      "source_url": "https://x.com/kaanakz/status/2009204329236828239",
+      "prompt_source_url": "https://x.com/kaanakz/status/2009204329236828239",
+      "source_kind": "x",
+      "description": "巴克拉瓦甜点四格视觉；原作者一张四格成品，不拆为四个作品。",
+      "attribution": "Kaan · @kaanakz",
+      "engagement": {
+        "likes": 1124,
+        "bookmarks": 1065,
+        "checked_at": "2026-11-15T14:51:06.019419+00:00"
+      },
+      "license": "作品归原作者所有，保留作者及原帖来源；其他用途请联系作者。",
+      "verification_status": "source_matched_owner_directed_display",
+      "publish_ready": true,
+      "checked_at": "2026-11-15",
+      "media_authorized": "owner-directed-display",
+      "display_permission": {
+        "status": "owner_confirmed_reuse",
+        "basis": "Owner confirmed attributed collection and uploads; not a blanket open-license assertion."
+      }
+    },
+    {
+      "id": "2008937653694013753",
+      "title": "地理地图中的微缩城市",
+      "author": "Mo",
+      "author_handle": "Kerroudjm",
+      "author_url": "https://x.com/Kerroudjm",
+      "author_avatar_url": "assets/authors/r11-Kerroudjm.jpg",
+      "model": "Nano Banana Pro",
+      "model_family": "Nano Banana Pro",
+      "type": "image",
+      "category": "微缩与超现实",
+      "image_url": "assets/selected101/2008937653694013753-0.jpg",
+      "thumbnail_url": "assets/selected101/2008937653694013753-0-thumb.webp",
+      "images": [
+        {
+          "url": "assets/selected101/2008937653694013753-0.jpg",
+          "thumbnail_url": "assets/selected101/2008937653694013753-0-thumb.webp",
+          "alt": "地理地图中的微缩城市 1"
+        },
+        {
+          "url": "assets/selected101/2008937653694013753-1.jpg",
+          "thumbnail_url": "assets/selected101/2008937653694013753-1-thumb.webp",
+          "alt": "地理地图中的微缩城市 2"
+        },
+        {
+          "url": "assets/selected101/2008937653694013753-2.jpg",
+          "thumbnail_url": "assets/selected101/2008937653694013753-2-thumb.webp",
+          "alt": "地理地图中的微缩城市 3"
+        },
+        {
+          "url": "assets/selected101/2008937653694013753-3.jpg",
+          "thumbnail_url": "assets/selected101/2008937653694013753-3-thumb.webp",
+          "alt": "地理地图中的微缩城市 4"
+        }
+      ],
+      "image_set_verified": true,
+      "width": 1024,
+      "height": 1024,
+      "prompt": "A realistic, highly detailed geographic map viewed from above, accurately representing the region where [COUNTRY] is located. Rising from the map is a miniature 3D diorama of [CITY], precisely positioned at its real geographic location. The diorama features iconic architecture, natural landmarks, and cultural elements seamlessly emerging from the map surface. Ultra-realistic materials, fine textures, and depth of field. Soft studio lighting with subtle shadows, cinematic composition, premium macro photography style. Square 1:1 format, high detail, realistic scale.",
+      "prompt_status": "原作者公开提示词，保留原文；未独立复现。",
+      "source_url": "https://x.com/Kerroudjm/status/2008937653694013753",
+      "prompt_source_url": "https://x.com/Kerroudjm/status/2008937653694013753",
+      "source_kind": "x",
+      "description": "真实地图质感与微缩地标结合；地理位置和地标细节未逐项核实。",
+      "attribution": "Mo · @Kerroudjm",
+      "engagement": {
+        "likes": 948,
+        "bookmarks": 934,
+        "checked_at": "2026-11-15T14:51:06.019436+00:00"
+      },
+      "license": "作品归原作者所有，保留作者及原帖来源；其他用途请联系作者。",
+      "verification_status": "source_matched_owner_directed_display",
+      "publish_ready": true,
+      "checked_at": "2026-11-15",
+      "media_authorized": "owner-directed-display",
+      "display_permission": {
+        "status": "owner_confirmed_reuse",
+        "basis": "Owner confirmed attributed collection and uploads; not a blanket open-license assertion."
+      }
+    },
+    {
+      "id": "2013493349156823287",
+      "title": "知识流程等距教育模型",
+      "author": "Aleena Amir",
+      "author_handle": "aleenaamiir",
+      "author_url": "https://x.com/aleenaamiir",
+      "author_avatar_url": "assets/authors/r11-aleenaamiir.jpg",
+      "model": "Nano Banana Pro",
+      "model_family": "Nano Banana Pro",
+      "type": "image",
+      "category": "信息图",
+      "image_url": "assets/selected101/2013493349156823287-0.jpg",
+      "thumbnail_url": "assets/selected101/2013493349156823287-0-thumb.webp",
+      "images": [
+        {
+          "url": "assets/selected101/2013493349156823287-0.jpg",
+          "thumbnail_url": "assets/selected101/2013493349156823287-0-thumb.webp",
+          "alt": "知识流程等距教育模型 1"
+        },
+        {
+          "url": "assets/selected101/2013493349156823287-1.jpg",
+          "thumbnail_url": "assets/selected101/2013493349156823287-1-thumb.webp",
+          "alt": "知识流程等距教育模型 2"
+        },
+        {
+          "url": "assets/selected101/2013493349156823287-2.jpg",
+          "thumbnail_url": "assets/selected101/2013493349156823287-2-thumb.webp",
+          "alt": "知识流程等距教育模型 3"
+        },
+        {
+          "url": "assets/selected101/2013493349156823287-3.jpg",
+          "thumbnail_url": "assets/selected101/2013493349156823287-3-thumb.webp",
+          "alt": "知识流程等距教育模型 4"
+        }
+      ],
+      "image_set_verified": true,
+      "width": 1800,
+      "height": 982,
+      "prompt": "Create a clear, 45° top-down isometric miniature 3D educational diorama explaining [PROCESS / CONCEPT].\n\nUse soft refined textures, realistic PBR materials, and gentle lifelike lighting.\n\nBuild a stepped or layered diorama base showing each stage of the process with subtle arrows or paths.\n\nInclude tiny stylized figures interacting with each stage (no facial details).\n\nUse a clean solid [BACKGROUND COLOR] background.\nAt the top-center, display [PROCESS NAME] in large bold text, directly beneath it show a short explanation subtitle, and place a minimal symbolic icon below.\n\nAll text must automatically match the background contrast (white or black).",
+      "prompt_status": "原作者公开提示词，保留原文；未独立复现。",
+      "source_url": "https://x.com/aleenaamiir/status/2013493349156823287",
+      "prompt_source_url": "https://x.com/aleenaamiir/status/2013493349156823287",
+      "source_kind": "x",
+      "description": "四场景知识流程等距视觉模板；流程与知识内容未经过学术审校。",
+      "attribution": "Aleena Amir · @aleenaamiir",
+      "engagement": {
+        "likes": 1158,
+        "bookmarks": 1382,
+        "checked_at": "2026-11-15T14:51:06.019443+00:00"
+      },
+      "license": "作品归原作者所有，保留作者及原帖来源；其他用途请联系作者。",
+      "verification_status": "source_matched_owner_directed_display",
+      "publish_ready": true,
+      "checked_at": "2026-11-15",
+      "media_authorized": "owner-directed-display",
+      "display_permission": {
+        "status": "owner_confirmed_reuse",
+        "basis": "Owner confirmed attributed collection and uploads; not a blanket open-license assertion."
+      }
+    },
+    {
+      "id": "2012178722615329176",
+      "title": "产品品牌九格视觉分镜",
+      "author": "Daria_Surkova",
+      "author_handle": "Dari_Designs",
+      "author_url": "https://x.com/Dari_Designs",
+      "author_avatar_url": "assets/authors/r11-Dari_Designs.jpg",
+      "model": "Nano Banana Pro",
+      "model_family": "Nano Banana Pro",
+      "type": "image",
+      "category": "品牌与平面设计",
+      "image_url": "assets/selected101/2012178722615329176-0.jpg",
+      "thumbnail_url": "assets/selected101/2012178722615329176-0-thumb.webp",
+      "images": [
+        {
+          "url": "assets/selected101/2012178722615329176-0.jpg",
+          "thumbnail_url": "assets/selected101/2012178722615329176-0-thumb.webp",
+          "alt": "产品品牌九格视觉分镜 1"
+        }
+      ],
+      "image_set_verified": true,
+      "width": 1080,
+      "height": 1450,
+      "prompt": "Create ONE final image. \n\nA clean 3×3 [ratio] storyboard grid with nine equal [ratio] sized panels on [4:5] ratio. \n\nUse the reference image as the base product reference. Keep the same product, packaging design, branding, materials, colors, proportions and overall identity across all nine panels exactly as the reference. The product must remain clearly recognizable in every frame. The label, logo and proportions must stay exactly the same.\n\nThis storyboard is a high-end designer mockup presentation for a branding portfolio. The focus is on form, composition, materiality and visual rhythm rather than realism or lifestyle narrative. The overall look should feel curated, editorial and design-driven.\n\nFRAME 1:\nFront-facing hero shot of the product in a clean studio setup. Neutral background, balanced composition, calm and confident presentation of the product.\n\nFRAME 2:\nClose-up shot with the focus centered on the middle of the product. Focusing on surface texture, materials and print details.\n\nFRAME 3:\nShows the reference product placed in an environment that naturally fits the brand and product category. Studio setting inspired by the product design elements and colours. \n\nFRAME 4:\nProduct shown in use or interaction on a neutral studio background. Hands and interaction elements are minimal and restrained, the look matches the style of the package. \n\nFRAME 5:\nIsometric composition showing multiple products arranged in a precise geometric order from the top isometric angle. All products are placed at the same isometric top angle, evenly spaced, clean, structured and graphic.\n\nFRAME 6:\nProduct levitating slightly tilted on a neutral background that matches the reference image color palette. Floating position is angled and intentional, the product is floating naturally in space.\n\nFRAME 7:\nis an extreme close-up focusing on a specific detail of the label, edge, texture or material behavior.\n\nFRAME 8:\nThe product in an unexpected yet aesthetically strong setting that feels bold, editorial and visually striking.\nUnexpected but highly stylized setting. Studio-based, and designer-driven. Bold composition that elevates the brand.\n\nFRAME 9:\nWide composition showing the product in use, placed within a refined designer setup. Clean props, controlled styling, cohesive with the rest of the series.\n\nCAMERA & STYLE:\nUltra high-quality studio imagery with a real camera look. Different camera angles and framings across frames. Controlled depth of field, precise lighting, accurate materials and reflections. Lighting logic, color palette, mood and visual language must remain consistent across all nine panels as one cohesive series.\n\nOUTPUT:\nA clean 3×3 grid with no borders, no text, no captions and no watermarks.",
+      "prompt_status": "原作者公开提示词，保留原文；未独立复现。",
+      "source_url": "https://x.com/Dari_Designs/status/2012178722615329176",
+      "prompt_source_url": "https://x.com/Dari_Designs/status/2012178722615329176",
+      "source_kind": "x",
+      "description": "产品品牌九格视觉分镜；需要输入产品参考，一张九格成品不拆为九件。",
+      "attribution": "Daria_Surkova · @Dari_Designs",
+      "engagement": {
+        "likes": 2488,
+        "bookmarks": 4510,
+        "checked_at": "2026-11-15T14:51:06.019477+00:00"
+      },
+      "license": "作品归原作者所有，保留作者及原帖来源；其他用途请联系作者。",
+      "verification_status": "source_matched_owner_directed_display",
+      "publish_ready": true,
+      "checked_at": "2026-11-15",
+      "media_authorized": "owner-directed-display",
+      "display_permission": {
+        "status": "owner_confirmed_reuse",
+        "basis": "Owner confirmed attributed collection and uploads; not a blanket open-license assertion."
+      }
+    },
+    {
+      "id": "2011857121835458929",
+      "title": "孔版印刷怪可爱动物图标",
+      "author": "Nano Banana 2.1",
+      "author_handle": "NanoBanana",
+      "author_url": "https://x.com/NanoBanana",
+      "author_avatar_url": "assets/authors/r11-NanoBanana.jpg",
+      "model": "Nano Banana（版本未确认）",
+      "model_family": "Nano Banana（版本未确认）",
+      "type": "image",
+      "category": "插画与角色",
+      "image_url": "assets/selected101/2011857121835458929-0.jpg",
+      "thumbnail_url": "assets/selected101/2011857121835458929-0-thumb.webp",
+      "images": [
+        {
+          "url": "assets/selected101/2011857121835458929-0.jpg",
+          "thumbnail_url": "assets/selected101/2011857121835458929-0-thumb.webp",
+          "alt": "孔版印刷怪可爱动物图标 1"
+        }
+      ],
+      "image_set_verified": true,
+      "width": 1800,
+      "height": 1800,
+      "prompt": "Create a collection of icons representing [a theme], they belong together as a single theme. Put them in a 2x2 grid (no lines). The background is pure white. Make the icons as risograph prints. No text. No color distortion. Vibrant and not faded. Stochastic stippling and sand-like noise pattern within color fills. Each icon has a thick black outline.",
+      "prompt_status": "原作者公开提示词，保留原文；未独立复现。",
+      "source_url": "https://x.com/NanoBanana/status/2011857121835458929",
+      "prompt_source_url": "https://x.com/NanoBanana/status/2011857121835458929",
+      "source_kind": "x",
+      "description": "孔版印刷质感动物图标，原帖主题是cute but weird animals (that are real)；版本未注明，不以当前账号简介倒推历史型号。",
+      "attribution": "Nano Banana 2.1 · @NanoBanana",
+      "engagement": {
+        "likes": 1022,
+        "bookmarks": 871,
+        "checked_at": "2026-11-15T14:51:06.019484+00:00"
+      },
+      "license": "作品归原作者所有，保留作者及原帖来源；其他用途请联系作者。",
+      "verification_status": "source_matched_owner_directed_display",
+      "publish_ready": true,
+      "checked_at": "2026-11-15",
+      "media_authorized": "owner-directed-display",
+      "display_permission": {
+        "status": "owner_confirmed_reuse",
+        "basis": "Owner confirmed attributed collection and uploads; not a blanket open-license assertion."
+      }
+    },
+    {
+      "id": "2039679180775063573",
+      "title": "企鹅角色包装工业设计概念板",
+      "author": "Noura",
+      "author_handle": "noorwithwifi",
+      "author_url": "https://x.com/noorwithwifi",
+      "author_avatar_url": "assets/authors/r11-noorwithwifi.jpg",
+      "model": "Nano Banana Pro",
+      "model_family": "Nano Banana Pro",
+      "type": "image",
+      "category": "产品与界面设计",
+      "image_url": "assets/selected101/2039679180775063573-0.jpg",
+      "thumbnail_url": "assets/selected101/2039679180775063573-0-thumb.webp",
+      "images": [
+        {
+          "url": "assets/selected101/2039679180775063573-0.jpg",
+          "thumbnail_url": "assets/selected101/2039679180775063573-0-thumb.webp",
+          "alt": "企鹅角色包装工业设计概念板 1"
+        }
+      ],
+      "image_set_verified": true,
+      "width": 896,
+      "height": 1200,
+      "prompt": "Using the attached image, create an illustration sheet of professional industrial design packaging for the package (PACKAGE TYPE). A centered heroic 3D rendering with realistic materials, soft studio lighting and commercial quality finishes. Surrounded by technical views: front, side, top, bottom, oblique perspective and flat position. Include sketches of the frame structure, crease lines, seam details, and size arrows in millimeters. Show materials and finishes (matte, glossy print, plastic, paper, glass, etc.) in handwritten annotations. Add color swatches, realistic product illustrations, and subtle shadows. Clean sketchbook background, realistic rendering + pencil sketch style, modern design design, ultra-detailed, portfolio ready.\n\nStable diffusion CFG: 7-9 steps: 30-40 Sampler: DPM++ Resolution: 1024×1280 and higher. --ar 3:4",
+      "prompt_status": "原作者公开提示词，保留原文；未独立复现。",
+      "source_url": "https://x.com/noorwithwifi/status/2039679180775063573",
+      "prompt_source_url": "https://x.com/noorwithwifi/status/2039679180775063573",
+      "source_kind": "x",
+      "description": "企鹅角色包装概念设计板；非可直接制造的工程图。图底部明确Nano Banana Pro，但原帖尾部混入Stable Diffusion参数，保留原文不代表这些是该模型有效设置。",
+      "attribution": "Noura · @noorwithwifi",
+      "engagement": {
+        "likes": 949,
+        "bookmarks": 350,
+        "checked_at": "2026-11-15T14:51:06.019512+00:00"
+      },
+      "license": "作品归原作者所有，保留作者及原帖来源；其他用途请联系作者。",
+      "verification_status": "source_matched_owner_directed_display",
+      "publish_ready": true,
+      "checked_at": "2026-11-15",
+      "media_authorized": "owner-directed-display",
+      "display_permission": {
+        "status": "owner_confirmed_reuse",
+        "basis": "Owner confirmed attributed collection and uploads; not a blanket open-license assertion."
+      }
+    },
+    {
+      "id": "2028390369902174550",
+      "title": "钢笔写出的微缩童话世界",
+      "author": "两斤",
+      "author_handle": "0x00_Krypt",
+      "author_url": "https://x.com/0x00_Krypt",
+      "author_avatar_url": "assets/authors/r11-0x00_Krypt.jpg",
+      "model": "Nano Banana 2",
+      "model_family": "Nano Banana 2",
+      "type": "image",
+      "category": "微缩与超现实",
+      "image_url": "assets/selected101/2028390369902174550-0.jpg",
+      "thumbnail_url": "assets/selected101/2028390369902174550-0-thumb.webp",
+      "images": [
+        {
+          "url": "assets/selected101/2028390369902174550-0.jpg",
+          "thumbnail_url": "assets/selected101/2028390369902174550-0-thumb.webp",
+          "alt": "钢笔写出的微缩童话世界 1"
+        }
+      ],
+      "image_set_verified": true,
+      "width": 1340,
+      "height": 2400,
+      "prompt": "A colossal hand gripping an enormous vintage fountain pen, captured in vertical portrait format (9:16), writing on endless textured paper that fills the frame. Where the ink flows, the story of [BOOK_NAME] bursts into vivid life — [iconic characters, key objects, and signature scenes from [BOOK_NAME] emerging as tiny miniature figures on the paper, each no larger than a fingernail, ultra-miniature scale]. The miniature world cascades downward across the page as the pen moves, characters frozen mid-story, ink still wet at the edges where they emerge. Extreme close-up of the enormous pen nib touching paper, ink bleeding into fiber, fingertips with visible skin texture. Warm amber and soft golden light raking across the paper surface, deep shadows, cinematic depth of field, magical realism, hyper-detailed, photorealistic, 8K, --ar 9:16",
+      "prompt_status": "原作者公开提示词，保留原文；未独立复现。",
+      "source_url": "https://x.com/0x00_Krypt/status/2028390369902174550",
+      "prompt_source_url": "https://x.com/0x00_Krypt/status/2028390369902174550",
+      "source_kind": "x",
+      "description": "钢笔写出的微缩童话世界，超现实生成图像而非真实摄影。",
+      "attribution": "两斤 · @0x00_Krypt",
+      "engagement": {
+        "likes": 938,
+        "bookmarks": 718,
+        "checked_at": "2026-11-15T14:51:06.019542+00:00"
+      },
+      "license": "作品归原作者所有，保留作者及原帖来源；其他用途请联系作者。",
+      "verification_status": "source_matched_owner_directed_display",
+      "publish_ready": true,
+      "checked_at": "2026-11-15",
+      "media_authorized": "owner-directed-display",
+      "display_permission": {
+        "status": "owner_confirmed_reuse",
+        "basis": "Owner confirmed attributed collection and uploads; not a blanket open-license assertion."
+      }
+    },
+    {
+      "id": "2088928805561708915",
+      "title": "山崩碎石组成DOMINION片头",
+      "author": "Pierrick Chevallier | IA",
+      "author_handle": "CharaspowerAI",
+      "author_url": "https://x.com/CharaspowerAI",
+      "author_avatar_url": "assets/authors/r11-CharaspowerAI.jpg",
+      "model": "MiniMax H3",
+      "model_family": "MiniMax H3",
+      "type": "video",
+      "category": "短片与镜头",
+      "image_url": "assets/selected101/2088928805561708915.mp4",
+      "thumbnail_url": "assets/selected101/2088928805561708915-poster.jpg",
+      "poster_url": "assets/selected101/2088928805561708915-poster.jpg",
+      "width": 1280,
+      "height": 720,
+      "duration": 15.168,
+      "prompt": "Ultra cinematic title sequence: A gigantic mountain cliff begins collapsing into a deep canyon. Entire rock faces fracture while dust clouds rise thousands of feet into the atmosphere. Giant stone monoliths rotate in slow motion through the air, colliding with breathtaking force. Rock fragments, dust, and debris gradually assemble the monumental word \"DOMINION\", carved from ancient stone scarred by centuries of erosion. The canyon echoes with a deafening rumble before the title crumbles into dust that is carried away by the wind. Monumental scale, ancient power, Hollywood epic title design.",
+      "prompt_status": "原作者公开提示词，保留原文；未独立复现。",
+      "source_url": "https://x.com/CharaspowerAI/status/2088928805561708915",
+      "prompt_source_url": "https://x.com/CharaspowerAI/status/2088928805561708915",
+      "source_kind": "x",
+      "description": "山崩、碎石与尘雾逐渐形成DOMINION片头字样；保留原作者的电影片头提示词。",
+      "attribution": "Pierrick Chevallier | IA · @CharaspowerAI",
+      "engagement": {
+        "likes": 294,
+        "bookmarks": 247,
+        "checked_at": "2026-11-15"
+      },
+      "media_source_url": "https://video.twimg.com/ext_tw_video/2088928781385752576/pu/vid/avc1/1280x720/fZtu1SlMUPtFtuvx.mp4?tag=12",
+      "media_provenance": "Downloaded from original X video URL, transcoded to 720p web playback; no scene cuts.",
+      "license": "作品归原作者所有，保留作者及原帖来源；其他用途请联系作者。",
+      "verification_status": "source_matched_owner_directed_display",
+      "publish_ready": true,
+      "checked_at": "2026-11-15",
+      "media_authorized": "owner-directed-display",
+      "display_permission": {
+        "status": "owner_confirmed_reuse",
+        "basis": "Owner confirmed attributed collection and uploads; not a blanket open-license assertion."
+      }
+    },
+    {
+      "id": "2085413767983046982",
+      "title": "不同画风角色挤进同一电梯",
+      "author": "cocktail peanut",
+      "author_handle": "cocktailpeanut",
+      "author_url": "https://x.com/cocktailpeanut",
+      "author_avatar_url": "assets/authors/r11-cocktailpeanut.jpg",
+      "model": "MiniMax H3",
+      "model_family": "MiniMax H3",
+      "type": "video",
+      "category": "短片与镜头",
+      "image_url": "assets/selected101/2085413767983046982.mp4",
+      "thumbnail_url": "assets/selected101/2085413767983046982-poster.jpg",
+      "poster_url": "assets/selected101/2085413767983046982-poster.jpg",
+      "width": 832,
+      "height": 480,
+      "duration": 14.464,
+      "prompt": "A fast-paced scene inside a cramped elevator, filmed head-on in one continuous cinematic shot. Five passengers coexist in their original visual forms: live-action Harry Potter, stop-motion clay Wallace, bright 2D cel-animated SpongeBob SquarePants, classic PS1 low-poly Lara Croft, and Monkey D. Luffy drawn as a rough black-and-white manga sketch. The elevator suddenly jolts violently. Harry grabs the handrail and says, “Does this happen often?” SpongeBob bounces off the walls and cheerfully replies, “Only on Tuesdays!” Wallace’s clay face says, “Cracking lift, this.” Lara Croft draws her blocky pistols as the floor glitches beneath her and says, “Wrong level.” Luffy’s sketched arm stretches across the elevator to press every button, shouting, “Which floor has meat?” The doors burst open onto a rapidly shifting hallway combining all five visual styles. A powerful gust pulls them out one by one: Harry tumbles into a bright cel-animated world, SpongeBob lands in claymation, Wallace falls into a low-poly PS1 corridor, Lara Croft flips into a black-and-white manga panel, and Luffy is thrown into photorealistic live action. Precise lip-sync, clearly separated dialogue, no overlapping speech, energetic physical comedy, believable shadows and contact between every visual medium.",
+      "prompt_status": "原作者公开提示词，保留原文；未独立复现。",
+      "source_url": "https://x.com/cocktailpeanut/status/2085413767983046982",
+      "prompt_source_url": "https://x.com/cocktailpeanut/status/2085413767983046982",
+      "source_kind": "x",
+      "description": "不同渲染风格角色同处电梯的混合媒介实验；原提示词部分结尾动作未完整体现，不保证逐句复现，未逐字核对对白。",
+      "attribution": "cocktail peanut · @cocktailpeanut",
+      "engagement": {
+        "likes": 124,
+        "bookmarks": 77,
+        "checked_at": "2026-11-15"
+      },
+      "media_source_url": "https://video.twimg.com/amplify_video/2085411257587490816/vid/avc1/832x480/lFMcaKPKiW60-3aG.mp4?tag=29",
+      "media_provenance": "Downloaded from original X video URL, transcoded to 720p web playback; no scene cuts.",
+      "license": "作品归原作者所有，保留作者及原帖来源；其他用途请联系作者。",
+      "verification_status": "source_matched_owner_directed_display",
+      "publish_ready": true,
+      "checked_at": "2026-11-15",
+      "media_authorized": "owner-directed-display",
+      "display_permission": {
+        "status": "owner_confirmed_reuse",
+        "basis": "Owner confirmed attributed collection and uploads; not a blanket open-license assertion."
+      }
+    },
+    {
+      "id": "2084799914765341083",
+      "title": "九龙城寨里的送汤长镜头",
+      "author": "cocktail peanut",
+      "author_handle": "cocktailpeanut",
+      "author_url": "https://x.com/cocktailpeanut",
+      "author_avatar_url": "assets/authors/r11-cocktailpeanut.jpg",
+      "model": "MiniMax H3",
+      "model_family": "MiniMax H3",
+      "type": "video",
+      "category": "短片与镜头",
+      "image_url": "assets/selected101/2084799914765341083.mp4",
+      "thumbnail_url": "assets/selected101/2084799914765341083-poster.jpg",
+      "poster_url": "assets/selected101/2084799914765341083-poster.jpg",
+      "width": 832,
+      "height": 480,
+      "duration": 14.464,
+      "prompt": "Inside Kowloon Walled City, late 1980s, ultra-realistic handheld one-take. A restaurant worker hurries through impossibly narrow, crowded corridors carrying a huge bowl of boiling soup. Residents press themselves against the damp walls to let him pass. He ducks beneath dripping pipes, squeezes past hanging laundry, and leaps over children playing mahjong on the floor. The maze feels claustrophobic, noisy, and alive. He reaches a cramped apartment doorway and hands over the soup just as the lights suddenly cut out, plunging everything into darkness. Oppressive realism, fluorescent lighting, wet concrete, exposed wires, Cantonese shouting, clattering dishes, echoing footsteps, tense cinematic pacing. No cyberpunk, no stylization, documentary-like realism.",
+      "prompt_status": "原作者公开提示词，保留原文；未独立复现。",
+      "source_url": "https://x.com/cocktailpeanut/status/2084799914765341083",
+      "prompt_source_url": "https://x.com/cocktailpeanut/status/2084799914765341083",
+      "source_kind": "x",
+      "description": "以狭窄城寨环境呈现送汤长镜头；作者明确纯文生视频、没有首帧输入。未逐项核实所有动作和音效。",
+      "attribution": "cocktail peanut · @cocktailpeanut",
+      "engagement": {
+        "likes": 435,
+        "bookmarks": 271,
+        "checked_at": "2026-11-15"
+      },
+      "media_source_url": "https://video.twimg.com/amplify_video/2084798991548735488/vid/avc1/832x480/gCvFRbhhzS7YmK3w.mp4?tag=29",
+      "media_provenance": "Downloaded from original X video URL, transcoded to 720p web playback; no scene cuts.",
+      "license": "作品归原作者所有，保留作者及原帖来源；其他用途请联系作者。",
+      "verification_status": "source_matched_owner_directed_display",
+      "publish_ready": true,
+      "checked_at": "2026-11-15",
+      "media_authorized": "owner-directed-display",
+      "display_permission": {
+        "status": "owner_confirmed_reuse",
+        "basis": "Owner confirmed attributed collection and uploads; not a blanket open-license assertion."
+      }
+    }
+  ],
+  "verification": "Author statements and selected output/prompt scope checked. No explicit prohibitions found in captured source posts/profiles. Owner-directed attributed collection, not an open-license assertion."
+}

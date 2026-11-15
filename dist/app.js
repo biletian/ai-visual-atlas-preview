@@ -153,7 +153,7 @@ function prepareDetailVideo(v,key,autoplay){
 }
 function selectWorkVideo(index){const c=byID.get(current),v=$('#detailVideo');if(!c||!v)return;const videos=workVideos(c);if(!Number.isInteger(index)||index<0||index>=videos.length||index===activeVideoIndex)return;
  rememberDetail();activeVideoIndex=index;const m=videos[index];v.poster=mediaURL(m.poster_url);v.setAttribute('aria-label',m.alt||`${c.title} · 第 ${index+1} 段`);prepareDetailVideo(v,detailPositionKey(),false);v.src=mediaURL(m.url);v.load();
- $('#detail [data-video-index]').forEach(b=>b.setAttribute('aria-pressed',String(Number(b.dataset.videoIndex)===index)));
+ $$('#detail [data-video-index]').forEach(b=>b.setAttribute('aria-pressed',String(Number(b.dataset.videoIndex)===index)));
  const counter=$('#detail .image-counter');if(counter)counter.textContent=`${index+1} / ${videos.length}`;
 }
 

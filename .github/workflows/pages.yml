@@ -23,6 +23,7 @@ jobs:
           python -m pip install Pillow==13.0.0
           python scripts/build-curation.py
           python scripts/sync-data.py
+          python scripts/build-catalog.py
           node scripts/verify-gallery.cjs
           node tests/avatar.cjs
       - uses: actions/configure-pages@v5

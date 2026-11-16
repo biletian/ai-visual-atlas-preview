@@ -1,0 +1,42 @@
+name: 推荐作品
+description: 推荐有出处的 AI 图像、组图或视频作品
+body:
+  - type: markdown
+    attributes:
+      value: "感谢推荐！Atlas 是作品收录项目。请提供真实来源，不上传未经许可的素材。"
+  - type: input
+    id: source
+    attributes:
+      label: 原始作品链接
+      placeholder: https://...
+    validations:
+      required: true
+  - type: input
+    id: author
+    attributes:
+      label: 作者与公开主页
+    validations:
+      required: true
+  - type: textarea
+    id: work
+    attributes:
+      label: 作品名称、类型与模型
+      description: 模型版本不明确时请注明未知。
+    validations:
+      required: true
+  - type: textarea
+    id: prompt
+    attributes:
+      label: 公开提示词与参考材料
+      description: 给出提示词来源；未公开就注明未公开，不推测补写。
+  - type: textarea
+    id: rights
+    attributes:
+      label: 与作品的关系及展示许可
+      description: 请提供作者许可或开放许可的可核实来源。公开可见不等于授权。
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: 为什么值得收录

@@ -1,0 +1,35 @@
+name: 纠错与权利反馈
+description: 修正作者、模型、提示词、失效链接，或请求调整及移除展示
+body:
+  - type: markdown
+    attributes:
+      value: "请只填写必要的公开信息。不要在公开 Issue 上传证件、私人联系方式或其他敏感资料。"
+  - type: input
+    id: work
+    attributes:
+      label: Atlas 作品链接或作品名称
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: 反馈类型
+      options:
+        - 作者或来源有误
+        - 模型或提示词有误
+        - 图片、视频或链接失效
+        - 权利反馈或移除请求
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: 问题说明与希望的修改
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 公开来源或核实依据
+      description: 如涉及署名或权利，请提供能够核实的公开主页、原帖或许可说明。

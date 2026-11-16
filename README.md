@@ -1,19 +1,24 @@
 <div align="center">
 
-# ATLAS
-### AI 影像灵感库 · SELECTED WORKS
+<a href="https://biletian.github.io/ai-visual-atlas-preview/"><img src="docs/images/atlas-product-cover.svg" width="100%" alt="Atlas 产品品牌封面 · AI 影像灵感库"></a>
 
-**好作品，不止值得收藏。也值得找到它的创作者。**
+# Atlas · AI 影像灵感库
+
+**发现作品。读懂创作。找到作者。**
 
 [打开完整画廊 ↗](https://biletian.github.io/ai-visual-atlas-preview/) · [推荐作品](https://github.com/biletian/ai-visual-atlas-preview/issues/new?template=submit-work.yml) · [纠错 / 权利反馈](https://github.com/biletian/ai-visual-atlas-preview/issues/new?template=correction.yml)
+
+</div>
+
+> **这是收录作品展，不是 Atlas 的原创作品集。** 本页选展 25 组作品，来自 20 个作者或来源署名；点击图片查看作品与提示词，点击署名回到原始来源。视频以封面展示，点击后播放。
+
+
+## 收录作品 · 本期焦点
 
 <a href="https://biletian.github.io/ai-visual-atlas-preview/#work=2005299702015918358"><img src="dist/assets/selected131/2005299702015918358-0.jpg" width="100%" alt="夜空中的立体彩色烟花：Alexandra Aisling 的龙形烟花作品"></a>
 
 **夜空中的立体彩色烟花** · [Alexandra Aisling · 原帖 ↗](https://x.com/AllaAisling/status/2005299702015918358)
 
-</div>
-
-> **这是收录作品展，不是 Atlas 的原创作品集。** 本页选展 25 组作品，来自 20 个作者或来源署名；点击图片查看作品与提示词，点击署名回到原始来源。视频以封面展示，点击后播放。
 
 ---
 

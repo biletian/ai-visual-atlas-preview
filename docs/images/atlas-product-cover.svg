@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="760" viewBox="0 0 1600 760" role="img" aria-labelledby="title desc">
+<title id="title">Atlas · AI 影像灵感库</title><desc id="desc">Atlas 产品品牌封面。原创影像画框与播放图形，不使用收录作品。</desc>
+<defs><pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#383838"/></pattern></defs>
+<rect width="1600" height="760" fill="#1c1c1c"/><rect x="930" width="670" height="760" fill="#ecebe6"/>
+<g font-family="Arial,Helvetica,'Noto Sans CJK SC',sans-serif">
+<rect x="64" y="60" width="12" height="12" fill="#f0643c"/><text x="94" y="73" fill="#d2d2cd" font-size="17" letter-spacing="3">AI VISUAL ATLAS</text>
+<text x="64" y="313" fill="#f6f5ef" font-weight="700" font-size="242" letter-spacing="-18">atlas</text>
+<text x="72" y="402" fill="#f6f5ef" font-size="42" font-weight="500" letter-spacing="3">AI 影像灵感库</text><path d="M72 450H842" stroke="#4a4a46"/>
+<text x="72" y="502" fill="#c3c3bd" font-size="25">发现作品。读懂创作。找到作者。</text>
+<text x="72" y="591" fill="#8e8e88" font-size="15" letter-spacing="3">IMAGES · FILMS · PROMPTS · CREATORS</text>
+<text x="72" y="700" fill="#83837e" font-size="15">A curated collection, connected to its sources.</text>
+<path d="M960 106H1570M960 654H1570" stroke="#d0cfc8"/>
+<text x="975" y="70" fill="#5b5b55" font-size="14" letter-spacing="3">DISCOVER / EXPLORE / TRACE</text>
+<g transform="translate(1035 160) rotate(-10 200 190)"><rect width="400" height="380" rx="5" fill="#d5d4cc" stroke="#b8b8af"/><path d="M22 22H378V358H22Z" fill="none" stroke="#b0b1a8"/></g>
+<g transform="translate(1070 177) rotate(7 200 190)"><rect width="400" height="380" rx="5" fill="#f8f7f1" stroke="#bebeb5"/><path d="M25 25H375V355H25Z" fill="none" stroke="#d8d8ce"/><circle cx="300" cy="100" r="34" fill="#d4d4c9"/><path d="M25 300L145 180L235 270L295 225L375 300V355H25Z" fill="#b7b9ae"/></g>
+<g transform="translate(1090 220)"><rect width="400" height="380" rx="5" fill="#252525"/><rect x="20" y="20" width="360" height="300" fill="url(#grid)"/><circle cx="200" cy="170" r="108" fill="#f0643c"/><circle cx="200" cy="170" r="72" fill="none" stroke="#ffd3bf"/><path d="M183 139L232 170L183 201Z" fill="#252525"/><path d="M40 40H72M40 40V72M360 40H328M360 40V72M40 300H72M40 300V268M360 300H328M360 300V268" fill="none" stroke="#deded5" stroke-width="2"/><text x="24" y="354" fill="#e4e4dc" font-size="13" letter-spacing="2">CURATED VISUALS</text><path d="M348 354L365 337M351 337H365V351" fill="none" stroke="#f0643c" stroke-width="2"/></g>
+<rect x="1010" y="557" width="166" height="63" rx="3" fill="#fffef8" stroke="#c9c9be"/><path d="M1031 577H1104M1031 589H1153M1031 601H1123" stroke="#777970" stroke-width="3"/>
+<text x="975" y="704" fill="#5b5b55" font-size="15">图像 / 视频 / 提示词 / 原始来源</text>
+</g></svg>

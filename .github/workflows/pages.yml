@@ -26,6 +26,7 @@ jobs:
           python scripts/build-catalog.py
           node scripts/verify-gallery.cjs
           node tests/avatar.cjs
+          node tests/midjourney-data.cjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

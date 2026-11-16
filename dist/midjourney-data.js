@@ -1,0 +1,6 @@
+window.ATLAS_STYLES = [
+ {id:'1222182140',codes:['1222182140'],name:'粗粝漫画线稿',category:'插画',tags:['Comic book','Illustration','Line art','Red','Black'],sourceUrl:'https://promptsref.com/srefcodedetail/--sref%201222182140',favorites:2},
+ {id:'2756663120',codes:['2756663120'],name:'暗黑漫画插画',category:'插画',tags:['Manga art','Illustration','Ink and watercolor','Dark fantasy','Surrealistic'],sourceUrl:'https://promptsref.com/srefcodedetail/--sref%202756663120',favorites:10},
+ {id:'703357546',codes:['703357546'],name:'浪漫时装摄影',category:'摄影',tags:['Photography','Fashion','Film','Vintage','Poster design'],sourceUrl:'https://promptsref.com/srefcodedetail/--sref%20703357546',favorites:10},
+ {id:'540920856-2925088525',codes:['540920856','2925088525'],name:'颗粒平面插画',category:'平面',tags:['Illustration','Flat vector','Minimalism','Poster design','Blue'],sourceUrl:'https://promptsref.com/srefcodedetail/--sref%20540920856%202925088525',favorites:9}
+].map(item => ({...item,source:'PromptsRef',status:'indexed',modelVersion:'v8.2',styleVersion:'SV6',styleWeight:null,textPrompt:null,promptAccess:'login-required',personalizationCode:null,parameterEvidence:'source-page',checkedAt:'2026-11-16',previewRights:'unconfirmed',independentlyTested:false}));

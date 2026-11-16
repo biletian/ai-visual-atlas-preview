@@ -1,0 +1,13 @@
+'use strict';
+const styles = window.ATLAS_STYLES || [];
+let category = '全部';
+const $ = s => document.querySelector(s);
+function element(tag, className, text) { const n = document.createElement(tag); if(className)n.className=className;if(text!==undefined)n.textContent=text;return n; }
+$('#publishedCount').textContent=styles.filter(s=>s.status==='indexed').length;
+$('#candidateCount').textContent=styles.filter(s=>s.independentlyTested).length;
+const categories=['全部',...new Set(styles.map(s=>s.category))];
+for(const name of categories){const button=element('button','filter',name);button.type='button';button.setAttribute('aria-pressed',name===category);button.addEventListener('click',()=>{category=name;document.querySelectorAll('.filter').forEach(b=>b.setAttribute('aria-pressed',b.textContent===name));render();});$('#filters').append(button);}
+let toastTimer;
+function notify(text){$('#toast').textContent=text;$('#toast').classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('#toast').classList.remove('show'),3000);}
+function render(){const q=$('#search').value.trim().toLowerCase();const result=styles.filter(s=>(category==='全部'||s.category===category)&&[s.name,s.codes.join(' '),...s.tags].join(' ').toLowerCase().includes(q));$('#cards').replaceChildren();$('#resultCount').textContent=`显示 ${result.length} 组已核实代码 · 核验于 2026-11-16`;$('#empty').hidden=!!result.length;for(const s of result){const card=element('article','style-card');const top=element('div','card-top');top.append(element('span','status','代码已核实 · 效果未实测'),element('span','category',s.category));card.append(top,element('h3','',s.name));const code='--sref '+s.codes.join(' ');card.append(element('code','code',code));const tags=element('div','tags');s.tags.forEach(t=>tags.append(element('span','',t)));card.append(tags);const dl=element('dl','facts');for(const [label,value] of [['来源标注模型',s.modelVersion],['风格版本 --sv',s.styleVersion],['风格权重 --sw',s.styleWeight ?? '未知 · 源案例未公开'],['案例文本提示词',s.textPrompt ?? '未知 · 来源需登录查看'],['个性化参数 --p',s.personalizationCode ?? '未知 · 未取得完整参数'],['来源收藏量',s.favorites+' 次收藏'],['示例图','前往来源查看 · 未转载']]){dl.append(element('dt','',label),element('dd','',value));}card.append(dl);const actions=element('div','actions');const link=element('a','','查看来源与示例 ↗');link.href=s.sourceUrl;link.target='_blank';link.rel='noopener';const copy=element('button','','复制代码');copy.type='button';copy.addEventListener('click',async()=>{try{await navigator.clipboard.writeText(code);notify('仅复制 sref 代码，非完整生成参数');}catch{notify('复制不可用，请选中代码手动复制');}});actions.append(link,copy);card.append(actions);$('#cards').append(card);}}
+$('#search').addEventListener('input',render);render();

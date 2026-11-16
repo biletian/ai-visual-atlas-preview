@@ -1,0 +1,28 @@
+{
+  "added": 18,
+  "images": 46,
+  "curated": 403,
+  "historical": 492,
+  "source_ids": [
+    "1967593100676943892",
+    "2001932788023595077",
+    "2005659825028649109",
+    "2007031565277155334",
+    "1993709106075767222",
+    "2003849647392247864",
+    "1998641973943742577",
+    "2090294202688999565",
+    "2088667224882155684",
+    "1995165498774802607",
+    "2007087774248439879",
+    "1999892192790495237",
+    "1993710404896203125",
+    "2005299702015918358",
+    "2000070495446643091",
+    "2003059524681466121",
+    "1992598016868720997",
+    "2002937974993088841"
+  ],
+  "verification": "independent original-post and image review, latest source/prompt/media-URL dedup, local within-batch hashes",
+  "notes": "3 Alexandra groups include 12 ALT prompts; interior cover uses output image3; historical image hash dedup not claimed"
+}

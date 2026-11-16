@@ -1,0 +1,15 @@
+{
+  "commit": "2c042fb2805e53a1d5719cc2f00253eccb452ed8",
+  "curated": 385,
+  "historical_records": 474,
+  "checked_at": "2026-11-16T02:23:00Z",
+  "browser_checks": [
+    "home count385",
+    "two group cards and author avatars rendered",
+    "two-image group image2 loaded",
+    "four-image group images2,3,4 loaded",
+    "close detail and reopen next works",
+    "exact prompt original post model and input limitations visible"
+  ],
+  "upcoming_correction": "category changed to existing 旅行与城市 and complete verified prompt marker"
+}

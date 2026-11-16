@@ -1,0 +1,35 @@
+name: 页面与媒体问题
+description: 报告画廊、图片、视频或交互故障。
+title: "[问题] "
+body:
+  - type: markdown
+    attributes:
+      value: "请先搜索已有 Issue。此处公开可见，不要提交私人图片、账号、密钥或敏感漏洞细节。作者与权利问题请使用纠错表单。"
+  - type: input
+    id: url
+    attributes:
+      label: 页面或作品链接
+      placeholder: https://biletian.github.io/ai-visual-atlas-preview/#work=...
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      description: 从打开页面开始，描述具体操作。
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: 实际结果与预期结果
+      description: 如附截图，请先隐藏私人信息。
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: 浏览器与设备
+      placeholder: 例如 Safari / iPhone，或 Chrome / Windows
+    validations:
+      required: true

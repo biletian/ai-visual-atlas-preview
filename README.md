@@ -8,6 +8,8 @@
 
 [打开完整画廊 ↗](https://biletian.github.io/ai-visual-atlas-preview/) · [推荐作品](https://github.com/biletian/ai-visual-atlas-preview/issues/new?template=submit-work.yml) · [纠错 / 权利反馈](https://github.com/biletian/ai-visual-atlas-preview/issues/new?template=correction.yml)
 
+[使用指南](docs/guide.md) · [分类总览](#收录总览--分类与作品一起看) · [参与整理](CONTRIBUTING.md) · [文档导航](docs/README.md) · [帮助与反馈](SUPPORT.md)
+
 </div>
 
 > **这是收录作品展，不是 Atlas 的原创作品集。** 本页选展 25 组作品，来自 20 个作者或来源署名；点击图片查看作品与提示词，点击署名回到原始来源。视频以封面展示，点击后播放。

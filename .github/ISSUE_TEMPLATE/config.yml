@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 在线画廊
+    url: https://biletian.github.io/ai-visual-atlas-preview/
+    about: 浏览收录作品、公开提示词与原作者来源。
+  - name: 使用指南与常见问题
+    url: https://github.com/biletian/ai-visual-atlas-preview/blob/main/docs/guide.md
+    about: 收藏、视频、数量口径与使用条件。

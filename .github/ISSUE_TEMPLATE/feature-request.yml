@@ -1,0 +1,26 @@
+name: 功能与体验建议
+description: 提议改善发现、阅读与整理作品的体验。
+title: "[建议] "
+body:
+  - type: markdown
+    attributes:
+      value: "Atlas 是收录与发现工具。推荐具体作品请使用作品推荐表单。建议不代表已纳入计划。"
+  - type: textarea
+    id: need
+    attributes:
+      label: 你遇到的需求
+      description: 说明使用场景，以及目前哪里不方便。
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: 建议的改进
+      description: 描述期望行为，也可提供替代方案。
+    validations:
+      required: true
+  - type: textarea
+    id: examples
+    attributes:
+      label: 公开参考或补充说明
+      description: 可选。请勿上传私人信息或未经允许的素材。

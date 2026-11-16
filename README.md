@@ -101,21 +101,66 @@
 
 ---
 
-<details>
-<summary><strong>关于 Atlas：功能、收录方式与参与</strong></summary>
+## 收录总览 · 分类与作品一起看
+
+**405 组精选 · 34 个主分类**
+
+统计快照：**2026-11-16**。只统计当前线上精选清单与公开目录匹配的作品，一组组图或多段视频计 1 组；每组只有一个主分类，因此下表不重复计数，合计 **405**。保留站内实际分类名称，未把名称相近的分类擅自合并。数量会随更新变化，以[在线画廊](https://biletian.github.io/ai-visual-atlas-preview/)为准。
+
+<table>
+<tr><th>分类</th><th>收录数量</th><th>作品示例 · 点击图片查看详情</th></tr>
+<tr><td><strong>插画与角色</strong></td><td align="center">65 组</td><td><a href="https://biletian.github.io/ai-visual-atlas-preview/#work=recraft-v4-crimson-icons"><img src="dist/assets/selected127/recraft-v4-crimson-icons-thumb.webp" width="220" alt="四个酒红色超现实角色图标"></a><br><strong>四个酒红色超现实角色图标</strong><br><a href="https://recraft.ai/blog/prompt-engineering-guide">Anna Abdulina / Recraft · 原始来源 ↗</a></td></tr>
+<tr><td><strong>品牌与广告</strong></td><td align="center">40 组</td><td><a href="https://biletian.github.io/ai-visual-atlas-preview/#work=2049022501850915160"><img src="dist/assets/selected120/2049022501850915160-0-thumb.webp" width="220" alt="跃起的运动鞋广告"></a><br><strong>跃起的运动鞋广告</strong><br><a href="https://x.com/Ozayrr_irl/status/2049022501850915160">Ozair AI · 原始来源 ↗</a></td></tr>
+<tr><td><strong>海报与排版</strong></td><td align="center">39 组</td><td><a href="https://biletian.github.io/ai-visual-atlas-preview/#work=2051482525256819193"><img src="dist/assets/selected120/2051482525256819193-0-thumb.webp" width="220" alt="漂浮天空的街头服装海报"></a><br><strong>漂浮天空的街头服装海报</strong><br><a href="https://x.com/ponyodong/status/2051482525256819193">波妞PONYO · 原始来源 ↗</a></td></tr>
+<tr><td><strong>短片与镜头</strong></td><td align="center">35 组</td><td><a href="https://biletian.github.io/ai-visual-atlas-preview/#work=runway-gen45-fox"><img src="dist/assets/selected124/runway-gen45-fox-poster.jpg" width="220" alt="草帽狐狸的乡间摩托旅行"></a><br><strong>草帽狐狸的乡间摩托旅行</strong><br><a href="https://runway.com/research/introducing-runway-gen-4.5">Runway 官方 · 原始来源 ↗</a></td></tr>
+<tr><td><strong>微缩与超现实</strong></td><td align="center">28 组</td><td><a href="https://biletian.github.io/ai-visual-atlas-preview/#work=2005299702015918358"><img src="dist/assets/selected131/2005299702015918358-0-thumb.webp" width="220" alt="夜空中的立体彩色烟花"></a><br><strong>夜空中的立体彩色烟花</strong><br><a href="https://x.com/AllaAisling/status/2005299702015918358">Alexandra Aisling · 原始来源 ↗</a></td></tr>
+<tr><td><strong>信息图</strong></td><td align="center">25 组</td><td><a href="https://biletian.github.io/ai-visual-atlas-preview/#work=2003849647392247864"><img src="dist/assets/selected131/2003849647392247864-0-thumb.webp" width="220" alt="从工程图到电影感展板"></a><br><strong>从工程图到电影感展板</strong><br><a href="https://x.com/AllaAisling/status/2003849647392247864">Alexandra Aisling · 原始来源 ↗</a></td></tr>
+<tr><td><strong>产品与电商</strong></td><td align="center">21 组</td><td><a href="https://biletian.github.io/ai-visual-atlas-preview/#work=2010275488703381858"><img src="dist/assets/selected103/2010275488703381858-0-thumb.webp" width="220" alt="镜面石台与自然护肤静物"></a><br><strong>镜面石台与自然护肤静物</strong><br><a href="https://x.com/Kerroudjm/status/2010275488703381858">Mo · 原始来源 ↗</a></td></tr>
+<tr><td><strong>品牌与平面设计</strong></td><td align="center">17 组</td><td><a href="https://biletian.github.io/ai-visual-atlas-preview/#work=2012178722615329176"><img src="dist/assets/selected101/2012178722615329176-0-thumb.webp" width="220" alt="产品品牌九格视觉分镜"></a><br><strong>产品品牌九格视觉分镜</strong><br><a href="https://x.com/Dari_Designs/status/2012178722615329176">Daria_Surkova · 原始来源 ↗</a></td></tr>
+<tr><td><strong>材质与工艺</strong></td><td align="center">16 组</td><td><a href="https://biletian.github.io/ai-visual-atlas-preview/#work=recraft-v41pro-marine-earring"><img src="dist/assets/selected128/recraft-v41pro-marine-earring-thumb.webp" width="220" alt="深海生物形态的树脂耳饰"></a><br><strong>深海生物形态的树脂耳饰</strong><br><a href="https://recraft.ai/blog/testing-recraft-v4-1-and-krea-2">Recraft 官方 · 原始来源 ↗</a></td></tr>
+<tr><td><strong>建筑与空间</strong></td><td align="center">16 组</td><td><a href="https://biletian.github.io/ai-visual-atlas-preview/#work=2007031565277155334"><img src="dist/assets/selected131/2007031565277155334-2-thumb.webp" width="220" alt="同一空间的16种装修风格"></a><br><strong>同一空间的16种装修风格</strong><br><a href="https://x.com/gokayfem/status/2007031565277155334">gokaygokay · 原始来源 ↗</a></td></tr>
+<tr><td><strong>摄影与人像</strong></td><td align="center">16 组</td><td><a href="https://biletian.github.io/ai-visual-atlas-preview/#work=recraft-v4-caustics"><img src="dist/assets/selected127/recraft-v4-caustics-thumb.webp" width="220" alt="暗室中的水纹焦散光"></a><br><strong>暗室中的水纹焦散光</strong><br><a href="https://recraft.ai/blog/prompt-engineering-guide">Anna Abdulina / Recraft · 原始来源 ↗</a></td></tr>
+<tr><td><strong>旅行与城市</strong></td><td align="center">14 组</td><td><a href="https://biletian.github.io/ai-visual-atlas-preview/#work=2007087774248439879"><img src="dist/assets/selected131/2007087774248439879-0-thumb.webp" width="220" alt="丝带上的四座城市"></a><br><strong>丝带上的四座城市</strong><br><a href="https://x.com/aleenaamiir/status/2007087774248439879">Aleena Amir · 原始来源 ↗</a></td></tr>
+<tr><td><strong>产品与界面设计</strong></td><td align="center">13 组</td><td><a href="https://biletian.github.io/ai-visual-atlas-preview/#work=2030420620232561024"><img src="dist/assets/selected105/2030420620232561024-0-thumb.webp" width="220" alt="蓝图与实体交错的半幅视觉"></a><br><strong>蓝图与实体交错的半幅视觉</strong><br><a href="https://x.com/GlennHasABeard/status/2030420620232561024">Glenn Williams · 原始来源 ↗</a></td></tr>
+<tr><td><strong>图像编辑</strong></td><td align="center">10 组</td><td><a href="https://biletian.github.io/ai-visual-atlas-preview/#work=2049538141993001161"><img src="dist/assets/selected119/2049538141993001161-0-thumb.webp" width="220" alt="给食物照片加上互动涂鸦"></a><br><strong>给食物照片加上互动涂鸦</strong><br><a href="https://x.com/oggii_0/status/2049538141993001161">Oogie · 原始来源 ↗</a></td></tr>
+<tr><td><strong>分镜与叙事设计</strong></td><td align="center">8 组</td><td><a href="https://biletian.github.io/ai-visual-atlas-preview/#work=2076572186220155024"><img src="dist/assets/selected126/2076572186220155024-0-thumb.webp" width="220" alt="把产品开箱拆成十二格广告分镜"></a><br><strong>把产品开箱拆成十二格广告分镜</strong><br><a href="https://x.com/Ziha_ai/status/2076572186220155024">Ziha · 原始来源 ↗</a></td></tr>
+<tr><td><strong>创意短片</strong></td><td align="center">5 组</td><td><a href="https://biletian.github.io/ai-visual-atlas-preview/#work=2029019321364824452"><img src="dist/assets/selected6/2029019321364824452-poster.jpg" width="220" alt="莓果护肤品自动组装广告"></a><br><strong>莓果护肤品自动组装广告</strong><br><a href="https://x.com/ChillaiKalan__/status/2029019321364824452">K · 原始来源 ↗</a></td></tr>
+<tr><td><strong>游戏美术</strong></td><td align="center">4 组</td><td><a href="https://biletian.github.io/ai-visual-atlas-preview/#work=1992598016868720997"><img src="dist/assets/selected131/1992598016868720997-0-thumb.webp" width="220" alt="把电影变成像素游戏"></a><br><strong>把电影变成像素游戏</strong><br><a href="https://x.com/icreatelife/status/1992598016868720997">Kris Kashtanova · 原始来源 ↗</a></td></tr>
+<tr><td><strong>动图与动画</strong></td><td align="center">4 组</td><td><a href="https://biletian.github.io/ai-visual-atlas-preview/#work=2118135343354720648"><img src="dist/assets/recovered12/2118135343354720648-0-poster.jpg" width="220" alt="原地后空翻 GIF"></a><br><strong>原地后空翻 GIF</strong><br><a href="https://x.com/gabrielchua/status/2118135343354720648">Gabriel Chua · 原始来源 ↗</a></td></tr>
+<tr><td><strong>字体与文字设计</strong></td><td align="center">3 组</td><td><a href="https://biletian.github.io/ai-visual-atlas-preview/#work=2011108316882014431"><img src="dist/assets/selected105/2011108316882014431-0-thumb.webp" width="220" alt="液体字构成清爽饮料广告"></a><br><strong>液体字构成清爽饮料广告</strong><br><a href="https://x.com/Kerroudjm/status/2011108316882014431">Mo · 原始来源 ↗</a></td></tr>
+<tr><td><strong>摄影对比</strong></td><td align="center">3 组</td><td><a href="https://biletian.github.io/ai-visual-atlas-preview/#work=2120189335194706023"><img src="dist/assets/recovered12/2120189335194706023-0.jpg" width="220" alt="电梯镜面自拍对比"></a><br><strong>电梯镜面自拍对比</strong><br><a href="https://x.com/simonecanciello/status/2120189335194706023">Simone Canc · 原始来源 ↗</a></td></tr>
+<tr><td><strong>时装与拼贴</strong></td><td align="center">3 组</td><td><a href="https://biletian.github.io/ai-visual-atlas-preview/#work=2120192333148987761"><img src="dist/assets/approved8/C67.webp" width="220" alt="围巾里的冬日时装"></a><br><strong>围巾里的冬日时装</strong><br><a href="https://x.com/MrLarus/status/2120192333148987761">Larus Canus · 原始来源 ↗</a></td></tr>
+<tr><td><strong>角色与概念设计</strong></td><td align="center">3 组</td><td><a href="https://biletian.github.io/ai-visual-atlas-preview/#work=2056372978607174077"><img src="dist/assets/selected128/BC03-image-1.webp" width="220" alt="天体旅人的四视图设定"></a><br><strong>天体旅人的四视图设定</strong><br><a href="https://x.com/0kncn/status/2056372978607174077">Okan Can · 原始来源 ↗</a></td></tr>
+<tr><td><strong>氛围循环动画</strong></td><td align="center">3 组</td><td><a href="https://biletian.github.io/ai-visual-atlas-preview/#work=2118308538564989025-1"><img src="dist/assets/selected96/CV01-poster.jpg" width="220" alt="水粉旅行海报·金门大桥"></a><br><strong>水粉旅行海报·金门大桥</strong><br><a href="https://x.com/devteamdrew/status/2118308538564989025">DreW · 原始来源 ↗</a></td></tr>
+<tr><td><strong>视频工作流</strong></td><td align="center">2 组</td><td><a href="https://biletian.github.io/ai-visual-atlas-preview/#work=2118408795026043260"><img src="dist/assets/recovered12/2118408795026043260-0-poster.jpg" width="220" alt="灰模 GIF 转游戏镜头"></a><br><strong>灰模 GIF 转游戏镜头</strong><br><a href="https://x.com/cocktailpeanut/status/2118408795026043260">cocktail peanut · 原始来源 ↗</a></td></tr>
+<tr><td><strong>像素动画</strong></td><td align="center">2 组</td><td><a href="https://biletian.github.io/ai-visual-atlas-preview/#work=2118670168415182931"><img src="dist/assets/recovered12/2118670168415182931-0-poster.jpg" width="220" alt="角色转像素动画动作集"></a><br><strong>角色转像素动画动作集</strong><br><a href="https://x.com/Mayz1169/status/2118670168415182931">Kiki · 原始来源 ↗</a></td></tr>
+<tr><td><strong>角色与插画</strong></td><td align="center">2 组</td><td><a href="https://biletian.github.io/ai-visual-atlas-preview/#work=2048251738604613725"><img src="dist/assets/selected136/CN07-image-1.webp" width="220" alt="温柔手帐风角色设定卡"></a><br><strong>温柔手帐风角色设定卡</strong><br><a href="https://x.com/ZaraIrahh/status/2048251738604613725">Zara · 原始来源 ↗</a></td></tr>
+<tr><td><strong>时尚与穿搭</strong></td><td align="center">1 组</td><td><a href="https://biletian.github.io/ai-visual-atlas-preview/#work=2009665973058515294"><img src="dist/assets/selected101/2009665973058515294-0-thumb.webp" width="220" alt="穿搭单品与上身效果编辑页"></a><br><strong>穿搭单品与上身效果编辑页</strong><br><a href="https://x.com/craftian_keskin/status/2009665973058515294">Keskin · 原始来源 ↗</a></td></tr>
+<tr><td><strong>表情包与贴纸</strong></td><td align="center">1 组</td><td><a href="https://biletian.github.io/ai-visual-atlas-preview/#work=2118156092865994837"><img src="dist/assets/selected92/C05-image-1.webp" width="220" alt="橘猫打工人十二连表情"></a><br><strong>橘猫打工人十二连表情</strong><br><a href="https://x.com/karanwithai/status/2118156092865994837">零点 Drift · 原始来源 ↗</a></td></tr>
+<tr><td><strong>海报设计</strong></td><td align="center">1 组</td><td><a href="https://biletian.github.io/ai-visual-atlas-preview/#work=2120469968060043639"><img src="dist/assets/recovered12/2120469968060043639-0.jpg" width="220" alt="中文标题设计系统"></a><br><strong>中文标题设计系统</strong><br><a href="https://x.com/Leviwoyun/status/2120469968060043639">Levi 卧云 · 原始来源 ↗</a></td></tr>
+<tr><td><strong>模型对比</strong></td><td align="center">1 组</td><td><a href="https://biletian.github.io/ai-visual-atlas-preview/#work=2118381855166881928"><img src="dist/assets/recovered12/2118381855166881928-0.jpg" width="220" alt="翠鸟入水摄影对比"></a><br><strong>翠鸟入水摄影对比</strong><br><a href="https://x.com/NovaXCode/status/2118381855166881928">Nova · 原始来源 ↗</a></td></tr>
+<tr><td><strong>地图设计</strong></td><td align="center">1 组</td><td><a href="https://biletian.github.io/ai-visual-atlas-preview/#work=2119841736679686222"><img src="dist/assets/recovered12/2119841736679686222-0-poster.jpg" width="220" alt="特拉维夫等轴测插画地图"></a><br><strong>特拉维夫等轴测插画地图</strong><br><a href="https://x.com/DmytroKrasun/status/2119841736679686222">Dmytro Krasun · 原始来源 ↗</a></td></tr>
+<tr><td><strong>角色与科幻</strong></td><td align="center">1 组</td><td><a href="https://biletian.github.io/ai-visual-atlas-preview/#work=2086559615878082837"><img src="dist/assets/approved8/F41.webp" width="220" alt="蜷缩的装甲人形"></a><br><strong>蜷缩的装甲人形</strong><br><a href="https://x.com/MO_IAI/status/2086559615878082837">MO · 原始来源 ↗</a></td></tr>
+<tr><td><strong>产品与平面设计</strong></td><td align="center">1 组</td><td><a href="https://biletian.github.io/ai-visual-atlas-preview/#work=2064020126937039318"><img src="dist/assets/selected128/BC06-image-1.webp" width="220" alt="折纸料理的结构海报"></a><br><strong>折纸料理的结构海报</strong><br><a href="https://x.com/Gdgtify/status/2064020126937039318">Gadgetify · 原始来源 ↗</a></td></tr>
+<tr><td><strong>动画短片</strong></td><td align="center">1 组</td><td><a href="https://biletian.github.io/ai-visual-atlas-preview/#work=2021412306291392535"><img src="dist/assets/selected11/2021412306291392535-poster.jpg" width="220" alt="水獭机甲迎战大理石章鱼"></a><br><strong>水獭机甲迎战大理石章鱼</strong><br><a href="https://x.com/emollick/status/2021412306291392535">Ethan Mollick · 原始来源 ↗</a></td></tr>
+<tr><td><strong>合计</strong></td><td align="center"><strong>405 组</strong></td><td>每个分类各展示 1 个实例，不是该分类的全部作品。</td></tr>
+</table>
+
+## 关于 Atlas · 图文导览
 
 ## 在 Atlas 里能找到什么
 
-| 想做的事 | 怎么浏览 |
-| --- | --- |
-| 寻找视觉方向 | 按创作主题浏览海报、品牌、产品、插画、建筑、材质与短片等作品 |
-| 看不同模型的创作案例 | 按模型筛选；模型名称按来源记录，不把推荐模型写成原始模型 |
-| 理解作品怎么做 | 查看作者公开的提示词、参考材料和来源；缺失内容不补造 |
-| 查看系列与过程 | 在详情里切换组图或多段视频，再回到画廊继续浏览 |
-| 保存感兴趣的作品 | 使用浏览器本地收藏；无需账号，不上传收藏记录 |
-| 找回原作者 | 通过作者与原帖链接继续查看完整语境 |
+<table>
+<tr><th>你可以做什么</th><th>对应作品与入口</th></tr>
+<tr><td width="60%" valign="top"><h3>寻找视觉方向</h3><p>按创作主题浏览海报、品牌、产品、插画、建筑、材质与短片等作品。</p></td><td width="40%"><a href="https://biletian.github.io/ai-visual-atlas-preview/#work=2049022501850915160"><img src="dist/assets/selected120/2049022501850915160-0-thumb.webp" width="280" alt="跃起的运动鞋广告"></a><br><strong>跃起的运动鞋广告</strong><br><a href="https://x.com/Ozayrr_irl/status/2049022501850915160">Ozair AI · 原始来源 ↗</a></td></tr>
+<tr><td width="60%" valign="top"><h3>看不同模型的创作案例</h3><p>按模型筛选；模型名称按来源记录，不把推荐模型写成原始模型。</p></td><td width="40%"><a href="https://biletian.github.io/ai-visual-atlas-preview/#work=recraft-v41pro-marine-earring"><img src="dist/assets/selected128/recraft-v41pro-marine-earring-thumb.webp" width="280" alt="深海生物形态的树脂耳饰"></a><br><strong>深海生物形态的树脂耳饰</strong><br><a href="https://recraft.ai/blog/testing-recraft-v4-1-and-krea-2">Recraft 官方 · 原始来源 ↗</a></td></tr>
+<tr><td width="60%" valign="top"><h3>理解作品怎么做</h3><p>查看作者公开的提示词、参考材料和来源；缺失内容不补造。</p></td><td width="40%"><a href="https://biletian.github.io/ai-visual-atlas-preview/#work=2003849647392247864"><img src="dist/assets/selected131/2003849647392247864-0-thumb.webp" width="280" alt="从工程图到电影感展板"></a><br><strong>从工程图到电影感展板</strong><br><a href="https://x.com/AllaAisling/status/2003849647392247864">Alexandra Aisling · 原始来源 ↗</a></td></tr>
+<tr><td width="60%" valign="top"><h3>查看系列与过程</h3><p>在详情里切换组图或多段视频，再回到画廊继续浏览。</p></td><td width="40%"><a href="https://biletian.github.io/ai-visual-atlas-preview/#work=runway-gen45-fox"><img src="dist/assets/selected124/runway-gen45-fox-poster.jpg" width="280" alt="草帽狐狸的乡间摩托旅行"></a><br><strong>草帽狐狸的乡间摩托旅行</strong><br><a href="https://runway.com/research/introducing-runway-gen-4.5">Runway 官方 · 原始来源 ↗</a></td></tr>
+<tr><td width="60%" valign="top"><h3>保存感兴趣的作品</h3><p>使用浏览器本地收藏；无需账号，不上传收藏记录。</p></td><td width="40%"><a href="https://biletian.github.io/ai-visual-atlas-preview/#work=2007087774248439879"><img src="dist/assets/selected131/2007087774248439879-0-thumb.webp" width="280" alt="丝带上的四座城市"></a><br><strong>丝带上的四座城市</strong><br><a href="https://x.com/aleenaamiir/status/2007087774248439879">Aleena Amir · 原始来源 ↗</a></td></tr>
+<tr><td width="60%" valign="top"><h3>找回原作者</h3><p>通过作者与原帖链接继续查看完整语境。</p></td><td width="40%"><a href="https://biletian.github.io/ai-visual-atlas-preview/#work=recraft-v4-crimson-icons"><img src="dist/assets/selected127/recraft-v4-crimson-icons-thumb.webp" width="280" alt="四个酒红色超现实角色图标"></a><br><strong>四个酒红色超现实角色图标</strong><br><a href="https://recraft.ai/blog/prompt-engineering-guide">Anna Abdulina / Recraft · 原始来源 ↗</a></td></tr>
+</table>
 
-**收录快照：2026-11-16 核验时，首页精选为 403 组。** 组图按一组计，不等于图片数量；后续数量以[在线画廊](https://biletian.github.io/ai-visual-atlas-preview/)为准。数据中的候选与历史归档不等于当前公开精选。
+**收录快照：2026-11-16 核验时，首页精选为 405 组。** 组图按一组计，不等于图片数量；后续数量以[在线画廊](https://biletian.github.io/ai-visual-atlas-preview/)为准。数据中的候选与历史归档不等于当前公开精选。
 
 ## 我们如何收录
 
@@ -138,7 +183,7 @@
 3. 代码或数据修改请先阅读 [CONTRIBUTING.md](CONTRIBUTING.md)，保持原始来源及许可信息。
 
 
-</details>
+
 
 <details>
 <summary><strong>开发与维护：本地运行、验证和部署</strong></summary>
@@ -185,20 +230,17 @@ node tests/image-gallery.cjs
 
 ## 来源、许可与隐私
 
-- **收录不等于授权再分发。** 作品、提示词、头像与商标分别遵循原权利人的许可或限制。公开可访问、附带原帖链接或标记为可展示，不等于获得开放许可证或商用授权。
-- `owner-directed-display` 是项目内的展示记录，不是作者授予的开放许可。使用作品前请回到原始来源核对条款，必要时联系原作者。
-- CC BY 4.0 素材保留署名、来源、许可及转码说明，见 [ailingqu 署名](dist/assets/ailingqu/ATTRIBUTION.txt)与[许可](dist/assets/ailingqu/LICENSE)。转码和缩略图不改变原始权属。
-- 图标与历史集成依赖分别见 [LUCIDE-LICENSE](LUCIDE-LICENSE) 和 [HEROUI-LICENSE](HEROUI-LICENSE)。这些第三方许可证**不代表整个作品库统一采用同一许可证**。
-- 收藏仅保存在当前浏览器。第三方媒体与原帖请求可能受到网络限制；跳转后的站点适用其自身规则。
+<table><tr><td width="65%" valign="top">
+<ul><li><strong>收录不等于授权再分发。</strong> 作品、提示词、头像与商标分别遵循原权利人的许可或限制。公开可访问、附带原帖链接或标记为可展示，不等于获得开放许可证或商用授权。</li><li><code>owner-directed-display</code> 是项目内的展示记录，不是作者授予的开放许可。使用作品前请回到原始来源核对条款，必要时联系原作者。</li><li>CC BY 4.0 素材保留署名、来源、许可及转码说明，见 <a href="dist/assets/ailingqu/ATTRIBUTION.txt">ailingqu 署名</a>与<a href="dist/assets/ailingqu/LICENSE">许可</a>。转码和缩略图不改变原始权属。</li><li>图标与历史集成依赖分别见 <a href="LUCIDE-LICENSE">LUCIDE-LICENSE</a> 和 <a href="HEROUI-LICENSE">HEROUI-LICENSE</a>。这些第三方许可证<strong>不代表整个作品库统一采用同一许可证</strong>。</li><li>收藏仅保存在当前浏览器。第三方媒体与原帖请求可能受到网络限制；跳转后的站点适用其自身规则。</li></ul>
+</td><td width="35%" valign="top"><a href="https://biletian.github.io/ai-visual-atlas-preview/#work=recraft-v41pro-marine-earring"><img src="dist/assets/selected128/recraft-v41pro-marine-earring-thumb.webp" width="280" alt="深海生物形态的树脂耳饰"></a><br><strong>深海生物形态的树脂耳饰</strong><br><a href="https://recraft.ai/blog/testing-recraft-v4-1-and-krea-2">Recraft 官方 · 原始来源 ↗</a><p><sub>示例由原作者或官方来源创作。查看原始来源了解具体使用条件；本页展示不提供额外商用授权。</sub></p></td></tr></table>
 
 ## English
 
-**Atlas is a curated collection of AI-generated images and videos, not an original portfolio or an image-generation service.** Explore works by theme or model, inspect publicly shared prompts and references, and follow the credits back to the original creators.
-
-The gallery includes images, animations, image sets and video examples. Availability of a prompt does not guarantee identical results. Attribution does not grant reuse rights: each work keeps its original license or restrictions.
-
-[Explore the gallery](https://biletian.github.io/ai-visual-atlas-preview/) · [Contribute a work](CONTRIBUTING.md) · [Report a correction](https://github.com/biletian/ai-visual-atlas-preview/issues/new?template=correction.yml)
-
+<table><tr><td width="60%" valign="top">
+<p><strong>Atlas is a curated collection of AI-generated images and videos, not an original portfolio or an image-generation service.</strong> Explore works by theme or model, inspect publicly shared prompts and references, and follow the credits back to the original creators.</p>
+<p>The gallery includes images, animations, image sets and video examples. Availability of a prompt does not guarantee identical results. Attribution does not grant reuse rights: each work keeps its original license or restrictions.</p>
+<p><a href="https://biletian.github.io/ai-visual-atlas-preview/">Explore the gallery</a> · <a href="CONTRIBUTING.md">Contribute a work</a> · <a href="https://github.com/biletian/ai-visual-atlas-preview/issues/new?template=correction.yml">Report a correction</a></p>
+</td><td width="40%" valign="top"><a href="https://biletian.github.io/ai-visual-atlas-preview/#work=2007087774248439879"><img src="dist/assets/selected131/2007087774248439879-0-thumb.webp" width="320" alt="丝带上的四座城市"></a><br><strong>丝带上的四座城市</strong><br><a href="https://x.com/aleenaamiir/status/2007087774248439879">Aleena Amir · 原始来源 ↗</a></td></tr></table>
 
 <div align="center">
 

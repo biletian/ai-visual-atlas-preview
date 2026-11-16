@@ -12,8 +12,18 @@
 
 </div>
 
-> **这是收录作品展，不是 Atlas 的原创作品集。** 本页选展 25 组作品，来自 20 个作者或来源署名；点击图片查看作品与提示词，点击署名回到原始来源。视频以封面展示，点击后播放。
+> **这是收录作品展，不是 Atlas 的原创作品集。** 本页选展 28 组作品，来自 23 个作者或来源署名；点击图片查看作品与提示词，点击署名回到原始来源。视频以封面展示，点击后播放。
 
+
+## 最新收录 · 开放许可三作品
+
+<table><tr>
+<td width="33%" valign="top"><a href="https://biletian.github.io/ai-visual-atlas-preview/#work=zenlee-ukiyoe-astronaut"><img src="dist/assets/zenlee/zenlee-ukiyoe-astronaut-thumb.webp" width="300" alt="浮世绘宇航员，zenlee123 / AIImage 的收录作品"></a><br><strong>浮世绘宇航员</strong><br><sub>Gemini 3 Pro Image（作者标注）</sub><br><a href="https://github.com/zenlee123/awesome-ai-image-prompts#ukiyoe-astronaut">zenlee123 / AIImage · 原始来源 ↗</a><br><sub>CC0-1.0 · 非 Atlas 原创</sub></td>
+<td width="33%" valign="top"><a href="https://biletian.github.io/ai-visual-atlas-preview/#work=vcl-house-cutaway"><img src="dist/assets/vcl/vcl-house-cutaway-thumb.webp" width="300" alt="一眼看见整栋家的内部，Vibe Coder’s Life / kondasviktor 的收录作品"></a><br><strong>一眼看见整栋家的内部</strong><br><sub>风格示例 · 模型未注明</sub><br><a href="https://github.com/kondasviktor/vcl-ai-image-prompts/blob/main/recipes/cutaway.md">Vibe Coder’s Life / kondasviktor · 原始来源 ↗</a><br><sub>CC-BY-4.0 · 非 Atlas 原创</sub></td>
+<td width="33%" valign="top"><a href="https://biletian.github.io/ai-visual-atlas-preview/#work=taste-journey-shimmer-lounge"><img src="dist/assets/taste/taste-191.webp" width="300" alt="海上微光会客厅，Taste by Journey 的收录作品"></a><br><strong>海上微光会客厅</strong><br><sub>Midjourney V7</sub><br><a href="https://tastejourney.art/i/191">Taste by Journey · 原始来源 ↗</a><br><sub>CC BY 4.0 · 非 Atlas 原创</sub></td>
+</tr></table>
+
+2026-11-16 核验来源与许可，保留作者原提示词、模型原始说法及复现限制。住宅剖面是作者提供的风格示例，非已验证模型测试；外观参考和剖面并非精确建筑还原。[本批核验说明](docs/licensed-creators-2026-11-16.md)。
 
 ## 收录作品 · 本期焦点
 
@@ -110,13 +120,13 @@
 
 ## 收录总览 · 分类与作品一起看
 
-**405 组精选 · 34 个主分类**
+**408 组精选 · 34 个主分类**
 
-统计快照：**2026-11-16**。只统计当前线上精选清单与公开目录匹配的作品，一组组图或多段视频计 1 组；每组只有一个主分类，因此下表不重复计数，合计 **405**。保留站内实际分类名称，未把名称相近的分类擅自合并。数量会随更新变化，以[在线画廊](https://biletian.github.io/ai-visual-atlas-preview/)为准。
+统计快照：**2026-11-16**。只统计当前线上精选清单与公开目录匹配的作品，一组组图或多段视频计 1 组；每组只有一个主分类，因此下表不重复计数，合计 **408**。保留站内实际分类名称，未把名称相近的分类擅自合并。数量会随更新变化，以[在线画廊](https://biletian.github.io/ai-visual-atlas-preview/)为准。
 
 <table>
 <tr><th>分类</th><th>收录数量</th><th>作品示例 · 点击图片查看详情</th></tr>
-<tr><td><strong>插画与角色</strong></td><td align="center">65 组</td><td><a href="https://biletian.github.io/ai-visual-atlas-preview/#work=recraft-v4-crimson-icons"><img src="dist/assets/selected127/recraft-v4-crimson-icons-thumb.webp" width="220" alt="四个酒红色超现实角色图标"></a><br><strong>四个酒红色超现实角色图标</strong><br><a href="https://recraft.ai/blog/prompt-engineering-guide">Anna Abdulina / Recraft · 原始来源 ↗</a></td></tr>
+<tr><td><strong>插画与角色</strong></td><td align="center">66 组</td><td><a href="https://biletian.github.io/ai-visual-atlas-preview/#work=recraft-v4-crimson-icons"><img src="dist/assets/selected127/recraft-v4-crimson-icons-thumb.webp" width="220" alt="四个酒红色超现实角色图标"></a><br><strong>四个酒红色超现实角色图标</strong><br><a href="https://recraft.ai/blog/prompt-engineering-guide">Anna Abdulina / Recraft · 原始来源 ↗</a></td></tr>
 <tr><td><strong>品牌与广告</strong></td><td align="center">40 组</td><td><a href="https://biletian.github.io/ai-visual-atlas-preview/#work=2049022501850915160"><img src="dist/assets/selected120/2049022501850915160-0-thumb.webp" width="220" alt="跃起的运动鞋广告"></a><br><strong>跃起的运动鞋广告</strong><br><a href="https://x.com/Ozayrr_irl/status/2049022501850915160">Ozair AI · 原始来源 ↗</a></td></tr>
 <tr><td><strong>海报与排版</strong></td><td align="center">39 组</td><td><a href="https://biletian.github.io/ai-visual-atlas-preview/#work=2051482525256819193"><img src="dist/assets/selected120/2051482525256819193-0-thumb.webp" width="220" alt="漂浮天空的街头服装海报"></a><br><strong>漂浮天空的街头服装海报</strong><br><a href="https://x.com/ponyodong/status/2051482525256819193">波妞PONYO · 原始来源 ↗</a></td></tr>
 <tr><td><strong>短片与镜头</strong></td><td align="center">35 组</td><td><a href="https://biletian.github.io/ai-visual-atlas-preview/#work=runway-gen45-fox"><img src="dist/assets/selected124/runway-gen45-fox-poster.jpg" width="220" alt="草帽狐狸的乡间摩托旅行"></a><br><strong>草帽狐狸的乡间摩托旅行</strong><br><a href="https://runway.com/research/introducing-runway-gen-4.5">Runway 官方 · 原始来源 ↗</a></td></tr>
@@ -125,7 +135,7 @@
 <tr><td><strong>产品与电商</strong></td><td align="center">21 组</td><td><a href="https://biletian.github.io/ai-visual-atlas-preview/#work=2010275488703381858"><img src="dist/assets/selected103/2010275488703381858-0-thumb.webp" width="220" alt="镜面石台与自然护肤静物"></a><br><strong>镜面石台与自然护肤静物</strong><br><a href="https://x.com/Kerroudjm/status/2010275488703381858">Mo · 原始来源 ↗</a></td></tr>
 <tr><td><strong>品牌与平面设计</strong></td><td align="center">17 组</td><td><a href="https://biletian.github.io/ai-visual-atlas-preview/#work=2012178722615329176"><img src="dist/assets/selected101/2012178722615329176-0-thumb.webp" width="220" alt="产品品牌九格视觉分镜"></a><br><strong>产品品牌九格视觉分镜</strong><br><a href="https://x.com/Dari_Designs/status/2012178722615329176">Daria_Surkova · 原始来源 ↗</a></td></tr>
 <tr><td><strong>材质与工艺</strong></td><td align="center">16 组</td><td><a href="https://biletian.github.io/ai-visual-atlas-preview/#work=recraft-v41pro-marine-earring"><img src="dist/assets/selected128/recraft-v41pro-marine-earring-thumb.webp" width="220" alt="深海生物形态的树脂耳饰"></a><br><strong>深海生物形态的树脂耳饰</strong><br><a href="https://recraft.ai/blog/testing-recraft-v4-1-and-krea-2">Recraft 官方 · 原始来源 ↗</a></td></tr>
-<tr><td><strong>建筑与空间</strong></td><td align="center">16 组</td><td><a href="https://biletian.github.io/ai-visual-atlas-preview/#work=2007031565277155334"><img src="dist/assets/selected131/2007031565277155334-2-thumb.webp" width="220" alt="同一空间的16种装修风格"></a><br><strong>同一空间的16种装修风格</strong><br><a href="https://x.com/gokayfem/status/2007031565277155334">gokaygokay · 原始来源 ↗</a></td></tr>
+<tr><td><strong>建筑与空间</strong></td><td align="center">18 组</td><td><a href="https://biletian.github.io/ai-visual-atlas-preview/#work=2007031565277155334"><img src="dist/assets/selected131/2007031565277155334-2-thumb.webp" width="220" alt="同一空间的16种装修风格"></a><br><strong>同一空间的16种装修风格</strong><br><a href="https://x.com/gokayfem/status/2007031565277155334">gokaygokay · 原始来源 ↗</a></td></tr>
 <tr><td><strong>摄影与人像</strong></td><td align="center">16 组</td><td><a href="https://biletian.github.io/ai-visual-atlas-preview/#work=recraft-v4-caustics"><img src="dist/assets/selected127/recraft-v4-caustics-thumb.webp" width="220" alt="暗室中的水纹焦散光"></a><br><strong>暗室中的水纹焦散光</strong><br><a href="https://recraft.ai/blog/prompt-engineering-guide">Anna Abdulina / Recraft · 原始来源 ↗</a></td></tr>
 <tr><td><strong>旅行与城市</strong></td><td align="center">14 组</td><td><a href="https://biletian.github.io/ai-visual-atlas-preview/#work=2007087774248439879"><img src="dist/assets/selected131/2007087774248439879-0-thumb.webp" width="220" alt="丝带上的四座城市"></a><br><strong>丝带上的四座城市</strong><br><a href="https://x.com/aleenaamiir/status/2007087774248439879">Aleena Amir · 原始来源 ↗</a></td></tr>
 <tr><td><strong>产品与界面设计</strong></td><td align="center">13 组</td><td><a href="https://biletian.github.io/ai-visual-atlas-preview/#work=2030420620232561024"><img src="dist/assets/selected105/2030420620232561024-0-thumb.webp" width="220" alt="蓝图与实体交错的半幅视觉"></a><br><strong>蓝图与实体交错的半幅视觉</strong><br><a href="https://x.com/GlennHasABeard/status/2030420620232561024">Glenn Williams · 原始来源 ↗</a></td></tr>
@@ -150,7 +160,7 @@
 <tr><td><strong>角色与科幻</strong></td><td align="center">1 组</td><td><a href="https://biletian.github.io/ai-visual-atlas-preview/#work=2086559615878082837"><img src="dist/assets/approved8/F41.webp" width="220" alt="蜷缩的装甲人形"></a><br><strong>蜷缩的装甲人形</strong><br><a href="https://x.com/MO_IAI/status/2086559615878082837">MO · 原始来源 ↗</a></td></tr>
 <tr><td><strong>产品与平面设计</strong></td><td align="center">1 组</td><td><a href="https://biletian.github.io/ai-visual-atlas-preview/#work=2064020126937039318"><img src="https://biletian.github.io/ai-visual-atlas-preview/assets/selected128/BC06-image-1.webp" width="220" alt="折纸料理的结构海报"></a><br><strong>折纸料理的结构海报</strong><br><a href="https://x.com/Gdgtify/status/2064020126937039318">Gadgetify · 原始来源 ↗</a></td></tr>
 <tr><td><strong>动画短片</strong></td><td align="center">1 组</td><td><a href="https://biletian.github.io/ai-visual-atlas-preview/#work=2021412306291392535"><img src="dist/assets/selected11/2021412306291392535-poster.jpg" width="220" alt="水獭机甲迎战大理石章鱼"></a><br><strong>水獭机甲迎战大理石章鱼</strong><br><a href="https://x.com/emollick/status/2021412306291392535">Ethan Mollick · 原始来源 ↗</a></td></tr>
-<tr><td><strong>合计</strong></td><td align="center"><strong>405 组</strong></td><td>每个分类各展示 1 个实例，不是该分类的全部作品。</td></tr>
+<tr><td><strong>合计</strong></td><td align="center"><strong>408 组</strong></td><td>每个分类各展示 1 个实例，不是该分类的全部作品。</td></tr>
 </table>
 
 ## 关于 Atlas · 图文导览
@@ -167,7 +177,7 @@
 <tr><td width="60%" valign="top"><h3>找回原作者</h3><p>通过作者与原帖链接继续查看完整语境。</p></td><td width="40%"><a href="https://biletian.github.io/ai-visual-atlas-preview/#work=recraft-v4-crimson-icons"><img src="dist/assets/selected127/recraft-v4-crimson-icons-thumb.webp" width="280" alt="四个酒红色超现实角色图标"></a><br><strong>四个酒红色超现实角色图标</strong><br><a href="https://recraft.ai/blog/prompt-engineering-guide">Anna Abdulina / Recraft · 原始来源 ↗</a></td></tr>
 </table>
 
-**收录快照：2026-11-16 核验时，首页精选为 405 组。** 组图按一组计，不等于图片数量；后续数量以[在线画廊](https://biletian.github.io/ai-visual-atlas-preview/)为准。数据中的候选与历史归档不等于当前公开精选。
+**收录快照：2026-11-16 核验时，首页精选为 408 组。** 组图按一组计，不等于图片数量；后续数量以[在线画廊](https://biletian.github.io/ai-visual-atlas-preview/)为准。数据中的候选与历史归档不等于当前公开精选。
 
 ## 我们如何收录
 

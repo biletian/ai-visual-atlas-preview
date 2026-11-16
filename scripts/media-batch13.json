@@ -1,0 +1,17 @@
+[
+  {
+    "path": "dist/assets/zenlee/zenlee-ukiyoe-astronaut.webp",
+    "url": "https://raw.githubusercontent.com/zenlee123/awesome-ai-image-prompts/main/images/ukiyoe-astronaut.webp",
+    "sha256": "c9687741d8c14b38734e53328b5ae567788138757cca106fa4b71edf74586e31"
+  },
+  {
+    "path": "dist/assets/vcl/vcl-house-cutaway.png",
+    "url": "https://raw.githubusercontent.com/kondasviktor/vcl-ai-image-prompts/main/examples/cutaway/demo.png",
+    "sha256": "d8b2fcd5ff02228237729520d716e764c68a744f064eb6674855cce401aa3aaa"
+  },
+  {
+    "path": "dist/assets/taste/taste-191.jpg",
+    "url": "https://cgaihtvcmbgprwgvltsf.supabase.co/storage/v1/object/public/gallery/ai-191.jpg",
+    "sha256": "53e2eda749e4a7709e6b1ee641811631cd56e4143e9576c3be49d10c37dbe731"
+  }
+]

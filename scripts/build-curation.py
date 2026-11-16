@@ -5,7 +5,7 @@ from PIL import Image
 root=Path(__file__).resolve().parents[1]
 def download(item):
  assert item['path'].startswith('dist/assets/') and '..' not in Path(item['path']).parts
- assert urllib.parse.urlparse(item['url']).scheme=='https' and urllib.parse.urlparse(item['url']).hostname in {'wsrv.nl','pbs.twimg.com','video.twimg.com'}
+ assert urllib.parse.urlparse(item['url']).scheme=='https' and (urllib.parse.urlparse(item['url']).hostname in {'wsrv.nl','pbs.twimg.com','video.twimg.com'} or item['url'] in {'https://raw.githubusercontent.com/zenlee123/awesome-ai-image-prompts/main/images/ukiyoe-astronaut.webp', 'https://raw.githubusercontent.com/kondasviktor/vcl-ai-image-prompts/main/examples/cutaway/demo.png', 'https://cgaihtvcmbgprwgvltsf.supabase.co/storage/v1/object/public/gallery/ai-191.jpg'})
  p=root/item['path'];p.parent.mkdir(parents=True,exist_ok=True)
  if p.exists() and hashlib.sha256(p.read_bytes()).hexdigest()==item['sha256']:return
  if item.get('chunks'):

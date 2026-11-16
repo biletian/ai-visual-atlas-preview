@@ -20,7 +20,7 @@
     "license_file": "licenses/zenlee-LICENSE",
     "attribution": "zenlee123 / AIImage · https://github.com/zenlee123/awesome-ai-image-prompts#ukiyoe-astronaut",
     "verification_status": "repository_license_and_media_verified",
-    "publish_ready": true,
+    "publish_ready": false,
     "checked_at": "2026-11-16",
     "type": "image",
     "category": "插画与角色",
@@ -32,7 +32,8 @@
     "author_avatar_source_url": "https://github.com/zenlee123.png?size=128",
     "author_avatar_note": "来源网站标识或作者公开头像，仅用于识别来源；不宣称头像随作品开放许可。",
     "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "visual_review": "2026-11-16 原图目视：构图完整、清晰，无占位截图；原始字节与旧 PR 媒体 Git blob 匹配。"
+    "visual_review": "2026-11-16 原图目视：构图完整、清晰，无占位截图；原始字节与旧 PR 媒体 Git blob 匹配。",
+    "curation_status": "excluded"
   },
   {
     "id": "vcl-house-cutaway",

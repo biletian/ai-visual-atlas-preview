@@ -16,6 +16,10 @@ const visible = context.visibleCases;
 assert.equal(new Set(selected).size, selected.length, 'duplicate selected IDs');
 assert.equal(visible.length, selected.length, 'selected works silently excluded by actual media predicate');
 const caseJSON = JSON.parse(fs.readFileSync(path.join(dist, 'cases.json'), 'utf8'));
+for (const id of context.window.ATLAS_CURATION.excluded_ids || []) {
+ assert(!selected.includes(id), 'excluded work reselected: ' + id);
+ assert(!caseJSON.find(c=>c.id===id)?.publish_ready, 'excluded work publicly available: ' + id);
+}
 assert.equal(JSON.stringify(context.window.ATLAS.cases), JSON.stringify(caseJSON), 'data.js not synchronized');
 let images = 0;
 for (const c of visible) {

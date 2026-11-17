@@ -21,8 +21,8 @@ function card(s){
  b.append(media,meta,tags);b.addEventListener('click',()=>openDetail(s));return b;
 }
 function render(){const q=$('#search').value.trim().toLowerCase().replace(/^--sref\s+/,'');const rows=styles.filter(s=>(category==='全部'||s.category===category)&&[s.name,s.codes.join(' '),...s.tags].join(' ').toLowerCase().includes(q));const visual=rows.filter(s=>s.previews?.length),index=rows.filter(s=>!s.previews?.length);$('#cards').replaceChildren(...visual.map(card));$('#indexCards').replaceChildren();for(const s of index){const b=el('button','index-card');b.type='button';b.append(el('strong','',s.name),el('code','',code(s)),el('span','','查看资料 ↗'));b.addEventListener('click',()=>openDetail(s));$('#indexCards').append(b);}$('#visualSection').hidden=view!=='discover';$('#indexSection').hidden=view!=='index';$('#empty').hidden=!!visual.length;$('#resultCount').textContent=view==='discover'?visual.length+' 个风格':index.length+' 组代码';}
-function closeDetail(){document.body.classList.remove('detail-open');$('#detail').removeAttribute('aria-modal');$('#detail').removeAttribute('role');lastFocus?.focus();}
-function openDetail(s,initial=false){
+function closeDetail(){selected=null;document.querySelectorAll('.style-card').forEach(b=>b.setAttribute('aria-pressed','false'));$('#detail').hidden=true;document.body.classList.remove('detail-open');$('#detail').removeAttribute('aria-modal');$('#detail').removeAttribute('role');lastFocus?.focus();}
+function openDetail(s){
  selected=s;document.querySelectorAll('.style-card').forEach(b=>b.setAttribute('aria-pressed',b.dataset.code===code(s)));const identity=$('#detailIdentity');identity.replaceChildren();if(s.previews?.length)identity.append(image(s.previews[0],s));const heading=el('h2','',s.name);heading.id='detailTitle';identity.append(heading);
  lastFocus=document.activeElement;const body=$('#detailBody');body.replaceChildren();const gallery=el('div','detail-gallery');
  if(s.previews?.length){const main=el('a','detail-main');main.href=s.previews[0].url;main.target='_blank';main.rel='noopener';main.append(image(s.previews[0],s));gallery.append(main);
@@ -33,9 +33,9 @@ function openDetail(s,initial=false){
  const dl=el('dl','facts');for(const [k,v] of [['模型',s.modelVersion],['风格版本 --sv',s.styleVersion??'未记录'],['风格权重 --sw',s.styleWeight??'未记录'],['个性化参数',s.personalizationCode??'未记录']])dl.append(el('dt','',k),el('dd','',v));body.append(dl);
  if(s.textPrompt){const block=el('details','prompt');block.append(el('summary','','原始提示词'),el('pre','',s.textPrompt));body.append(block);}
  const credits=el('div','credits');if(s.author)credits.append(el('p','',s.author+' · 作者原始生成示例'));credits.append(anchor('来源：'+s.source+' ↗',s.sourceUrl));if(s.license)credits.append(anchor(s.license+' 许可 ↗',s.licenseUrl));credits.append(el('p','','参数按来源保留，未记录项不填默认值；非本站重新实测。'));body.append(credits);
- $('#detail').scrollTop=0;if(mobile()&&!initial){document.body.classList.add('detail-open');$('#detail').setAttribute('role','dialog');$('#detail').setAttribute('aria-modal','true');$('#closeDetail').focus();}
+ $('#detail').hidden=false;document.body.classList.add('detail-open');$('#detail').scrollTop=0;if(mobile()){$('#detail').setAttribute('role','dialog');$('#detail').setAttribute('aria-modal','true');$('#closeDetail').focus();}
 }
 $('#closeDetail').addEventListener('click',closeDetail);$('#backdrop').addEventListener('click',closeDetail);$('#search').addEventListener('input',render);
-document.addEventListener('keydown',e=>{if(!mobile()||!document.body.classList.contains('detail-open'))return;if(e.key==='Escape')closeDetail();if(e.key==='Tab'){const items=[...$('#detail').querySelectorAll('a,button,input,summary')].filter(n=>n.getClientRects().length);const first=items[0],last=items[items.length-1];if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus();}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus();}}});render();
+document.addEventListener('keydown',e=>{if(!document.body.classList.contains('detail-open'))return;if(e.key==='Escape')closeDetail();if(e.key==='Tab'&&mobile()){const items=[...$('#detail').querySelectorAll('a,button,input,summary')].filter(n=>n.getClientRects().length);const first=items[0],last=items[items.length-1];if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus();}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus();}}});render();
 
-const first=styles.find(s=>s.previews?.length);if(first)openDetail(first,true);
+

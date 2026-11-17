@@ -67,3 +67,6 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
 /* External-link marks are vector icons, never platform-dependent font glyphs. */
 .external-mark{display:inline-flex;align-items:center;vertical-align:-2px;margin-left:2px}
 .external-mark svg.icon{width:14px;height:14px;display:block}
+
+/* Product-level navigation is separate from work/theme/model filters. */
+.product-nav{display:flex;align-items:center;gap:25px;border-bottom:1px solid #eee;margin:0 0 24px;padding:0 0 16px;min-height:36px}.product-nav a{display:inline-flex;align-items:center;gap:6px;color:#94948e;font-size:13px;line-height:20px;white-space:nowrap;transition:color .2s ease}.product-nav a:hover,.product-nav a[aria-current=page]{color:#242424}.product-nav a[aria-current=page]{font-weight:500}.product-nav svg{flex:none;opacity:.65;transition:transform .3s cubic-bezier(.2,1.16,.38,1)}.product-nav a:hover svg{transform:translate(1px,-1px)}@media(max-width:700px){.product-nav{gap:22px;padding-bottom:14px;margin-bottom:20px}.product-nav a{font-size:12px;min-height:28px}}@media(prefers-reduced-motion:reduce){.product-nav a,.product-nav svg{transition:none}.product-nav a:hover svg{transform:none}}

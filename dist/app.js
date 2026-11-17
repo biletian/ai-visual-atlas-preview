@@ -145,10 +145,15 @@ function workImages(c){
  return images.length?images:[fallback];
 }
 function imageRail(c){const images=workImages(c);if(images.length<2)return '';
- return `<div class="image-set" aria-label="这组作品的图片"><div class="image-thumbnails">${images.map((m,i)=>`<button class="image-thumbnail" data-image-index="${i}" aria-label="查看组图第 ${i+1} 张" aria-pressed="${i===0}"><img src="${esc(mediaURL(m.thumbnail_url||m.url))}" alt="" loading="lazy"></button>`).join('')}</div><span class="image-counter" aria-live="polite">1 / ${images.length}</span></div>`;
+ return `<div class="image-set" aria-label="这组作品的图片"><div class="image-thumbnails">${images.map((m,i)=>`<button class="image-thumbnail" data-image-index="${i}" aria-label="查看组图第 ${i+1} 张" aria-pressed="${i===0}"><img src="${esc(mediaURL(m.thumbnail_url||m.url))}" alt="" loading="lazy" decoding="async" fetchpriority="low"></button>`).join('')}</div><span class="image-counter" aria-live="polite">1 / ${images.length}</span></div>`;
 }
 // Keep the already-cached preview on screen until the unmodified original is decoded.
 let imageLoadToken=0;
+function displayImageURL(full,img){
+ const variants=window.ATLAS_DISPLAY?.[full]?.variants;if(!variants?.length)return full;
+ const rect=img.getBoundingClientRect(),required=Math.max(rect.width,rect.height,480)*Math.min(devicePixelRatio||1,2);
+ return (variants.find(v=>Math.max(v.width,v.height)>=required)||variants.at(-1)).url;
+}
 function loadWorkImage(c,index=0){
  const img=$('#activeWorkImage'),m=workImages(c)[index];if(!img||!m)return;
  const token=++imageLoadToken,full=mediaURL(m.url);
@@ -157,13 +162,16 @@ function loadWorkImage(c,index=0){
  if(m.width)img.width=m.width;if(m.height)img.height=m.height;
  let status=$('#imageLoadStatus');
  if(!status){status=document.createElement('span');status.id='imageLoadStatus';status.className='image-load-status';status.setAttribute('role','status');img.parentElement.append(status)}
- status.textContent='正在加载原图…';
+ const target=displayImageURL(full,img),optimized=target!==full;
+ const originalLink='<a href="'+esc(full)+'" target="_blank" rel="noopener">查看原图 ↗</a>';
+ status.innerHTML=(optimized?'正在加载高清展示图…':'正在加载原图…')+' '+originalLink;
  const original=new Image();original.decoding='async';original.fetchPriority='high';
  const valid=()=>token===imageLoadToken&&img.isConnected&&current===c.id;
- original.onload=async()=>{try{await original.decode()}catch{}if(!valid())return;img.src=full;img.dataset.quality='original';status.textContent='';};
- original.onerror=()=>{if(!valid())return;img.dataset.quality='fallback';status.innerHTML='原图暂未加载，保留预览 <button data-retry-image>重试</button>';};
+ original.onload=async()=>{try{await original.decode()}catch{}if(!valid())return;img.src=original.src;const isDisplay=original.src.endsWith(target)&&optimized;img.dataset.quality=isDisplay?'display':'original';status.innerHTML=(isDisplay?'WebP 展示版 · 已缩放压缩 · ':'')+originalLink;};
+ let fallbackAttempted=false;
+ original.onerror=()=>{if(!valid())return;if(optimized&&!fallbackAttempted){fallbackAttempted=true;status.innerHTML='展示图暂未加载，正在尝试原图… '+originalLink;original.src=full;return}img.dataset.quality='fallback';status.innerHTML='图片暂未加载，保留预览 <button data-retry-image>重试</button> '+originalLink;};
  img.onerror=()=>{if(!valid())return;status.innerHTML='图片暂时无法加载 <button data-retry-image>重试</button> · 可查看原始来源';};
- original.src=full;
+ original.src=target;
 }
 function selectWorkImage(index){const c=byID.get(current);if(!c)return;const images=workImages(c);if(index<0||index>=images.length)return;
  activeImageIndex=index;loadWorkImage(c,index);
@@ -189,7 +197,7 @@ function selectWorkVideo(index){const c=byID.get(current),v=$('#detailVideo');if
  const counter=$('#detail .image-counter');if(counter)counter.textContent=`${index+1} / ${videos.length}`;
 }
 
-function neighborHTML(c,step){return c&&hasMedia(c)?`<button class="neighbor ${step<0?'prev':'next'}" data-step="${step}" aria-label="${step<0?'上一件':'下一件'}作品"><img src="${esc(previewURL(c))}" alt="${esc(c.title)}" loading="lazy"></button>`:''}
+function neighborHTML(c,step){return c&&hasMedia(c)?`<button class="neighbor ${step<0?'prev':'next'}" data-step="${step}" aria-label="${step<0?'上一件':'下一件'}作品"><img src="${esc(previewURL(c))}" alt="${esc(c.title)}" loading="lazy" decoding="async" fetchpriority="low"></button>`:''}
 async function openDetail(id,{historyMode='push',hydrate=false}={}){
  if(closeMotion){const pending=closeMotion;closeMotion=null;pending.cancel();$('#detail').style.pointerEvents='';}
  const c=byID.get(id);if(!c)return;

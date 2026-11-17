@@ -24,6 +24,7 @@ jobs:
           python scripts/build-curation.py
           python scripts/sync-data.py
           python scripts/build-catalog.py
+          python scripts/build-display-media.py
           node scripts/verify-gallery.cjs
           node tests/avatar.cjs
           node tests/midjourney-data.cjs

@@ -25,3 +25,8 @@ const c={id:'a',thumbnail_url:'thumb.webp',images:[{url:'original.png',width:140
  ctx.current='a';ctx.window.ATLAS_DISPLAY={};ctx.loadWorkImage(c);assert.equal(requests.at(-1).src,'original.png');await requests.at(-1).onload();assert.equal(img.dataset.quality,'original');
  console.log('PASS mobile/desktop lookahead, conserve-data, responsive target, original access, two-stage offline fallback, stale request/navigation guard, no-manifest original');
 })().catch(e=>{console.error(e);process.exit(1)});
+
+const scheduler=src.slice(src.indexOf('let thumbnailFrame=0'),src.indexOf("window.addEventListener('scroll',scheduleThumbnails"));
+let frame;const item={dataset:{src:'thumb.webp'},closest:()=>({getBoundingClientRect:()=>({top:0,bottom:200})})};
+const schedulerContext={innerHeight:700,saveData:false,document:{hidden:false},cancelAnimationFrame(){},requestAnimationFrame(fn){frame=fn;return 1},$:()=>({hidden:true}),$$:()=>[item]};
+vm.createContext(schedulerContext);vm.runInContext(scheduler,schedulerContext);schedulerContext.scheduleThumbnails();frame();assert.equal(item.src,'thumb.webp');assert.equal(item.fetchPriority,'high');assert.equal(item.dataset.src,undefined);console.log('PASS actual scheduler executes with collection selector');

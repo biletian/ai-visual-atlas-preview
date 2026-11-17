@@ -79,7 +79,7 @@ function thumbnailPlan(items,height,conserve=false){
 function scheduleThumbnails(){
  cancelAnimationFrame(thumbnailFrame);thumbnailFrame=requestAnimationFrame(()=>{
   if(document.hidden||!$('#detail').hidden)return;
-  const plan=thumbnailPlan($('#grid .work-image').map(img=>{const rect=img.closest('.work').getBoundingClientRect();return {img,top:rect.top,bottom:rect.bottom}}),innerHeight,saveData);
+  const plan=thumbnailPlan($$('#grid .work-image').map(img=>{const rect=img.closest('.work').getBoundingClientRect();return {img,top:rect.top,bottom:rect.bottom}}),innerHeight,saveData);
   let ahead=0;
   for(const {img,top,bottom} of plan){
    const visible=top<innerHeight&&bottom>0;

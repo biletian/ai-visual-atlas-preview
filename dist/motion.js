@@ -4,8 +4,9 @@ window.AtlasMotion=(()=>{
  const preference=matchMedia('(prefers-reduced-motion: reduce)');
  const ease='cubic-bezier(.22,1,.36,1)',animations=new Set();let sharedNode=null,sharedAnimation=null;
  function run(el,keyframes,options){if(!el||preference.matches||!el.animate)return;const a=el.animate(keyframes,{easing:ease,fill:'none',...options});animations.add(a);a.finished.catch(()=>{}).finally(()=>animations.delete(a));return a}
- function enter(el,{x=0,y=0,duration=200}={}){return run(el,[{opacity:0,transform:`translate(${x}px,${y}px)`},{opacity:1,transform:'translate(0,0)'}],{duration:Math.min(360,duration+80),easing:'cubic-bezier(.2,1.08,.38,1)'})}
- function leave(el){return run(el,[{opacity:1,transform:'translateY(0)'},{opacity:0,transform:'translateY(7px)'}],{duration:180,easing:'cubic-bezier(.4,0,.8,.4)'})}
+ function enter(el,{x=0,y=0,duration=200,delay=0}={}){return run(el,[{opacity:0,transform:`translate(${x}px,${y}px)`},{opacity:1,transform:'translate(0,0)'}],{duration:Math.min(480,duration+80),delay,easing:'cubic-bezier(.2,1.08,.38,1)'})}
+ function reveal(el){return run(el,[{opacity:0,transform:'translateY(22px) scale(.97)'},{opacity:1,transform:'translateY(0) scale(1)'}],{duration:460,easing:'cubic-bezier(.18,1.12,.36,1)'})}
+ function leave(el){return run(el,[{opacity:1,transform:'translateY(0) scale(1)'},{opacity:0,transform:'translateY(16px) scale(.975)'}],{duration:280,easing:'cubic-bezier(.4,0,.7,.4)'})}
  function cancelShared(){sharedAnimation?.cancel();sharedNode?.remove();sharedAnimation=null;sharedNode=null}
  function shared(url,from,target,duration=280){
   cancelShared();if(preference.matches||!target||!from||from.width<1)return;
@@ -27,5 +28,5 @@ window.AtlasMotion=(()=>{
  document.addEventListener('pointerout',e=>{if(e.target.closest('.round-action,.icon-button')&&!e.target.closest('.round-action,.icon-button')?.contains(e.relatedTarget))hide()});
  document.addEventListener('focusin',e=>{if(e.target.matches('.round-action,.icon-button')&&e.target.matches(':focus-visible'))show(e.target)});
  document.addEventListener('focusout',hide);document.addEventListener('pointerdown',hide);document.addEventListener('scroll',hide,true);document.addEventListener('keydown',e=>{if(e.key==='Escape')hide()});
- return {enter,leave,shared,cancelShared,pulse,direction:1};
+ return {enter,reveal,leave,shared,cancelShared,pulse,direction:1};
 })();

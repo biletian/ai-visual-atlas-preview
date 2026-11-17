@@ -72,7 +72,7 @@ function layout(){cancelAnimationFrame(layoutFrame);layoutFrame=requestAnimation
  const grid=$('#grid'),width=grid.clientWidth,gap=innerWidth<=700?12:16;
  const cols=innerWidth<=700?1:Math.max(1,Math.min(6,Math.floor((width+gap)/280)));
  const cw=(width-gap*(cols-1))/cols,reuse=masonry&&masonry.width===width&&masonry.cols===cols&&masonry.first===grid.firstElementChild&&masonry.count<=grid.children.length,heights=reuse?masonry.heights.slice():Array(cols).fill(0);
- for(const el of [...grid.children].slice(reuse?masonry.count:0)){const col=heights.indexOf(Math.min(...heights)),height=el.classList.contains('embedded-work')?Math.max(420,el.querySelector('.grid-tweet').scrollHeight+64):cw/Number(el.dataset.ratio);el.style.width=cw+'px';el.style.height=height+'px';el.style.transform=`translate(${col*(cw+gap)}px,${heights[col]}px)`;heights[col]+=height+gap;if(el.dataset.enter){delete el.dataset.enter;AtlasMotion.enter(el.querySelector('.media-stage'),{y:6,duration:220})}}
+ for(const el of [...grid.children].slice(reuse?masonry.count:0)){const col=heights.indexOf(Math.min(...heights)),height=el.classList.contains('embedded-work')?Math.max(420,el.querySelector('.grid-tweet').scrollHeight+64):cw/Number(el.dataset.ratio);el.style.width=cw+'px';el.style.height=height+'px';el.style.transform=`translate(${col*(cw+gap)}px,${heights[col]}px)`;heights[col]+=height+gap;if(el.dataset.enter){delete el.dataset.enter;AtlasMotion.enter(el.querySelector('.media-stage'),{y:18,duration:340,delay:Math.min(col*35,105)})}}
  masonry={width,cols,first:grid.firstElementChild,count:grid.children.length,heights};
  grid.style.height=Math.max(0,Math.max(...heights)-gap)+'px';
  scheduleFeedLoad();
@@ -191,7 +191,7 @@ async function openDetail(id,{historyMode='push'}={}){
  const load=$('#loadTweet');if(load)load.onclick=()=>loadTweet(c,load.closest('.detail-tweet'));
  const copy=$('#copyPrompt');if(copy)copy.onclick=async()=>{try{await navigator.clipboard.writeText(c.prompt);toast('已复制提示词');copy.innerHTML=icon('check')+'已复制';copy.classList.add('copied');AtlasMotion.pulse(copy)}catch{toast('复制失败，请选择文字复制')}};
  if(historyMode==='push'){history.pushState({...history.state,atlasDetail:true},'',urlFor(id));ownedHistory=true}else if(historyMode==='replace')history.replaceState(history.state,'',urlFor(id));
- $('#detail').scrollTop=0;AtlasMotion.enter($('.detail-info'),{y:6,duration:220});if(first&&origin&&local(c))AtlasMotion.shared(posterURL(c),origin,$('#detailVideo'));else AtlasMotion.enter($('.hero-media'),{x:AtlasMotion.direction*14,duration:180});$$('#detail [data-close]').find(el=>el.offsetParent!==null)?.focus({preventScroll:true});
+ $('#detail').scrollTop=0;if(first)AtlasMotion.reveal($('#detail'));AtlasMotion.enter($('.detail-info'),{x:24,duration:360});if(first&&origin&&local(c))AtlasMotion.shared(posterURL(c),origin,$('#detailVideo'));else AtlasMotion.enter($('.hero-media'),{x:AtlasMotion.direction*28,duration:300});$$('#detail [data-close]').find(el=>el.offsetParent!==null)?.focus({preventScroll:true});
 }
 function urlFor(id){return location.pathname+location.search+(id?'#work='+encodeURIComponent(id):'')}
 function idFromURL(){return new URLSearchParams(location.hash.slice(1)).get('work')}

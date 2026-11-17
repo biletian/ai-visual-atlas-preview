@@ -63,10 +63,33 @@ function save(id){saved.has(id)?saved.delete(id):saved.add(id);persistSaved();$$
 function card(c){
  const el=document.createElement('article');el.className='work';el.dataset.caseId=c.id;el.setAttribute('aria-label',c.title);
  const [w,h]=still(c)?[c.width,c.height]:local(c)?dimensions(c):[4,3];el.dataset.ratio=String(w/h);el.dataset.enter='true';
- el.innerHTML=`<div class="media-stage">${hasMedia(c)?`<img class="work-image" src="${esc(previewURL(c))}" alt="${esc(c.title)}" width="${w}" height="${h}" loading="lazy" decoding="async">`:`<div class="x-card"><span class="x-mark">𝕏</span><h2>${esc(c.title)}</h2><p>${esc(c.author)} · ${esc(c.model_family||c.model)}</p></div>`}<button class="open-work" data-open="${esc(c.id)}" aria-label="查看 ${esc(c.title)}">查看作品</button></div><div class="hover-caption"><strong>${esc(c.title)}</strong><span>${esc(c.author)}</span></div><a class="corner author-corner" href="${esc(authorURL(c))}" target="_blank" rel="noopener" title="${esc(c.author)}">${avatar(c)}</a><a class="corner round-action source-corner" href="${esc(safeURL(c.source_url))}" target="_blank" rel="noopener" aria-label="查看作品原始来源">${icon('arrow-up-right')}</a><button class="corner round-action save-corner ${saved.has(c.id)?'saved':''}" data-save="${esc(c.id)}" aria-label="${saved.has(c.id)?'取消收藏':'收藏作品'}" aria-pressed="${saved.has(c.id)}">${icon('bookmark')}</button>${local(c)?`<button class="corner round-action play-corner" data-play="${esc(c.id)}" aria-label="播放动画">${icon('play')}</button>`:''}`;
+ el.innerHTML=`<div class="media-stage">${hasMedia(c)?`<img class="work-image" data-src="${esc(previewURL(c))}" alt="${esc(c.title)}" width="${w}" height="${h}" loading="lazy" decoding="async">`:`<div class="x-card"><span class="x-mark">𝕏</span><h2>${esc(c.title)}</h2><p>${esc(c.author)} · ${esc(c.model_family||c.model)}</p></div>`}<button class="open-work" data-open="${esc(c.id)}" aria-label="查看 ${esc(c.title)}">查看作品</button></div><div class="hover-caption"><strong>${esc(c.title)}</strong><span>${esc(c.author)}</span></div><a class="corner author-corner" href="${esc(authorURL(c))}" target="_blank" rel="noopener" title="${esc(c.author)}">${avatar(c)}</a><a class="corner round-action source-corner" href="${esc(safeURL(c.source_url))}" target="_blank" rel="noopener" aria-label="查看作品原始来源">${icon('arrow-up-right')}</a><button class="corner round-action save-corner ${saved.has(c.id)?'saved':''}" data-save="${esc(c.id)}" aria-label="${saved.has(c.id)?'取消收藏':'收藏作品'}" aria-pressed="${saved.has(c.id)}">${icon('bookmark')}</button>${local(c)?`<button class="corner round-action play-corner" data-play="${esc(c.id)}" aria-label="播放动画">${icon('play')}</button>`:''}`;
  const img=el.querySelector('.work-image');if(img)img.addEventListener('error',()=>{const status=document.createElement('span');status.className='media-error';status.textContent='图片暂时无法加载 · 点击查看来源';img.hidden=true;el.querySelector('.media-stage').prepend(status);},{once:true});
  return el;
 }
+// Layout first, then schedule thumbnails by their actual viewport position.
+// Native lazy-loading sees newly appended absolute cards before masonry positions
+// are assigned; explicit lookahead avoids late requests and gives visible art priority.
+let thumbnailFrame=0;
+function thumbnailPlan(items,height,conserve=false){
+ const ahead=conserve?0:Math.max(1200,height*1.5);
+ return items.filter(x=>x.bottom>=-height*.5&&x.top<=height+ahead)
+  .sort((a,b)=>Math.max(0,a.top-height,-a.bottom)-Math.max(0,b.top-height,-b.bottom));
+}
+function scheduleThumbnails(){
+ cancelAnimationFrame(thumbnailFrame);thumbnailFrame=requestAnimationFrame(()=>{
+  if(document.hidden||!$('#detail').hidden)return;
+  const plan=thumbnailPlan($('#grid .work-image').map(img=>{const rect=img.closest('.work').getBoundingClientRect();return {img,top:rect.top,bottom:rect.bottom}}),innerHeight,saveData);
+  let ahead=0;
+  for(const {img,top,bottom} of plan){
+   const visible=top<innerHeight&&bottom>0;
+   if(!visible&&img.dataset.src&&++ahead>8)continue;
+   img.fetchPriority=visible?'high':'low';
+   if(img.dataset.src){img.loading='eager';img.src=img.dataset.src;delete img.dataset.src;}
+  }
+ });
+}
+window.addEventListener('scroll',scheduleThumbnails,{passive:true});
 let masonry=null;
 function layout(){cancelAnimationFrame(layoutFrame);layoutFrame=requestAnimationFrame(()=>{
  const grid=$('#grid'),width=grid.clientWidth,gap=innerWidth<=700?12:16;
@@ -75,7 +98,7 @@ function layout(){cancelAnimationFrame(layoutFrame);layoutFrame=requestAnimation
  for(const el of [...grid.children].slice(reuse?masonry.count:0)){const col=heights.indexOf(Math.min(...heights)),height=el.classList.contains('embedded-work')?Math.max(420,el.querySelector('.grid-tweet').scrollHeight+64):cw/Number(el.dataset.ratio);el.style.width=cw+'px';el.style.height=height+'px';el.style.transform=`translate(${col*(cw+gap)}px,${heights[col]}px)`;heights[col]+=height+gap;if(el.dataset.enter){delete el.dataset.enter;AtlasMotion.enter(el.querySelector('.media-stage'),{y:18,duration:340,delay:Math.min(col*35,105)})}}
  masonry={width,cols,first:grid.firstElementChild,count:grid.children.length,heights};
  grid.style.height=Math.max(0,Math.max(...heights)-gap)+'px';
- scheduleFeedLoad();
+ scheduleThumbnails();scheduleFeedLoad();
 })}
 function teardownCard(el){nearObserver.unobserve(el);visibleObserver.unobserve(el);visibleCards.delete(el);const v=el.querySelector('video');if(v){positions.set(el.dataset.caseId,v.currentTime);v.pause();v.removeAttribute('src');v.load()}}
 function render(reset=true){
@@ -94,12 +117,12 @@ function render(reset=true){
 function scheduleFeedLoad(){
  cancelAnimationFrame(feedFrame);feedFrame=requestAnimationFrame(()=>{
   if(feedLoading||document.hidden||!$('#detail').hidden||document.body.classList.contains('menu-open')||limit>=filtered.length)return;
-  const marker=$('#feedSentinel');if(marker.hidden||marker.getBoundingClientRect().top>innerHeight+800)return;
+  const marker=$('#feedSentinel');if(marker.hidden||marker.getBoundingClientRect().top>innerHeight+Math.max(1200,innerHeight*1.5))return;
   feedLoading=true;$('#feedStatus').textContent='正在加载更多作品…';
   limit=Math.min(limit+24,filtered.length);render(false);feedLoading=false;
  });
 }
-const feedObserver=new IntersectionObserver(entries=>{if(entries.some(e=>e.isIntersecting))scheduleFeedLoad()},{rootMargin:'800px 0px'});
+const feedObserver=new IntersectionObserver(entries=>{if(entries.some(e=>e.isIntersecting))scheduleFeedLoad()},{rootMargin:'1800px 0px'});
 feedObserver.observe($('#feedSentinel'));
 window.addEventListener('scroll',scheduleFeedLoad,{passive:true});
 function attachVideo(el){
@@ -226,7 +249,7 @@ function urlFor(id){return location.pathname+location.search+(id?'#work='+encode
 function idFromURL(){return new URLSearchParams(location.hash.slice(1)).get('work')}
 let closeMotion=null;
 function closeDetail(options={}){if($('#detail').hidden||closeMotion)return;const a=AtlasMotion.leave($('#detail'));if(!a){finishCloseDetail(options);return}closeMotion=a;$('#detail').style.pointerEvents='none';a.finished.catch(()=>{}).then(()=>{if(closeMotion!==a)return;closeMotion=null;$('#detail').style.pointerEvents='';finishCloseDetail(options)});}
-function finishCloseDetail({navigate=true}={}){++detailRequestToken;++imageLoadToken;if($('#detail').hidden)return;AtlasMotion.cancelShared();const closing=current&&byID.get(current),from=$('#detailVideo')?.getBoundingClientRect();rememberDetail();const returnedID=current;const gridVideo=$$('#grid video').find(v=>v.dataset.caseId===returnedID);if(gridVideo&&positions.has(returnedID)){try{gridVideo.currentTime=positions.get(returnedID)}catch{}}current=null;$('#detail').hidden=true;$('#detailBody').replaceChildren();document.body.classList.remove('detail-open');$('#page').inert=false;if(closing&&from&&local(closing)){const target=[...$('#grid').children].find(el=>el.dataset.caseId===closing.id);AtlasMotion.shared(posterURL(closing),from,target,220)}if(navigate){if(ownedHistory){ownedHistory=false;history.back()}else history.replaceState(history.state,'',urlFor(null))}requestAnimationFrame(()=>{if(!$('#detail').hidden)return;scrollTo(0,gridScroll);if(returnFocus?.isConnected)returnFocus.focus({preventScroll:true});schedulePlayback();scheduleFeedLoad()});if(type==='saved')render()}
+function finishCloseDetail({navigate=true}={}){++detailRequestToken;++imageLoadToken;if($('#detail').hidden)return;AtlasMotion.cancelShared();const closing=current&&byID.get(current),from=$('#detailVideo')?.getBoundingClientRect();rememberDetail();const returnedID=current;const gridVideo=$$('#grid video').find(v=>v.dataset.caseId===returnedID);if(gridVideo&&positions.has(returnedID)){try{gridVideo.currentTime=positions.get(returnedID)}catch{}}current=null;$('#detail').hidden=true;$('#detailBody').replaceChildren();document.body.classList.remove('detail-open');$('#page').inert=false;if(closing&&from&&local(closing)){const target=[...$('#grid').children].find(el=>el.dataset.caseId===closing.id);AtlasMotion.shared(posterURL(closing),from,target,220)}if(navigate){if(ownedHistory){ownedHistory=false;history.back()}else history.replaceState(history.state,'',urlFor(null))}requestAnimationFrame(()=>{if(!$('#detail').hidden)return;scrollTo(0,gridScroll);if(returnFocus?.isConnected)returnFocus.focus({preventScroll:true});schedulePlayback();scheduleThumbnails();scheduleFeedLoad()});if(type==='saved')render()}
 function moveDetail(step){const i=detailList.findIndex(c=>c.id===current),c=detailList[i+step];if(c){AtlasMotion.direction=step;openDetail(c.id,{historyMode:'replace'});AtlasMotion.direction=1}}
 function syncHistory(){const id=idFromURL();if(id&&byID.has(id)){if(current!==id)openDetail(id,{historyMode:'none'})}else {ownedHistory=false;closeDetail({navigate:false})}}
 $('#detail').onclick=e=>{if(e.target.closest('[data-retry-image]')){loadWorkImage(byID.get(current),activeImageIndex);return}if(e.target.closest('[data-retry-detail]')){openDetail(current,{historyMode:'none',hydrate:true});return}const videoButton=e.target.closest('[data-video-index]'),imageButton=e.target.closest('[data-image-index]'),close=e.target.closest('[data-close]'),step=e.target.closest('[data-step]'),saveButton=e.target.closest('[data-save]');if(videoButton)selectWorkVideo(Number(videoButton.dataset.videoIndex));else if(imageButton)selectWorkImage(Number(imageButton.dataset.imageIndex));else if(close)closeDetail();else if(step)moveDetail(Number(step.dataset.step));else if(saveButton)save(saveButton.dataset.save)};
